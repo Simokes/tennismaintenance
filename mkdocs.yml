@@ -1,0 +1,50 @@
+site_name: TennisMaintenance
+site_description: Référentiel technique de maintenance des terrains de tennis
+site_url: https://simokes.github.io/tennismaintenance/
+repo_url: https://github.com/Simokes/tennismaintenance
+repo_name: Simokes/tennismaintenance
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Accueil: index.md
+  - Terrains:
+      - Vue d'ensemble: terrains/index.md
+      - Terrain 1: terrains/T01.md
+      - Terrain 2: terrains/T02.md
+      - Terrain 3: terrains/T03.md
+      - Terrain 4: terrains/T04.md
+      - Terrain 5: terrains/T05.md
+      - Terrain 6: terrains/T06.md
+  - Standards:
+      - Vue d'ensemble: standards/index.md
+      - Sortie terrain: standards/sortie-terrain.md
+      - Sortie entretien: standards/sortie-entretien.md
+      - Ensemble manuel: standards/ensemble-manuel.md
+      - Buse cuivre: standards/buse-cuivre.md
+  - Procédures:
+      - Vue d'ensemble: procedures/index.md
+  - Inventaire:
+      - Vue d'ensemble: inventory/index.md
+  - Interventions: interventions/index.md
+  - Schémas: schemas/index.md
+  - Relevé terrain: releve-terrain.md
+  - Gouvernance: gouvernance.md
