@@ -2,7 +2,7 @@
 
 Référentiel technique de maintenance pour un complexe municipal de tennis.
 
-Ce dépôt sert à conserver une trace claire, versionnée et transmissible des standards, procédures, inventaires et décisions techniques liés à la maintenance courante des terrains et points d'eau.
+Ce dépôt sert à conserver une trace claire, versionnée et transmissible des standards, procédures, inventaires, interventions et décisions techniques liés à la maintenance courante des terrains et points d'eau.
 
 ## Objectif
 
@@ -13,6 +13,7 @@ Le but n'est pas de remplacer les plans officiels du service technique, mais de 
 - équipements mobiles d'arrosage ;
 - pièces standards ;
 - procédures de maintenance courante ;
+- historiques d'intervention utiles ;
 - historique des décisions techniques.
 
 ## Périmètre
@@ -36,13 +37,14 @@ Hors périmètre :
 ## Organisation du dépôt
 
 ```text
-standards/    Standards techniques : ce que doit être une installation conforme.
-equipment/    Fiches équipements : ensembles fonctionnels utilisés ou maintenus.
-procedures/   Procédures terrain : comment réaliser une intervention.
-sites/        Description du site réel et des terrains.
-inventory/    Stocks, références, fournisseurs et nomenclature.
-decisions/    Décisions techniques structurées sous forme d'ADR.
-assets/       Schémas, photos et supports visuels.
+standards/      Standards techniques : ce que doit être une installation conforme.
+equipment/      Fiches équipements : ensembles fonctionnels utilisés ou maintenus.
+procedures/     Procédures terrain : comment réaliser une intervention.
+sites/          Description du site réel et des terrains.
+inventory/      Stocks, références, fournisseurs et nomenclature.
+interventions/  Historique des interventions importantes.
+decisions/      Décisions techniques structurées sous forme d'ADR.
+assets/         Schémas, photos et supports visuels.
 ```
 
 ## Types de documents
@@ -53,6 +55,7 @@ assets/       Schémas, photos et supports visuels.
 | EQ | Équipement | Décrit un ensemble fonctionnel utilisé ou maintenu. |
 | PROC | Procédure | Explique comment réaliser une intervention. |
 | FIC | Fiche terrain | Décrit un équipement réel ou une zone réelle du site. |
+| INT | Intervention | Trace une intervention importante ou utile pour l'historique. |
 | ADR | Décision | Explique pourquoi une décision technique a été prise. |
 | STOCK | Inventaire | Liste les pièces, références et quantités utiles. |
 
