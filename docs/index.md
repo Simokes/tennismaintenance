@@ -6,41 +6,14 @@ Ce site est conçu pour être consulté rapidement sur téléphone pendant une i
 
 ## Accès rapide
 
-<div class="grid cards" markdown>
-
--   :material-tennis: **Terrains**
-
-    ---
-
-    Accéder aux fiches T1 à T6, sorties d'eau, regards et arroseurs.
-
-    [Ouvrir les terrains](terrains/)
-
--   :material-wrench: **Procédures**
-
-    ---
-
-    Retrouver les gestes d'intervention et les diagnostics.
-
-    [Ouvrir les procédures](procedures/)
-
--   :material-pipe: **Standards**
-
-    ---
-
-    Voir les montages conformes : sorties terrain, GEKA, buse cuivre.
-
-    [Ouvrir les standards](standards/)
-
--   :material-package-variant: **Inventaire**
-
-    ---
-
-    Pièces, stock, fournisseurs et références à vérifier.
-
-    [Ouvrir l'inventaire](inventory/)
-
-</div>
+| Section | Usage |
+|---|---|
+| [Terrains](terrains/) | Fiches T1 à T6, sorties d'eau, regards et arroseurs. |
+| [Standards](standards/) | Montages conformes : sorties terrain, GEKA, buse cuivre. |
+| [Équipements](equipment/) | Ensembles fonctionnels utilisés par les agents. |
+| [Procédures](procedures/) | Gestes d'intervention et diagnostics. |
+| [Inventaire](inventory/) | Pièces, stock, fournisseurs et références à vérifier. |
+| [Relevé terrain](releve-terrain.md) | Checklist terrain et issues prioritaires. |
 
 ## Vue terrain
 
