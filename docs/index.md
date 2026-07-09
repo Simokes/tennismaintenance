@@ -8,6 +8,7 @@ Ce site est destiné à rendre les standards, procédures et fiches terrain cons
 
 - [Gouvernance](../ENGINEERING.md)
 - [Standards](../standards/README.md)
+- [Équipements](../equipment/README.md)
 - [Procédures](../procedures/README.md)
 - [Sites et terrains](../sites/README.md)
 - [Inventaire](../inventory/README.md)
@@ -20,6 +21,13 @@ Ce site est destiné à rendre les standards, procédures et fiches terrain cons
 - [STD-002 — Sortie d'eau d'entretien](../standards/STD-002-sortie-eau-entretien.md)
 - [STD-003 — Ensemble d'arrosage manuel](../standards/STD-003-ensemble-arrosage-manuel.md)
 - [STD-004 — Buse cuivre standard](../standards/STD-004-buse-cuivre-standard.md)
+
+## Équipements initiaux
+
+- [EQ-001 — Ensemble d'arrosage manuel](../equipment/EQ-001-ensemble-arrosage-manuel.md)
+- [EQ-002 — Sortie d'eau terrain type](../equipment/EQ-002-sortie-eau-terrain-type.md)
+- [EQ-003 — Sortie d'entretien GEKA type](../equipment/EQ-003-sortie-entretien-geka-type.md)
+- [EQ-004 — Buse cuivre custom](../equipment/EQ-004-buse-cuivre.md)
 
 ## Décisions initiales
 

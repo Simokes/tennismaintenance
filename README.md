@@ -37,6 +37,7 @@ Hors périmètre :
 
 ```text
 standards/    Standards techniques : ce que doit être une installation conforme.
+equipment/    Fiches équipements : ensembles fonctionnels utilisés ou maintenus.
 procedures/   Procédures terrain : comment réaliser une intervention.
 sites/        Description du site réel et des terrains.
 inventory/    Stocks, références, fournisseurs et nomenclature.
@@ -49,6 +50,7 @@ assets/       Schémas, photos et supports visuels.
 | Préfixe | Type | Rôle |
 |---|---|---|
 | STD | Standard | Définit une configuration technique officielle. |
+| EQ | Équipement | Décrit un ensemble fonctionnel utilisé ou maintenu. |
 | PROC | Procédure | Explique comment réaliser une intervention. |
 | FIC | Fiche terrain | Décrit un équipement réel ou une zone réelle du site. |
 | ADR | Décision | Explique pourquoi une décision technique a été prise. |
