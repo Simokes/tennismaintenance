@@ -1,36 +1,68 @@
 # TennisMaintenance
 
-Bienvenue dans le référentiel technique de maintenance du complexe de tennis.
+Référentiel technique de maintenance du complexe de tennis.
 
-Ce site est destiné à rendre les standards, procédures et fiches terrain consultables facilement, y compris depuis un téléphone.
+Ce site est conçu pour être consulté rapidement sur téléphone pendant une intervention.
 
 ## Accès rapide
 
-- [Gouvernance](../ENGINEERING.md)
-- [Standards](../standards/README.md)
-- [Équipements](../equipment/README.md)
-- [Procédures](../procedures/README.md)
-- [Sites et terrains](../sites/README.md)
-- [Inventaire](../inventory/README.md)
-- [Décisions techniques](../decisions/README.md)
+<div class="grid cards" markdown>
 
-## Standards initiaux
+-   :material-tennis: **Terrains**
 
-- [STD-000 — Politique de standardisation des points d'eau](../standards/STD-000-politique-standardisation-points-eau.md)
-- [STD-001 — Sortie d'eau terrain](../standards/STD-001-sortie-eau-terrain.md)
-- [STD-002 — Sortie d'eau d'entretien](../standards/STD-002-sortie-eau-entretien.md)
-- [STD-003 — Ensemble d'arrosage manuel](../standards/STD-003-ensemble-arrosage-manuel.md)
-- [STD-004 — Buse cuivre standard](../standards/STD-004-buse-cuivre-standard.md)
+    ---
 
-## Équipements initiaux
+    Accéder aux fiches T1 à T6, sorties d'eau, regards et arroseurs.
 
-- [EQ-001 — Ensemble d'arrosage manuel](../equipment/EQ-001-ensemble-arrosage-manuel.md)
-- [EQ-002 — Sortie d'eau terrain type](../equipment/EQ-002-sortie-eau-terrain-type.md)
-- [EQ-003 — Sortie d'entretien GEKA type](../equipment/EQ-003-sortie-entretien-geka-type.md)
-- [EQ-004 — Buse cuivre custom](../equipment/EQ-004-buse-cuivre.md)
+    [Ouvrir les terrains](terrains/)
 
-## Décisions initiales
+-   :material-wrench: **Procédures**
 
-- [ADR-0001 — Séparer sorties terrain et sorties entretien](../decisions/ADR-0001-separer-sorties-terrain-et-entretien.md)
-- [ADR-0002 — Utiliser GEKA pour les sorties d'entretien](../decisions/ADR-0002-utiliser-geka-pour-sorties-entretien.md)
-- [ADR-0003 — Conserver une vanne secondaire côté poignée](../decisions/ADR-0003-conserver-vanne-secondaire.md)
+    ---
+
+    Retrouver les gestes d'intervention et les diagnostics.
+
+    [Ouvrir les procédures](procedures/)
+
+-   :material-pipe: **Standards**
+
+    ---
+
+    Voir les montages conformes : sorties terrain, GEKA, buse cuivre.
+
+    [Ouvrir les standards](standards/)
+
+-   :material-package-variant: **Inventaire**
+
+    ---
+
+    Pièces, stock, fournisseurs et références à vérifier.
+
+    [Ouvrir l'inventaire](inventory/)
+
+</div>
+
+## Vue terrain
+
+| Terrain | Fiche | Sortie d'eau | Regards | Photos |
+|---|---|---|---|---|
+| T1 | [Ouvrir](terrains/T01.md) | À relever | À relever | À ajouter |
+| T2 | [Ouvrir](terrains/T02.md) | À relever | À relever | À ajouter |
+| T3 | [Ouvrir](terrains/T03.md) | À relever | À relever | À ajouter |
+| T4 | [Ouvrir](terrains/T04.md) | À relever | À relever | À ajouter |
+| T5 | [Ouvrir](terrains/T05.md) | À relever | À relever | À ajouter |
+| T6 | [Ouvrir](terrains/T06.md) | À relever | À relever | À ajouter |
+
+## Priorités terrain
+
+1. Photographier les sorties d'eau T1 à T6.
+2. Repérer les regards utiles au diagnostic.
+3. Relever le stock réel d'arrosage.
+4. Identifier les références fournisseurs.
+5. Compléter les fiches terrain avec uniquement les informations vérifiées.
+
+## Règle de base
+
+Ne pas deviner.
+
+Quand une information n'est pas certaine, écrire : `À confirmer`.
