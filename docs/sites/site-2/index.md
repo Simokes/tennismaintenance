@@ -25,4 +25,4 @@ Le parking est fermé par un cadenas à code. Aucun code ni combinaison n'est st
 - éclairage, drainage et équipements locaux ;
 - état des surfaces, clôtures, filets et poteaux.
 
-<p class="doc-source">📄 <strong>Document source :</strong> <a href="https://github.com/Simokes/tennismaintenance/blob/main/sites/SITE-002-complexe-tennis.md">sites/SITE-002-complexe-tennis.md</a></p>
+<p class="doc-source">📄 <strong>Document source :</strong> <a href="https://github.com/Simokes/tennismaintenance/blob/main/sites/SITE-002-le-kaliste.md">sites/SITE-002-le-kaliste.md</a></p>

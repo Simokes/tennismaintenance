@@ -8,7 +8,7 @@ Les documents de cette section ne définissent pas le standard théorique : ils 
 
 | Référence | Sujet | Statut |
 |---|---|---|
-| [SITE-001](./SITE-001-complexe-tennis.md) | Présentation du complexe | À relever |
+| [SITE-001](./SITE-001-la-pastorale.md) | Présentation du complexe | À relever |
 | [FIC-T01](./FIC-T01-terrain-1.md) | Terrain 1 | À relever |
 | [FIC-T02](./FIC-T02-terrain-2.md) | Terrain 2 | À relever |
 | [FIC-T03](./FIC-T03-terrain-3.md) | Terrain 3 | À relever |

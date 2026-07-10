@@ -20,4 +20,4 @@ La Pastorale regroupe six terrains en terre battue, numérotés de 1 à 6.
 
 Le système d'accès est différent de celui du Kalisté. Les pages historiques `T01` à `T06` restent canoniques pendant la migration vers les repères `S1-Txx`.
 
-<p class="doc-source">📄 <strong>Document source :</strong> <a href="https://github.com/Simokes/tennismaintenance/blob/main/sites/SITE-001-complexe-tennis.md">sites/SITE-001-complexe-tennis.md</a></p>
+<p class="doc-source">📄 <strong>Document source :</strong> <a href="https://github.com/Simokes/tennismaintenance/blob/main/sites/SITE-001-la-pastorale.md">sites/SITE-001-la-pastorale.md</a></p>
