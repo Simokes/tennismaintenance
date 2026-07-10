@@ -5,8 +5,6 @@
   <p>Format conseillé : A4 portrait, échelle 100 %. La navigation et ce bouton seront masqués à l'impression.</p>
 </div>
 
-<div class="project-report" markdown="1">
-
 **Site :** La Pastorale  
 **Statut :** Étude  
 **Version :** 0.1  
@@ -225,10 +223,4 @@ Relever :
 - devis comparatifs ;
 - bilan du pilote.
 
-</div>
-
-<div class="no-print" markdown="1">
-
-[Consulter le document source complet](https://github.com/Simokes/tennismaintenance/blob/main/projects/PRO-001-gestion-tuyaux-arrosage.md)
-
-</div>
+<p class="no-print"><a href="https://github.com/Simokes/tennismaintenance/blob/main/projects/PRO-001-gestion-tuyaux-arrosage.md">Consulter le document source complet</a></p>
