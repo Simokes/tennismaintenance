@@ -1,56 +1,71 @@
 # Tennis Maintenance
 
-Référentiel technique de maintenance pour un complexe municipal de tennis.
+Référentiel technique de maintenance pour une structure tennis municipale répartie sur deux sites.
 
-Ce dépôt sert à conserver une trace claire, versionnée et transmissible des standards, procédures, inventaires, interventions, équipements de commande, dispositifs d’accès et décisions techniques liés à la maintenance courante du site.
+Le dépôt conserve une trace claire, versionnée et transmissible des sites, terrains, standards, procédures, inventaires, interventions, équipements de commande, dispositifs d’accès et décisions techniques.
+
+## Structure gérée
+
+| Site | Terrains | Surfaces |
+|---|---:|---|
+| Site 1 (`S1`) | 6 | Terre battue |
+| Site 2 (`S2`) | 5 | 3 durs et 2 gazons synthétiques |
+
+Les deux sites se trouvent à environ cinq minutes l’un de l’autre. La structure gère donc **11 terrains**.
+
+Les terrains sont repérés avec leur site :
+
+```text
+S1-T01 à S1-T06
+S2-T01 à S2-T05
+```
+
+Les anciens repères `T01` à `T06` restent compatibles pendant la migration et désignent le Site 1.
 
 ## Objectif
 
-Le but n'est pas de remplacer les plans officiels du service technique ni les notices constructeur, mais de documenter le périmètre réel de maintenance terrain :
+Le but n'est pas de remplacer les plans officiels du service technique ni les notices constructeur, mais de documenter le périmètre réel de maintenance :
 
-- sorties d'eau des terrains ;
-- sorties d'entretien hors terrain ;
-- équipements mobiles d'arrosage ;
-- programmateur, canaux et cycles utiles aux agents ;
+- organisation des deux sites ;
+- surfaces et équipements de chaque terrain ;
+- sorties d'eau et équipements d'arrosage ;
+- programmateurs, canaux et cycles utiles aux agents ;
 - contrôle d’accès, portes, ventouses et grooms ;
-- pièces standards ;
-- procédures de maintenance courante ;
-- historiques d'intervention utiles ;
-- historique des décisions techniques.
+- équipements, pièces et stocks ;
+- procédures adaptées aux différentes surfaces ;
+- historiques d'intervention ;
+- décisions techniques.
 
 ## Périmètre
 
 Inclus :
 
-- maintenance limitée aux terrains et équipements accessibles aux agents ;
-- sorties d'eau à partir de la sortie réseau utilisable ;
-- arrosage manuel ;
-- correspondance entre canaux du programmateur et arroseurs ;
-- réglages et cycles réellement utilisés sur le site ;
-- fonctionnement et maintenance courante des accès à code ;
-- raccords, tuyaux, vannes, buses et points d'entretien.
+- maintenance des terrains et équipements accessibles aux agents ;
+- documentation des installations réellement présentes sur chaque site ;
+- procédures communes ou propres à la terre battue, au dur et au gazon synthétique ;
+- arrosage, accès, clôtures, filets, éclairage et drainage lorsqu'ils relèvent du périmètre terrain ;
+- références, photos et documents constructeur utiles.
 
 Hors périmètre :
 
 - alimentation générale ;
-- réseau enterré amont ;
-- pompes ;
-- conception électrique interne du programmateur ou du contrôle d’accès ;
+- réseaux enterrés amont ;
+- conception électrique interne ;
 - secrets d’accès : codes utilisateurs, codes maîtres, mots de passe et séquences confidentielles ;
 - éléments gérés par un autre service, sauf information utile au diagnostic.
 
 ## Organisation du dépôt
 
 ```text
-standards/      Standards techniques : ce que doit être une installation conforme.
-equipment/      Fiches équipements : ensembles fonctionnels utilisés ou maintenus.
-control/        Programmateurs, canaux, programmes et cycles réellement utilisés.
-access/         Contrôle d’accès, portes, ventouses, grooms et procédures associées.
-procedures/     Procédures terrain : comment réaliser une intervention.
-sites/          Description du site réel et des terrains.
+sites/          Structure globale, fiches des deux sites et terrains réels.
+standards/      Standards techniques communs ou propres à une surface.
+equipment/      Fiches d'équipements types.
+control/        Programmateurs, canaux, programmes et cycles.
+access/         Contrôle d’accès et procédures non secrètes.
+procedures/     Procédures terrain.
 inventory/      Stocks, références, fournisseurs et nomenclature.
 interventions/  Historique des interventions importantes.
-decisions/      Décisions techniques structurées sous forme d'ADR.
+decisions/      Décisions techniques sous forme d'ADR.
 assets/         Schémas, photos et supports visuels.
 ```
 
@@ -58,6 +73,7 @@ assets/         Schémas, photos et supports visuels.
 
 | Préfixe | Type | Rôle |
 |---|---|---|
+| SITE | Site | Décrit la structure globale ou un site réel. |
 | STD | Standard | Définit une configuration technique officielle. |
 | EQ | Équipement | Décrit un ensemble fonctionnel utilisé ou maintenu. |
 | CTRL | Commande | Décrit un programmateur, ses canaux, programmes et cycles. |
@@ -68,17 +84,8 @@ assets/         Schémas, photos et supports visuels.
 | ADR | Décision | Explique pourquoi une décision technique a été prise. |
 | STOCK | Inventaire | Liste les pièces, références et quantités utiles. |
 
-## Statuts recommandés
-
-| Statut | Sens |
-|---|---|
-| Étude | Idée non testée. |
-| Test | Installé ou essayé sur une zone pilote. |
-| Validé | Standard officiel applicable. |
-| Abandonné | Ancien choix conservé pour historique. |
-
 ## Règles de base
 
-La documentation doit refléter le terrain réel. Si une installation ou un réglage change, le document correspondant doit être mis à jour.
+La documentation doit toujours indiquer le site concerné et refléter le terrain réel. Une information non vérifiée est marquée `À confirmer` ou `À relever`.
 
-Aucun secret permettant un accès physique ou logique au site ne doit être stocké dans le dépôt.
+Aucun secret permettant un accès physique ou logique à un site ne doit être stocké dans le dépôt.

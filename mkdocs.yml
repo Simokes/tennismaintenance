@@ -1,5 +1,5 @@
 site_name: TennisMaintenance
-site_description: Référentiel technique de maintenance des terrains de tennis
+site_description: Référentiel technique de maintenance de la structure tennis
 site_url: https://simokes.github.io/tennismaintenance/
 repo_url: https://github.com/Simokes/tennismaintenance
 repo_name: Simokes/tennismaintenance
@@ -33,14 +33,23 @@ markdown_extensions:
 
 nav:
   - Accueil: index.md
-  - Terrains:
-      - Vue d'ensemble: terrains/index.md
-      - Terrain 1: terrains/T01.md
-      - Terrain 2: terrains/T02.md
-      - Terrain 3: terrains/T03.md
-      - Terrain 4: terrains/T04.md
-      - Terrain 5: terrains/T05.md
-      - Terrain 6: terrains/T06.md
+  - Sites:
+      - Vue d'ensemble: sites/index.md
+      - La Pastorale:
+          - Présentation: sites/site-1/index.md
+          - Terrain 1: terrains/T01.md
+          - Terrain 2: terrains/T02.md
+          - Terrain 3: terrains/T03.md
+          - Terrain 4: terrains/T04.md
+          - Terrain 5: terrains/T05.md
+          - Terrain 6: terrains/T06.md
+      - Le Kalisté:
+          - Présentation: sites/site-2/index.md
+          - Terrain 7 — Gazon synthétique: sites/site-2/T07.md
+          - Terrain 8 — Gazon synthétique: sites/site-2/T08.md
+          - Terrain 9 — Dur: sites/site-2/T09.md
+          - Terrain 10 — Dur: sites/site-2/T10.md
+          - Terrain 11 — Dur: sites/site-2/T11.md
   - Standards:
       - Vue d'ensemble: standards/index.md
       - Sortie terrain: standards/sortie-terrain.md
@@ -54,7 +63,7 @@ nav:
       - Programmateur Hunter ICC: control/programmateur-hunter-icc.md
   - Accès:
       - Vue d'ensemble: access/index.md
-      - Contrôle d'accès du site: access/controle-acces-site.md
+      - Contrôle d'accès de La Pastorale: access/controle-acces-site.md
   - Procédures:
       - Vue d'ensemble: procedures/index.md
   - Inventaire:
