@@ -1,30 +1,28 @@
-# Site 2 — Cinq terrains multisurfaces
+# Le Kalisté
 
-Le Site 2 se trouve à environ cinq minutes du Site 1.
-
-## Répartition connue
-
-- 3 terrains durs ;
-- 2 terrains en gazon synthétique.
-
-L'affectation exacte des surfaces aux numéros reste à confirmer sur place.
+Le Kalisté se trouve à environ cinq minutes de La Pastorale.
 
 ## Terrains
 
-- [S2-T01](T01.md)
-- [S2-T02](T02.md)
-- [S2-T03](T03.md)
-- [S2-T04](T04.md)
-- [S2-T05](T05.md)
+- [Terrain 7 — gazon synthétique](T07.md)
+- [Terrain 8 — gazon synthétique](T08.md)
+- [Terrain 9 — dur](T09.md)
+- [Terrain 10 — dur](T10.md)
+- [Terrain 11 — dur](T11.md)
+
+## Accès
+
+Les terrains utilisent des claviers à code alimentés par piles avec gâche électrique. Le modèle exact reste à relever.
+
+Le parking est fermé par un cadenas à code. Aucun code ni combinaison n'est stocké dans Git.
 
 ## Relevés prioritaires
 
-- plan général et orientation ;
-- surface exacte de chaque terrain ;
-- accès et bâtiments ;
-- éclairage ;
-- drainage et évacuation des eaux ;
-- état des revêtements, clôtures, filets et poteaux ;
-- équipements et stocks locaux.
+- adresse, plan général et orientation ;
+- marque et modèle des claviers et gâches ;
+- type et périodicité des piles ;
+- modèle du cadenas du parking ;
+- éclairage, drainage et équipements locaux ;
+- état des surfaces, clôtures, filets et poteaux.
 
-[Fiche source Site 2](https://github.com/Simokes/tennismaintenance/blob/main/sites/SITE-002-complexe-tennis.md)
+[Fiche source Le Kalisté](https://github.com/Simokes/tennismaintenance/blob/main/sites/SITE-002-complexe-tennis.md)
