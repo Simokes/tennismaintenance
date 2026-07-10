@@ -2,8 +2,8 @@
 
 **Projet :** TennisMaintenance  
 **Statut :** Fondation  
-**Version :** 0.1  
-**Date :** 2026-07-09
+**Version :** 0.2  
+**Date :** 2026-07-10
 
 ## 1. Rôle du dépôt
 
@@ -37,6 +37,8 @@ Une documentation fausse ou obsolète est pire qu'une absence de documentation.
 | Préfixe | Famille | Rôle |
 |---|---|---|
 | STD | Standard | Décrit une configuration technique conforme. |
+| CTRL | Commande | Décrit les programmateurs, canaux, programmes et cycles. |
+| ACC | Accès | Décrit les dispositifs d’accès et les procédures non secrètes. |
 | PROC | Procédure | Décrit comment réaliser une intervention. |
 | FIC | Fiche | Décrit un équipement réel, un terrain ou une zone. |
 | ADR | Décision | Explique pourquoi un choix technique a été retenu. |
@@ -152,7 +154,30 @@ assets/schemas/STD-001-sortie-terrain.png
 
 Les schémas doivent être simples et lisibles imprimés en A4.
 
-## 11. Versionnement
+## 11. Informations sensibles
+
+Les informations permettant un accès physique ou logique au site ne doivent jamais être stockées dans le dépôt.
+
+Sont notamment interdits :
+
+- codes utilisateurs en vigueur ;
+- codes maîtres ou installateur ;
+- mots de passe ;
+- clés API ;
+- séquences confidentielles de programmation ;
+- photos ou documents révélant ces informations.
+
+Le dépôt peut contenir :
+
+- la procédure générique de changement d’un code ;
+- les liens vers les notices officielles ;
+- les références des équipements ;
+- la date, le motif et l’accès concerné par une modification ;
+- l’emplacement organisationnel du registre sécurisé, sans son contenu.
+
+Les codes d’accès du site sont conservés physiquement au bureau, hors Git.
+
+## 12. Versionnement
 
 Les documents utilisent une version simple :
 
@@ -161,6 +186,6 @@ Les documents utilisent une version simple :
 - `1.x` : amélioration compatible ;
 - `2.0` : changement important de standard.
 
-## 12. Règle finale
+## 13. Règle finale
 
 Le dépôt doit rester utile. Si une règle rend la documentation trop lourde à maintenir, la règle doit être simplifiée.
