@@ -1,16 +1,26 @@
 .print-actions {
   margin: 1rem 0 1.5rem;
   padding: 1rem;
-  border: 1px solid var(--md-default-fg-color--lighter);
-  border-radius: 0.25rem;
+  border: 2px solid var(--md-primary-fg-color);
+  border-radius: 0.35rem;
+  background: var(--md-code-bg-color);
+  text-align: center;
 }
 
-.print-actions button {
-  padding: 0.6rem 1rem;
-  border: 0;
-  border-radius: 0.2rem;
+.print-actions .print-button {
+  display: inline-block;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
+}
+
+.print-actions p {
+  margin: 0.8rem 0 0;
+}
+
+.print-actions .print-fallback {
+  font-size: 0.85rem;
 }
 
 .intervention-sheet {
