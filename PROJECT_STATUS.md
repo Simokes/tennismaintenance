@@ -70,7 +70,7 @@ Rôles :
 - **Nomenclature numérotée unique** (un préfixe-numéro = un seul document).
 - Garder **`mkdocs build --strict` et `scripts/check_source_links.py` verts** (tout renommage de source impose de corriger ses liens dans la même PR).
 - **Décision humaine explicite** obligatoire avant renumérotation, suppression ou migration massive.
-- Le token de l'agent **n'a pas le scope `workflow`** : les modifications de `.github/workflows/*` doivent être appliquées manuellement (éditeur web GitHub).
+- **Modifications de `.github/workflows/*`** : vérifier les permissions disponibles avant d'agir ; si l'écriture est refusée (selon l'agent/token utilisé), demander une intervention humaine plutôt que de contourner.
 
 ## 📎 Références canoniques
 
