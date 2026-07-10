@@ -65,6 +65,10 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+  - pymdownx.snippets:      # inclusion des fiches de relevé (source unique à la racine)
+      base_path:
+        - .
+      check_paths: true     # échoue si une source incluse est absente
 
 nav:
   - Accueil: index.md
@@ -98,6 +102,9 @@ nav:
       - Relevé terrain:
           - releve-terrain.md
           - Checklist détaillée: RELEVE_TERRAIN.md
+      - Fiches de relevé A4:
+          - releves/index.md
+          - REL-007 — Sorties d'eau La Pastorale: releves/REL-007-sorties-eau-la-pastorale.md
       - Interventions:
           - interventions/index.md
           - Fiche papier A4: interventions/fiche-papier.md
