@@ -1,7 +1,7 @@
 # SITE-000 — Structure tennis
 
-**Statut :** À compléter  
-**Version :** 0.1  
+**Statut :** En cours de relevé  
+**Version :** 0.2  
 **Date :** 2026-07-10
 
 ## 1. Objectif
@@ -10,46 +10,31 @@ Décrire l'organisation globale de la structure tennis et servir de point d'entr
 
 ## 2. Vue d'ensemble
 
-| Site | Désignation provisoire | Distance | Terrains | Surfaces | Fiche |
+| Site | Nom | Distance | Terrains | Surfaces | Fiche |
 |---|---|---|---:|---|---|
-| S1 | Site 1 | Référence | 6 | Terre battue | [SITE-001](./SITE-001-complexe-tennis.md) |
-| S2 | Site 2 | Environ 5 minutes de S1 | 5 | 3 durs, 2 gazons synthétiques | [SITE-002](./SITE-002-complexe-tennis.md) |
+| S1 | La Pastorale | Référence | 6 | Terre battue | [SITE-001](./SITE-001-complexe-tennis.md) |
+| S2 | Le Kalisté | Environ 5 minutes de La Pastorale | 5 | T7-T8 gazon synthétique ; T9-T11 dur | [SITE-002](./SITE-002-complexe-tennis.md) |
 
-La structure gère donc **11 terrains répartis sur deux sites**.
+La structure gère **11 terrains répartis sur deux sites**.
 
 ## 3. Convention de repérage
 
-Toute nouvelle fiche terrain doit inclure le site dans son repère :
-
 ```text
-S1-T01 à S1-T06
-S2-T01 à S2-T05
+S1-T01 à S1-T06 — La Pastorale
+S2-T07 à S2-T11 — Le Kalisté
 ```
 
-Les anciens repères `T01` à `T06` désignent le Site 1. Ils restent utilisables pendant la migration documentaire, mais les nouveaux documents doivent privilégier `S1-Txx`.
+Les noms des sites sont utilisés dans la documentation courante. Les identifiants `SITE-001` / `S1` et `SITE-002` / `S2` restent les identifiants techniques stables.
 
 ## 4. Documents communs et documents locaux
 
-Restent communs aux deux sites :
+Restent communs aux deux sites : standards, procédures génériques, équipements types, inventaires mutualisés et décisions de gouvernance.
 
-- standards ;
-- procédures génériques ;
-- équipements types ;
-- inventaires mutualisés ;
-- décisions de gouvernance.
-
-Sont documentés par site :
-
-- terrains et surfaces ;
-- accès ;
-- équipements réellement installés ;
-- commandes et programmateurs ;
-- plans, photos et historiques locaux.
+Sont documentés par site : terrains, surfaces, accès, équipements installés, commandes, plans, photos et historiques locaux.
 
 ## 5. Points à confirmer
 
-- [ ] noms officiels des deux sites ;
-- [ ] adresses ;
-- [ ] temps et itinéraire de déplacement de référence ;
+- [ ] adresses officielles ;
+- [ ] itinéraire de déplacement de référence ;
 - [ ] équipements et stocks partagés ;
 - [ ] organisation des responsabilités entre les sites.
