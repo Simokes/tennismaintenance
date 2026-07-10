@@ -8,11 +8,11 @@ Ce site est conçu pour être consulté rapidement sur téléphone pendant une i
 
 | Section | Usage |
 |---|---|
-| [Terrains](terrains/) | Fiches T1 à T6, sorties d'eau, regards et arroseurs. |
-| [Standards](standards/) | Montages conformes : sorties terrain, GEKA, buse cuivre. |
-| [Équipements](equipment/) | Ensembles fonctionnels utilisés par les agents. |
-| [Procédures](procedures/) | Gestes d'intervention et diagnostics. |
-| [Inventaire](inventory/) | Pièces, stock, fournisseurs et références à vérifier. |
+| [Terrains](terrains/index.md) | Fiches T1 à T6, sorties d'eau, regards et arroseurs. |
+| [Standards](standards/index.md) | Montages conformes : sorties terrain, GEKA, buse cuivre. |
+| [Équipements](equipment/index.md) | Ensembles fonctionnels utilisés par les agents. |
+| [Procédures](procedures/index.md) | Gestes d'intervention et diagnostics. |
+| [Inventaire](inventory/index.md) | Pièces, stock, fournisseurs et références à vérifier. |
 | [Relevé terrain](releve-terrain.md) | Checklist terrain et issues prioritaires. |
 
 ## Vue terrain

@@ -40,6 +40,7 @@ nav:
       - Vue d'ensemble: sites/index.md
       - La Pastorale:
           - Présentation: sites/site-1/index.md
+          - Vue d'ensemble des terrains: terrains/index.md
           - Terrain 1: terrains/T01.md
           - Terrain 2: terrains/T02.md
           - Terrain 3: terrains/T03.md
@@ -82,9 +83,12 @@ nav:
       - PRO-001 — Rangement des tuyaux: projects/PRO-001-gestion-tuyaux-arrosage.md
   - Schémas:
       - Vue d'ensemble: schemas/index.md
+      - Guide de production: SCHEMAS.md
   - Décisions:
       - Vue d'ensemble: decisions/index.md
-  - Relevé terrain: releve-terrain.md
+  - Relevé terrain:
+      - Vue d'ensemble: releve-terrain.md
+      - Checklist détaillée: RELEVE_TERRAIN.md
   - Gouvernance:
       - Principes: gouvernance.md
       - Roadmap: ROADMAP.md
