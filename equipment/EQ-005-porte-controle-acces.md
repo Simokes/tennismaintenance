@@ -1,4 +1,4 @@
-# EQ-004 — Porte avec contrôle d’accès
+# EQ-005 — Porte avec contrôle d’accès
 
 **Statut :** À compléter  
 **Version :** 0.1  
