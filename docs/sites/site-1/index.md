@@ -1,23 +1,23 @@
-# Site 1 — Six terrains en terre battue
+# La Pastorale
 
-Le Site 1 correspond au complexe déjà documenté dans le référentiel.
+La Pastorale regroupe six terrains en terre battue, numérotés de 1 à 6.
 
 ## Terrains
 
-- [S1-T01](../../terrains/T01.md)
-- [S1-T02](../../terrains/T02.md)
-- [S1-T03](../../terrains/T03.md)
-- [S1-T04](../../terrains/T04.md)
-- [S1-T05](../../terrains/T05.md)
-- [S1-T06](../../terrains/T06.md)
+- [Terrain 1](../../terrains/T01.md)
+- [Terrain 2](../../terrains/T02.md)
+- [Terrain 3](../../terrains/T03.md)
+- [Terrain 4](../../terrains/T04.md)
+- [Terrain 5](../../terrains/T05.md)
+- [Terrain 6](../../terrains/T06.md)
 
 ## Équipements déjà documentés
 
 - programmateur Hunter ICC ;
 - arrosage fixe et sorties d'eau ;
-- contrôle d'accès ;
+- contrôle d'accès par clavier, ventouse électromagnétique et groom ;
 - équipements mobiles d'arrosage.
 
-Les pages historiques `T01` à `T06` restent les pages canoniques pendant la migration vers les repères `S1-Txx`.
+Le système d'accès est différent de celui du Kalisté. Les pages historiques `T01` à `T06` restent canoniques pendant la migration vers les repères `S1-Txx`.
 
-[Fiche source Site 1](https://github.com/Simokes/tennismaintenance/blob/main/sites/SITE-001-complexe-tennis.md)
+[Fiche source La Pastorale](https://github.com/Simokes/tennismaintenance/blob/main/sites/SITE-001-complexe-tennis.md)
