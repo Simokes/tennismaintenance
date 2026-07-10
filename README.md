@@ -4,6 +4,8 @@ Référentiel technique de maintenance pour une structure tennis municipale rép
 
 Le dépôt conserve une trace claire, versionnée et transmissible des sites, terrains, standards, procédures, inventaires, interventions, équipements de commande, dispositifs d’accès et décisions techniques.
 
+> **Nouvelle conversation IA ou reprise du projet ?** Lire d'abord [`PROJECT_STATUS.md`](./PROJECT_STATUS.md) : état actuel, décisions déjà validées, workflow et prochaines priorités.
+
 ## Structure gérée
 
 | Site | Terrains | Surfaces |
