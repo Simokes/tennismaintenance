@@ -77,6 +77,9 @@ nav:
   - Interventions:
       - Vue d'ensemble: interventions/index.md
       - Fiche papier A4: interventions/fiche-papier.md
+  - Projets:
+      - Vue d'ensemble: projects/index.md
+      - PRO-001 — Rangement des tuyaux: projects/PRO-001-gestion-tuyaux-arrosage.md
   - Schémas:
       - Vue d'ensemble: schemas/index.md
   - Décisions:
