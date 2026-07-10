@@ -32,6 +32,7 @@ Ils doivent être :
 | [SCH-003](./SCH-003-ensemble-arrosage-manuel.md) | Ensemble d'arrosage manuel | À dessiner |
 | [SCH-004](./SCH-004-buse-cuivre.md) | Buse cuivre custom | À dessiner |
 | [SCH-005](./SCH-005-plan-type-terrain.md) | Plan type terrain avec 6 arroseurs | À dessiner |
+| [SCH-006](./SCH-006-plan-arrosage-la-pastorale.md) | Plan d'arrosage réel de La Pastorale (Delattre, 2001) | Disponible |
 
 ## Règle
 
