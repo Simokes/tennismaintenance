@@ -66,6 +66,8 @@ nav:
       - Contrôle d'accès de La Pastorale: access/controle-acces-site.md
   - Procédures:
       - Vue d'ensemble: procedures/index.md
+      - Terrain dur: procedures/terrain-dur.md
+      - Gazon synthétique: procedures/gazon-synthetique.md
   - Inventaire:
       - Vue d'ensemble: inventory/index.md
   - Interventions:
