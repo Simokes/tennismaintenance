@@ -2,7 +2,7 @@
 
 **Statut :** À relever  
 **Date de création :** 2026-07-09  
-**Dernière mise à jour :** 2026-07-09
+**Dernière mise à jour :** 2026-07-10
 
 ## 1. Identification
 
@@ -13,28 +13,31 @@
 | Standard sortie eau | STD-001 |
 | Nombre d'arroseurs fixes | 6 |
 | Ensemble d'arrosage associé | À relever |
+| Programmateur associé | CTRL-001 — Hunter ICC |
 
 ## 2. Plan simplifié
 
 ```text
 Fond nord
 
-      A1          A2
+      AR-01      AR-02
 
 
-A3                    A4
+AR-03                  AR-04
 
 
-      A5          A6
+      AR-05      AR-06
 
 Fond sud
 ```
+
+Les positions et repères définitifs doivent être confirmés sur place. Le schéma doit ensuite afficher les paires reliées au même canal.
 
 ## 3. Sortie d'eau terrain
 
 | Élément | Valeur |
 |---|---|
-| Repère | T1-SE |
+| Repère | SET-01 |
 | Localisation | À relever |
 | Standard applicable | STD-001 |
 | État | À relever |
@@ -46,25 +49,39 @@ Cette section ne décrit pas le contenu technique interne des regards. Elle indi
 
 | Regard | Localisation | Dessert / impacte | Éléments accessibles | Remarques |
 |---|---|---|---|---|
-| T1-R1 | À relever | À relever | Vanne / électrovanne / autre | |
-| T1-R2 | À relever | À relever | Vanne / électrovanne / autre | |
+| REG-01 | À relever | À relever | Vanne / électrovanne / autre | |
+| REG-02 | À relever | À relever | Vanne / électrovanne / autre | |
 
 ## 5. Arroseurs fixes
 
-| Repère | Localisation | Modèle | État | Remarques |
-|---|---|---|---|---|
-| A1 | À relever | Commun site | À relever | |
-| A2 | À relever | Commun site | À relever | |
-| A3 | À relever | Commun site | À relever | |
-| A4 | À relever | Commun site | À relever | |
-| A5 | À relever | Commun site | À relever | |
-| A6 | À relever | Commun site | À relever | |
+Chaque arroseur est un équipement physique. Le canal indique la sortie du programmateur qui le déclenche. Deux arroseurs reliés au même canal fonctionnent simultanément.
 
-## 6. Particularités du terrain
+| Repère | Position réelle | Canal | Arroseur associé | Modèle | État | Vérifié |
+|---|---|---|---|---|---|---|
+| AR-01 | À relever | À relever | À relever | Commun site | À relever | Non |
+| AR-02 | À relever | À relever | À relever | Commun site | À relever | Non |
+| AR-03 | À relever | À relever | À relever | Commun site | À relever | Non |
+| AR-04 | À relever | À relever | À relever | Commun site | À relever | Non |
+| AR-05 | À relever | À relever | À relever | Commun site | À relever | Non |
+| AR-06 | À relever | À relever | À relever | Commun site | À relever | Non |
+
+## 6. Correspondance programmateur
+
+Exemple de principe à vérifier : un canal commande deux arroseurs opposés, comme le fond sud-ouest et le fond nord-ouest.
+
+| Canal | Arroseur 1 | Arroseur 2 | Zone couverte | Regard / électrovanne utile | Vérifié le | Remarques |
+|---|---|---|---|---|---|---|
+| CAN-01 | À relever | À relever | À relever | À relever | | |
+| CAN-02 | À relever | À relever | À relever | À relever | | |
+| CAN-03 | À relever | À relever | À relever | À relever | | |
+
+Voir [CTRL-001 — Programmateur Hunter ICC](../control/CTRL-001-programmateur-hunter-icc.md) pour la correspondance générale, les programmes et les cycles.
+
+## 7. Particularités du terrain
 
 - À relever.
 
-## 7. Photos à ajouter
+## 8. Photos à ajouter
 
 - [ ] Vue générale
 - [ ] Sortie d'eau
@@ -72,7 +89,7 @@ Cette section ne décrit pas le contenu technique interne des regards. Elle indi
 - [ ] Arroseurs
 - [ ] Défauts connus
 
-## 8. Historique local
+## 9. Historique local
 
 | Date | Intervention | Agent | Observation |
 |---|---|---|---|

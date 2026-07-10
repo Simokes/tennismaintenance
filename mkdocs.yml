@@ -49,6 +49,9 @@ nav:
       - Buse cuivre: standards/buse-cuivre.md
   - Équipements:
       - Vue d'ensemble: equipment/index.md
+  - Commande:
+      - Vue d'ensemble: control/index.md
+      - Programmateur Hunter ICC: control/programmateur-hunter-icc.md
   - Procédures:
       - Vue d'ensemble: procedures/index.md
   - Inventaire:
