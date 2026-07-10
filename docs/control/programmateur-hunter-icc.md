@@ -7,8 +7,13 @@
 ## Accès rapide
 
 - [Fiche source complète](https://github.com/Simokes/tennismaintenance/blob/main/control/CTRL-001-programmateur-hunter-icc.md)
+- [Manuel Hunter ICC en français (PDF)](https://www.hunterirrigation.com/sites/default/files/OM_ICC_FR.PDF)
+- [Liste des pièces du coffret plastique (PDF)](https://www.hunterirrigation.com/sites/default/files/replacementpartslist_icc-plasticcabinet.pdf)
 - [Manuels officiels Hunter](https://www.hunterirrigation.com/support/owner-manuals)
 - [Support officiel Hunter](https://www.hunterirrigation.com/support)
+
+!!! warning "Vérification avant commande"
+    La liste de pièces concerne le coffret plastique. Confirmer le modèle, la génération et le type de coffret sur la plaque signalétique avant toute commande.
 
 ## Principe du site
 
@@ -40,6 +45,7 @@ La correspondance exacte doit être vérifiée terrain par terrain.
 ## Identification à faire
 
 - modèle exact et génération ICC/ICC2 ;
+- type de coffret : plastique ou métallique ;
 - nombre de stations ;
 - programmes utilisés ;
 - durées par canal ;
