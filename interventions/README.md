@@ -19,7 +19,7 @@ Conserver la mémoire des opérations qui expliquent l'état réel du site :
 
 | Référence | Sujet | Statut |
 |---|---|---|
-| [INT-000-template](./INT-000-template.md) | Modèle détaillé pour archivage dans Git | Modèle |
+| [INT-template](../templates/INT-template.md) | Modèle détaillé pour archivage dans Git | Modèle |
 | [INT-000-fiche-papier](./INT-000-fiche-papier.md) | Fiche A4 à remplir et transmettre au supérieur | Modèle imprimable |
 | [INT-2026](./INT-2026.md) | Historique interventions 2026 | À compléter |
 
@@ -27,7 +27,7 @@ Conserver la mémoire des opérations qui expliquent l'état réel du site :
 
 - utiliser la fiche papier pour le constat, les travaux réalisés et le visa du responsable ;
 - reporter dans `INT-2026` les interventions qui doivent rester dans l'historique ;
-- créer une fiche détaillée à partir de `INT-000-template` uniquement pour une intervention importante ou réutilisable comme référence.
+- créer une fiche détaillée à partir de `templates/INT-template` uniquement pour une intervention importante ou réutilisable comme référence.
 
 ## Règle
 
