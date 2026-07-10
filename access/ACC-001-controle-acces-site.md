@@ -1,13 +1,15 @@
-# ACC-001 — Contrôle d’accès du site
+# ACC-001 — Contrôle d’accès de La Pastorale
 
 **Statut :** À compléter  
-**Version :** 0.1  
+**Version :** 0.2  
 **Date de création :** 2026-07-10  
 **Dernière mise à jour :** 2026-07-10
 
 ## 1. Objectif
 
-Documenter le fonctionnement général des accès à code du complexe, les équipements concernés et la méthode générique de changement d’un code, sans stocker aucune information secrète dans le dépôt.
+Documenter le fonctionnement général des accès à code de La Pastorale, les équipements concernés et la méthode générique de changement d’un code, sans stocker aucune information secrète dans le dépôt.
+
+Cette fiche ne s’applique pas au Kalisté, dont les claviers alimentés par piles et les gâches électriques sont documentés dans `ACC-002`.
 
 ## 2. Principe du système
 
@@ -23,19 +25,19 @@ Le fabricant, le modèle du clavier et le type de groom restent à relever.
 
 ## 3. Accès équipés
 
-| Repère provisoire | Accès | Clavier à code | Ventouse électrique | Groom | Statut |
+| Repère | Accès | Clavier à code | Ventouse électrique | Groom | Statut |
 |---|---|---|---|---|---|
-| ACC-T01 | Portillon terrain 1 | Sujet en cours | À confirmer | À confirmer | Cas particulier |
-| ACC-T02 | Portillon terrain 2 | Oui | Oui | Oui, type à relever | En service |
-| ACC-T03 | Portillon terrain 3 | Oui | Oui | Oui, type à relever | En service |
-| ACC-T04 | Portillon terrain 4 | Oui | Oui | Oui, type à relever | En service |
-| ACC-T05 | Portillon terrain 5 | Oui | Oui | Oui, type à relever | En service |
-| ACC-T06 | Portillon terrain 6 | Oui | Oui | Oui, type à relever | En service |
-| ACC-PRIN | Petit portillon d’accès principal | Oui | Oui | Oui, type à relever | En service |
-| ACC-VH | Vestiaire hommes | Oui | Oui | Oui, type à relever | En service |
-| ACC-VF | Vestiaire femmes | Oui | Oui | Oui, type à relever | En service |
+| S1-ACC-T01 | Portillon terrain 1 | Sujet en cours | À confirmer | À confirmer | Cas particulier |
+| S1-ACC-T02 | Portillon terrain 2 | Oui | Oui | Oui, type à relever | En service |
+| S1-ACC-T03 | Portillon terrain 3 | Oui | Oui | Oui, type à relever | En service |
+| S1-ACC-T04 | Portillon terrain 4 | Oui | Oui | Oui, type à relever | En service |
+| S1-ACC-T05 | Portillon terrain 5 | Oui | Oui | Oui, type à relever | En service |
+| S1-ACC-T06 | Portillon terrain 6 | Oui | Oui | Oui, type à relever | En service |
+| S1-ACC-PRIN | Petit portillon d’accès principal | Oui | Oui | Oui, type à relever | En service |
+| S1-ACC-VH | Vestiaire hommes | Oui | Oui | Oui, type à relever | En service |
+| S1-ACC-VF | Vestiaire femmes | Oui | Oui | Oui, type à relever | En service |
 
-Tous les accès du site sont annoncés comme utilisant le même système, sous réserve de vérification du modèle sur chaque équipement.
+Tous les accès de La Pastorale sont annoncés comme utilisant le même système, sous réserve de vérification du modèle sur chaque équipement.
 
 ## 4. Autorité de modification
 
@@ -101,7 +103,7 @@ Les photos ne doivent jamais montrer un code, une séquence de programmation ou 
 ## 9. Points à confirmer
 
 - [ ] Fabricant et modèle du clavier.
-- [ ] Confirmation qu’un seul modèle équipe tous les accès.
+- [ ] Confirmation qu’un seul modèle équipe tous les accès de La Pastorale.
 - [ ] Fabricant et modèle de la ventouse.
 - [ ] Type et modèle du groom.
 - [ ] Fonctionnement exact du terrain 1.

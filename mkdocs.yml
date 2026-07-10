@@ -63,7 +63,8 @@ nav:
       - Programmateur Hunter ICC: control/programmateur-hunter-icc.md
   - Accès:
       - Vue d'ensemble: access/index.md
-      - Contrôle d'accès de La Pastorale: access/controle-acces-site.md
+      - La Pastorale: access/controle-acces-site.md
+      - Le Kalisté: access/controle-acces-kaliste.md
   - Procédures:
       - Vue d'ensemble: procedures/index.md
   - Inventaire:
