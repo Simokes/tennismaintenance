@@ -1,7 +1,7 @@
 # SITE-002 — Le Kalisté
 
 **Statut :** À relever  
-**Version :** 0.2  
+**Version :** 0.3  
 **Date :** 2026-07-10
 
 ## 1. Objectif
@@ -41,7 +41,7 @@ Les accès des terrains utilisent un système différent de La Pastorale :
 
 Le parking dispose également d'un accès fermé par un cadenas à code.
 
-| Repère provisoire | Accès | Système | Statut |
+| Repère | Accès | Système | Statut |
 |---|---|---|---|
 | S2-ACC-T07 | Terrain 7 | Clavier sur piles + gâche électrique | En service, modèle à relever |
 | S2-ACC-T08 | Terrain 8 | Clavier sur piles + gâche électrique | En service, modèle à relever |
@@ -50,9 +50,23 @@ Le parking dispose également d'un accès fermé par un cadenas à code.
 | S2-ACC-T11 | Terrain 11 | Clavier sur piles + gâche électrique | En service, modèle à relever |
 | S2-ACC-PARK | Parking | Cadenas à code | En service, modèle à relever |
 
+Document lié : [ACC-002 — Contrôle d’accès du Kalisté](../access/ACC-002-controle-acces-kaliste.md).
+
 Aucun code utilisateur, code maître ou combinaison de cadenas ne doit être stocké dans Git. Les codes en vigueur restent conservés physiquement au bureau.
 
-## 5. Points à relever
+## 5. Maintenance générique des accès
+
+La fiche `ACC-002` contient déjà les méthodes génériques suivantes :
+
+- changement d’un code terrain ;
+- remplacement des piles ;
+- contrôle de la gâche et du verrouillage ;
+- changement de combinaison du cadenas du parking ;
+- historique sans stockage des secrets.
+
+Les séquences exactes propres au fabricant ne seront ajoutées qu’après identification fiable des modèles.
+
+## 6. Points à relever
 
 - plan général, adresse et orientation ;
 - marque et modèle des claviers ;
@@ -65,6 +79,14 @@ Aucun code utilisateur, code maître ou combinaison de cadenas ne doit être sto
 - état des surfaces, filets, poteaux et clôtures ;
 - photos et historique d'intervention.
 
-## 6. Principe
+## 7. Principe
 
 Aucune installation du Kalisté n'est présumée identique à celle de La Pastorale. Toute information technique doit être vérifiée sur place.
+
+## 8. Historique
+
+| Version | Date | Description |
+|---|---|---|
+| 0.1 | 2026-07-10 | Création du Site 2 |
+| 0.2 | 2026-07-10 | Ajout des terrains 7 à 11 et des accès connus |
+| 0.3 | 2026-07-10 | Ajout de la fiche dédiée ACC-002 et des procédures génériques |
