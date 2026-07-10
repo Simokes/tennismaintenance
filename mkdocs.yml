@@ -5,6 +5,17 @@ repo_url: https://github.com/Simokes/tennismaintenance
 repo_name: Simokes/tennismaintenance
 edit_uri: edit/main/docs/
 
+# Durcissement de la validation : ces contrôles, en INFO par défaut, sont
+# remontés en WARNING. Combinés à `mkdocs build --strict` (CI), un lien non
+# reconnu ou une page absente de la navigation fait désormais ÉCHOUER le build.
+validation:
+  nav:
+    omitted_files: warn      # page dans docs/ mais absente du nav → warning
+    not_found: warn          # entrée de nav pointant vers un fichier absent → warning
+  links:
+    not_found: warn          # lien interne cassé → warning
+    unrecognized_links: warn # lien relatif non résolu (ex. répertoire sans index.md) → warning
+
 plugins:
   - search:
       lang: fr
