@@ -6,14 +6,57 @@ Ce site est conçu pour être consulté rapidement sur téléphone pendant une i
 
 ## Accès rapide
 
-| Section | Usage |
-|---|---|
-| [Terrains](terrains/index.md) | Fiches T1 à T6, sorties d'eau, regards et arroseurs. |
-| [Standards](standards/index.md) | Montages conformes : sorties terrain, GEKA, buse cuivre. |
-| [Équipements](equipment/index.md) | Ensembles fonctionnels utilisés par les agents. |
-| [Procédures](procedures/index.md) | Gestes d'intervention et diagnostics. |
-| [Inventaire](inventory/index.md) | Pièces, stock, fournisseurs et références à vérifier. |
-| [Relevé terrain](releve-terrain.md) | Checklist terrain et issues prioritaires. |
+<div class="grid cards" markdown>
+
+-   __Terrains__
+
+    ---
+
+    Fiches T1 à T11 : sorties d'eau, regards et arroseurs des deux sites.
+
+    [Ouvrir →](sites/index.md)
+
+-   __Procédures__
+
+    ---
+
+    Gestes d'intervention et diagnostics par surface.
+
+    [Ouvrir →](procedures/index.md)
+
+-   __Relevé terrain__
+
+    ---
+
+    Checklist à remplir avant et pendant un passage sur site.
+
+    [Ouvrir →](releve-terrain.md)
+
+-   __Accès__
+
+    ---
+
+    Claviers, ventouses et grooms des deux sites.
+
+    [Ouvrir →](access/index.md)
+
+-   __Standards__
+
+    ---
+
+    Montages conformes : sorties terrain, GEKA, buse cuivre.
+
+    [Ouvrir →](standards/index.md)
+
+-   __Interventions__
+
+    ---
+
+    Fiche papier A4 à imprimer et historique.
+
+    [Ouvrir →](interventions/index.md)
+
+</div>
 
 ## Vue terrain
 
