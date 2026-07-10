@@ -43,4 +43,4 @@ Les codes et la combinaison du cadenas sont conservés physiquement au bureau. I
 - marque et modèle du cadenas du parking ;
 - notices officielles correspondantes.
 
-[Fiche source complète](https://github.com/Simokes/tennismaintenance/blob/main/access/ACC-002-controle-acces-kaliste.md)
+<p class="doc-source">📄 <strong>Document source :</strong> <a href="https://github.com/Simokes/tennismaintenance/blob/main/access/ACC-002-controle-acces-kaliste.md">access/ACC-002-controle-acces-kaliste.md</a></p>

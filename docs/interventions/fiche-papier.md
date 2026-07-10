@@ -81,6 +81,6 @@
 
 Reporter l'intervention dans l'historique annuel lorsque l'information doit être conservée, puis créer une fiche détaillée uniquement si elle est importante ou réutilisable comme référence.
 
-[Ouvrir le modèle source dans GitHub](https://github.com/Simokes/tennismaintenance/blob/main/interventions/INT-000-fiche-papier.md)
+<p class="doc-source no-print">📄 <strong>Document source :</strong> <a href="https://github.com/Simokes/tennismaintenance/blob/main/interventions/INT-000-fiche-papier.md">interventions/INT-000-fiche-papier.md</a></p>
 
 </div>

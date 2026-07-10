@@ -68,4 +68,4 @@ Les liens seront ajoutés après identification fiable du fabricant et du modèl
 - type et modèle du groom ;
 - situation définitive du terrain 1.
 
-[Consulter la fiche source complète](https://github.com/Simokes/tennismaintenance/blob/main/access/ACC-001-controle-acces-site.md)
+<p class="doc-source">📄 <strong>Document source :</strong> <a href="https://github.com/Simokes/tennismaintenance/blob/main/access/ACC-001-controle-acces-site.md">access/ACC-001-controle-acces-site.md</a></p>

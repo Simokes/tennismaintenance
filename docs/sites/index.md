@@ -16,4 +16,4 @@ Les terrains sont désormais repérés avec le site :
 
 Les anciennes pages `T01` à `T06` correspondent au Site 1 et restent accessibles pendant la migration.
 
-[Fiche source globale](https://github.com/Simokes/tennismaintenance/blob/main/sites/SITE-000-structure-tennis.md)
+<p class="doc-source">📄 <strong>Document source :</strong> <a href="https://github.com/Simokes/tennismaintenance/blob/main/sites/SITE-000-structure-tennis.md">sites/SITE-000-structure-tennis.md</a></p>

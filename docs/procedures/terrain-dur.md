@@ -14,4 +14,4 @@ Cette procédure concerne les terrains 9, 10 et 11 du Kalisté.
 
 Aucun produit chimique, nettoyage haute pression, rebouchage ou remise en peinture ne doit être entrepris sans validation de la méthode et du revêtement.
 
-[Consulter la procédure source complète](https://github.com/Simokes/tennismaintenance/blob/main/procedures/PROC-005-inspection-entretien-terrain-dur.md)
+<p class="doc-source">📄 <strong>Document source :</strong> <a href="https://github.com/Simokes/tennismaintenance/blob/main/procedures/PROC-005-inspection-entretien-terrain-dur.md">procedures/PROC-005-inspection-entretien-terrain-dur.md</a></p>
