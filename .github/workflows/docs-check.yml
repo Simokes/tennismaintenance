@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'docs/**'
+      - 'releves/**'
       - 'scripts/**'
       - 'mkdocs.yml'
       - 'requirements.txt'
