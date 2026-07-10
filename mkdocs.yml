@@ -23,18 +23,39 @@ plugins:
 theme:
   name: material
   language: fr
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode clair
+  font:
+    text: Inter
+    code: Roboto Mono
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
+    - navigation.indexes
+    - navigation.prune
     - navigation.top
     - navigation.footer
+    - toc.follow
     - search.highlight
     - search.suggest
     - content.code.copy
     - content.action.edit
 
 extra_css:
+  - stylesheets/theme.css
   - stylesheets/print.css
 
 markdown_extensions:
@@ -47,59 +68,59 @@ markdown_extensions:
 
 nav:
   - Accueil: index.md
-  - Sites:
-      - Vue d'ensemble: sites/index.md
-      - La Pastorale:
-          - Présentation: sites/site-1/index.md
-          - Vue d'ensemble des terrains: terrains/index.md
-          - Terrain 1: terrains/T01.md
-          - Terrain 2: terrains/T02.md
-          - Terrain 3: terrains/T03.md
-          - Terrain 4: terrains/T04.md
-          - Terrain 5: terrains/T05.md
-          - Terrain 6: terrains/T06.md
-      - Le Kalisté:
-          - Présentation: sites/site-2/index.md
-          - Terrain 7 — Gazon synthétique: sites/site-2/T07.md
-          - Terrain 8 — Gazon synthétique: sites/site-2/T08.md
-          - Terrain 9 — Dur: sites/site-2/T09.md
-          - Terrain 10 — Dur: sites/site-2/T10.md
-          - Terrain 11 — Dur: sites/site-2/T11.md
-  - Standards:
-      - Vue d'ensemble: standards/index.md
-      - Sortie terrain: standards/sortie-terrain.md
-      - Sortie entretien: standards/sortie-entretien.md
-      - Ensemble manuel: standards/ensemble-manuel.md
-      - Buse cuivre: standards/buse-cuivre.md
-  - Équipements:
-      - Vue d'ensemble: equipment/index.md
-  - Commande:
-      - Vue d'ensemble: control/index.md
-      - Programmateur Hunter ICC: control/programmateur-hunter-icc.md
-  - Accès:
-      - Vue d'ensemble: access/index.md
-      - La Pastorale: access/controle-acces-site.md
-      - Le Kalisté: access/controle-acces-kaliste.md
-  - Procédures:
-      - Vue d'ensemble: procedures/index.md
-      - Terrain dur: procedures/terrain-dur.md
-      - Gazon synthétique: procedures/gazon-synthetique.md
-  - Inventaire:
-      - Vue d'ensemble: inventory/index.md
-  - Interventions:
-      - Vue d'ensemble: interventions/index.md
-      - Fiche papier A4: interventions/fiche-papier.md
-  - Projets:
-      - Vue d'ensemble: projects/index.md
-      - PRO-001 — Rangement des tuyaux: projects/PRO-001-gestion-tuyaux-arrosage.md
-  - Schémas:
-      - Vue d'ensemble: schemas/index.md
-      - Guide de production: SCHEMAS.md
-  - Décisions:
-      - Vue d'ensemble: decisions/index.md
-  - Relevé terrain:
-      - Vue d'ensemble: releve-terrain.md
-      - Checklist détaillée: RELEVE_TERRAIN.md
+  - Terrain:
+      - Sites & terrains:
+          - sites/index.md
+          - La Pastorale:
+              - sites/site-1/index.md
+              - Tous les terrains: terrains/index.md
+              - Terrain 1: terrains/T01.md
+              - Terrain 2: terrains/T02.md
+              - Terrain 3: terrains/T03.md
+              - Terrain 4: terrains/T04.md
+              - Terrain 5: terrains/T05.md
+              - Terrain 6: terrains/T06.md
+          - Le Kalisté:
+              - sites/site-2/index.md
+              - Terrain 7 — Gazon synthétique: sites/site-2/T07.md
+              - Terrain 8 — Gazon synthétique: sites/site-2/T08.md
+              - Terrain 9 — Dur: sites/site-2/T09.md
+              - Terrain 10 — Dur: sites/site-2/T10.md
+              - Terrain 11 — Dur: sites/site-2/T11.md
+      - Accès:
+          - access/index.md
+          - La Pastorale: access/controle-acces-site.md
+          - Le Kalisté: access/controle-acces-kaliste.md
+      - Procédures:
+          - procedures/index.md
+          - Terrain dur: procedures/terrain-dur.md
+          - Gazon synthétique: procedures/gazon-synthetique.md
+      - Relevé terrain:
+          - releve-terrain.md
+          - Checklist détaillée: RELEVE_TERRAIN.md
+      - Interventions:
+          - interventions/index.md
+          - Fiche papier A4: interventions/fiche-papier.md
+  - Références:
+      - Standards:
+          - standards/index.md
+          - Sortie terrain: standards/sortie-terrain.md
+          - Sortie entretien: standards/sortie-entretien.md
+          - Ensemble manuel: standards/ensemble-manuel.md
+          - Buse cuivre: standards/buse-cuivre.md
+      - Équipements: equipment/index.md
+      - Commande:
+          - control/index.md
+          - Programmateur Hunter ICC: control/programmateur-hunter-icc.md
+      - Inventaire: inventory/index.md
+      - Schémas:
+          - schemas/index.md
+          - Guide de production: SCHEMAS.md
+  - Projets & décisions:
+      - Projets:
+          - projects/index.md
+          - PRO-001 — Rangement des tuyaux: projects/PRO-001-gestion-tuyaux-arrosage.md
+      - Décisions: decisions/index.md
   - Gouvernance:
       - Principes: gouvernance.md
       - Roadmap: ROADMAP.md
