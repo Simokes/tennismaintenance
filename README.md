@@ -69,6 +69,22 @@ decisions/      Décisions techniques sous forme d'ADR.
 assets/         Schémas, photos et supports visuels.
 ```
 
+## Architecture documentaire
+
+Le dépôt comporte **deux arborescences complémentaires**, avec des rôles distincts (architecture validée en [issue #34](https://github.com/Simokes/tennismaintenance/issues/34)) :
+
+| Arborescence | Rôle | Édition |
+|---|---|---|
+| **Racine** (`sites/`, `standards/`, `procedures/`, …) | **Référentiel technique de référence** : fichiers numérotés, exhaustifs, templates, ADR. C'est la **source de vérité**. | Par les rédacteurs techniques. |
+| **`docs/`** | **Vue opérationnelle publiée** (site MkDocs, mobile-first, orienté terrain). Résume et **renvoie vers** le document source racine. | Pour la consultation rapide. |
+
+Règles :
+
+1. Toute donnée technique de référence **naît et évolue d'abord à la racine**.
+2. `docs/` **ne duplique pas** le détail : il résume et **renvoie** au fichier source (lien `blob/main/…`).
+3. Une page `docs/` qui cite un document source **inexistant est interdite** (contrôle CI).
+4. La **nomenclature numérotée est unique** : un même préfixe-numéro ne désigne qu'un seul document.
+
 ## Types de documents
 
 | Préfixe | Type | Rôle |
