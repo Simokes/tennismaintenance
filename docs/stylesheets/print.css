@@ -324,10 +324,69 @@
   text-align: center;
 }
 
+/* REL-010 : fiche d'inventaire au format A4 paysage (issue #10). */
+.releve-sheet.sheet-landscape .terrain-page {
+  max-width: 297mm;
+  min-height: 190mm;
+}
+
+.releve-sheet .stock-intro {
+  margin-bottom: 2mm;
+  font-size: 9.5pt;
+}
+
+.releve-sheet .stock-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9pt;
+  margin-bottom: 2mm;
+}
+
+.releve-sheet .stock-table th,
+.releve-sheet .stock-table td {
+  border: 1px solid #000;
+  padding: 1mm 1.5mm;
+  text-align: left;
+  vertical-align: top;
+}
+
+.releve-sheet .stock-table thead th {
+  background: #eee;
+  font-size: 8pt;
+  text-align: center;
+}
+
+.releve-sheet .stock-table tbody td {
+  height: 9mm;
+}
+
+.releve-sheet .stock-table .sec td {
+  height: auto;
+  padding: 1mm 1.5mm;
+  background: #ddd;
+  font-weight: 700;
+  font-size: 8.5pt;
+}
+
+.releve-sheet .stock-table .photo {
+  text-align: center;
+}
+
 @media print {
   @page {
     size: A4 portrait;
     margin: 10mm;
+  }
+
+  /* Page nommée paysage pour la fiche d'inventaire REL-010. */
+  @page landscape {
+    size: A4 landscape;
+    margin: 10mm;
+  }
+
+  .releve-sheet.sheet-landscape .terrain-page {
+    page: landscape;
+    min-height: auto;
   }
 
   .md-header,
