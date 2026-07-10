@@ -5,7 +5,7 @@
   <p>Format conseillé : A4 portrait, échelle 100 %. La navigation et ce bouton seront masqués à l'impression.</p>
 </div>
 
-<div class="project-report">
+<div class="project-report" markdown="1">
 
 **Site :** La Pastorale  
 **Statut :** Étude  
@@ -227,7 +227,7 @@ Relever :
 
 </div>
 
-<div class="no-print">
+<div class="no-print" markdown="1">
 
 [Consulter le document source complet](https://github.com/Simokes/tennismaintenance/blob/main/projects/PRO-001-gestion-tuyaux-arrosage.md)
 
