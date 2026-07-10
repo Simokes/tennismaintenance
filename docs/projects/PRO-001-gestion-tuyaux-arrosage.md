@@ -1,9 +1,11 @@
 # PRO-001 — Gestion et rangement des tuyaux d'arrosage
 
 <div class="print-actions no-print">
-  <button class="md-button md-button--primary" onclick="window.print()">🖨️ Imprimer le dossier</button>
+  <button type="button" class="md-button md-button--primary print-button" onclick="window.print()">🖨️ Imprimer le dossier</button>
   <p>Format conseillé : A4 portrait, échelle 100 %. La navigation et ce bouton seront masqués à l'impression.</p>
 </div>
+
+<div class="project-report" markdown="1">
 
 **Site :** La Pastorale  
 **Statut :** Étude  
@@ -222,5 +224,7 @@ Relever :
 - fiches techniques des modèles présélectionnés ;
 - devis comparatifs ;
 - bilan du pilote.
+
+</div>
 
 <p class="no-print"><a href="https://github.com/Simokes/tennismaintenance/blob/main/projects/PRO-001-gestion-tuyaux-arrosage.md">Consulter le document source complet</a></p>
