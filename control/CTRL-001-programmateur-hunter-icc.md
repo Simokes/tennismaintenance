@@ -19,6 +19,7 @@ Cette fiche ne remplace ni la notice constructeur ni les plans électriques offi
 | Gamme indiquée sur site | ICC |
 | Modèle exact | À relever sur la plaque signalétique |
 | Génération | ICC d'origine / ICC2 — à confirmer |
+| Type de coffret | Plastique — à confirmer sur site |
 | Emplacement | À relever |
 | Nombre de stations disponibles | À relever |
 | Nombre de stations utilisées | À relever |
@@ -26,7 +27,7 @@ Cette fiche ne remplace ni la notice constructeur ni les plans électriques offi
 | Capteur pluie raccordé | À confirmer |
 
 !!! warning "Identifier précisément le modèle"
-    La gamme ICC a connu plusieurs générations. Photographier la façade et la plaque signalétique avant de retenir une notice précise.
+    La gamme ICC a connu plusieurs générations. Photographier la façade et la plaque signalétique avant de retenir définitivement une notice ou une liste de pièces.
 
 ## 3. Principe de commande du site
 
@@ -98,17 +99,30 @@ Ajouter autant de lignes que nécessaire après relevé du nombre réel de stati
 
 ## 9. Documentation officielle
 
+### Manuel d'utilisation et de programmation
+
+- [Hunter ICC — Manuel utilisateur en français (PDF)](https://www.hunterirrigation.com/sites/default/files/OM_ICC_FR.PDF)
+
+Ce manuel est la référence constructeur pour le fonctionnement, la programmation, les départs manuels, les durées de station, les programmes et les réglages du programmateur ICC.
+
+### Pièces détachées
+
+- [Hunter ICC — Liste des pièces du coffret plastique (PDF)](https://www.hunterirrigation.com/sites/default/files/replacementpartslist_icc-plasticcabinet.pdf)
+
+Cette liste sert à identifier les composants remplaçables et leurs références. Vérifier que le programmateur installé possède bien un coffret plastique avant d'utiliser ces références pour une commande.
+
+### Portails constructeur
+
 - [Portail officiel Hunter — manuels utilisateur](https://www.hunterirrigation.com/support/owner-manuals)
 - [Support officiel Hunter](https://www.hunterirrigation.com/support)
 - [Page officielle Hunter ICC2](https://www.hunterirrigation.com/irrigation-product/controllers/icc2) — uniquement si la génération ICC2 est confirmée
-
-La notice correspondant au modèle exact devra être ajoutée ici après lecture de la plaque signalétique.
 
 ## 10. Photos à ajouter
 
 - [ ] Vue générale du programmateur fermé.
 - [ ] Façade et commandes.
 - [ ] Plaque signalétique.
+- [ ] Coffret plastique ou métallique.
 - [ ] Modules de stations visibles sans intervention dangereuse.
 - [ ] Écran affichant les programmes et durées utiles.
 
@@ -121,6 +135,7 @@ La notice correspondant au modèle exact devra être ajoutée ici après lecture
 ## 12. Points à confirmer
 
 - [ ] Modèle et génération exacts.
+- [ ] Type de coffret : plastique ou métallique.
 - [ ] Nombre total de stations.
 - [ ] Correspondance complète canal → paire d'arroseurs.
 - [ ] Programmes réellement utilisés.
