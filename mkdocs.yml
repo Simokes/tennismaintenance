@@ -23,6 +23,9 @@ theme:
     - content.code.copy
     - content.action.edit
 
+extra_css:
+  - stylesheets/print.css
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -73,6 +76,7 @@ nav:
       - Vue d'ensemble: inventory/index.md
   - Interventions:
       - Vue d'ensemble: interventions/index.md
+      - Fiche papier A4: interventions/fiche-papier.md
   - Schémas:
       - Vue d'ensemble: schemas/index.md
   - Décisions:
