@@ -19,7 +19,9 @@ Plan d'arrosage automatique de La Pastorale fourni par l'installateur.
 
 ## 2. Fichier
 
-- `SCH-006-plan-arrosage-la-pastorale.png` — plan numérisé.
+- [`SCH-006-plan-arrosage-la-pastorale.png`](./SCH-006-plan-arrosage-la-pastorale.png) — plan numérisé (cliquer pour ouvrir ou télécharger).
+
+[![Plan d'arrosage de La Pastorale (Delattre, 2001)](./SCH-006-plan-arrosage-la-pastorale.png)](./SCH-006-plan-arrosage-la-pastorale.png)
 
 ## 3. Contenu
 
