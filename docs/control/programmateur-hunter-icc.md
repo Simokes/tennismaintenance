@@ -9,7 +9,7 @@
 - [Fiche source complète](https://github.com/Simokes/tennismaintenance/blob/main/control/CTRL-001-programmateur-hunter-icc.md)
 - [Manuel Hunter ICC en français (PDF)](https://www.hunterirrigation.com/sites/default/files/OM_ICC_FR.PDF)
 - [Liste des pièces du coffret plastique (PDF)](https://www.hunterirrigation.com/sites/default/files/replacementpartslist_icc-plasticcabinet.pdf)
-- [Manuels officiels Hunter](https://www.hunterirrigation.com/support/owner-manuals)
+- [Manuels officiels Hunter](https://www.hunterirrigation.com/fr/irrigation-product/discontinued-models/icc)
 - [Support officiel Hunter](https://www.hunterirrigation.com/support)
 
 !!! warning "Vérification avant commande"
