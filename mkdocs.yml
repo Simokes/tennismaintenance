@@ -52,6 +52,9 @@ nav:
   - Commande:
       - Vue d'ensemble: control/index.md
       - Programmateur Hunter ICC: control/programmateur-hunter-icc.md
+  - Accès:
+      - Vue d'ensemble: access/index.md
+      - Contrôle d'accès du site: access/controle-acces-site.md
   - Procédures:
       - Vue d'ensemble: procedures/index.md
   - Inventaire:
