@@ -1,8 +1,9 @@
 # Fiche d'intervention à imprimer
 
 <div class="print-actions no-print">
-  <button onclick="window.print()">Imprimer la fiche</button>
-  <p>Utiliser le format A4, l'échelle 100 % et les marges par défaut.</p>
+  <button type="button" class="md-button md-button--primary print-button" onclick="window.print()">🖨️ Imprimer cette fiche A4</button>
+  <p><strong>Le bouton ouvre la fenêtre d'impression du navigateur.</strong><br>Choisir le format A4 portrait, l'échelle 100 % et les marges par défaut.</p>
+  <p class="print-fallback">Si le bouton ne fonctionne pas : <strong>Ctrl + P</strong> sous Windows ou <strong>⌘ + P</strong> sur Mac.</p>
 </div>
 
 <div class="intervention-sheet">
