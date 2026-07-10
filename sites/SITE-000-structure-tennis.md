@@ -12,8 +12,8 @@ Décrire l'organisation globale de la structure tennis et servir de point d'entr
 
 | Site | Nom | Distance | Terrains | Surfaces | Fiche |
 |---|---|---|---:|---|---|
-| S1 | La Pastorale | Référence | 6 | Terre battue | [SITE-001](./SITE-001-complexe-tennis.md) |
-| S2 | Le Kalisté | Environ 5 minutes de La Pastorale | 5 | T7-T8 gazon synthétique ; T9-T11 dur | [SITE-002](./SITE-002-complexe-tennis.md) |
+| S1 | La Pastorale | Référence | 6 | Terre battue | [SITE-001](./SITE-001-la-pastorale.md) |
+| S2 | Le Kalisté | Environ 5 minutes de La Pastorale | 5 | T7-T8 gazon synthétique ; T9-T11 dur | [SITE-002](./SITE-002-le-kaliste.md) |
 
 La structure gère **11 terrains répartis sur deux sites**.
 
