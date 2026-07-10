@@ -1,0 +1,94 @@
+/* ============================================================
+   Thème « Terre battue » — terracotta + fond blanc
+   Personnalise le thème Material (couleurs, typo, relief).
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&display=swap');
+
+/* ---- Palette : mode clair -------------------------------- */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #B4552F;  /* terracotta */
+  --md-primary-fg-color--light: #C56A42;
+  --md-primary-fg-color--dark:  #8F3F1F;
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-bg-color--light: #ffffffb3;
+  --md-accent-fg-color:         #9B4526;  /* terracotta foncé : liens survolés (AA) */
+  --md-typeset-a-color:         #9B4526;  /* liens lisibles sur blanc */
+  --md-default-bg-color:        #ffffff;  /* fond blanc */
+  --court-accent:               #E08A3C;  /* ocre : accent décoratif */
+}
+
+/* ---- Palette : mode sombre ------------------------------- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #C56A42;
+  --md-primary-fg-color--light: #D67E52;
+  --md-primary-fg-color--dark:  #8F3F1F;
+  --md-accent-fg-color:         #E08A3C;  /* ocre : contraste sur fond sombre */
+  --md-default-bg-color:        #1A1310;  /* nuit chaude */
+  --md-default-bg-color--light: #221913;
+  --court-accent:               #E08A3C;
+}
+
+/* ---- En-tête + onglets ----------------------------------- */
+.md-header {
+  background: linear-gradient(135deg, #B4552F 0%, #8F3F1F 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+.md-tabs {
+  background: #8F3F1F;
+}
+/* liseré ocre sous l'onglet actif */
+.md-tabs__item--active {
+  box-shadow: inset 0 -3px 0 var(--court-accent);
+}
+.md-tabs__link {
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+.md-tabs__link:hover,
+.md-tabs__item--active .md-tabs__link {
+  opacity: 1;
+}
+
+/* ---- Typographie : titres en Archivo --------------------- */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-header__title,
+.md-tabs__link {
+  font-family: "Archivo", var(--md-text-font-family, sans-serif);
+  letter-spacing: -0.01em;
+}
+.md-typeset h2 {
+  padding-bottom: 0.25em;
+  border-bottom: 2px solid var(--md-default-fg-color--lightest);
+}
+
+/* ---- Cartes de l'accueil (grid cards) : relief ----------- */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > .card {
+  border-top: 3px solid var(--court-accent);
+  border-radius: 0.55rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid.cards > .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.13);
+}
+
+/* ---- Boutons ---------------------------------------------- */
+.md-typeset .md-button--primary {
+  border-color: var(--md-primary-fg-color);
+  background-color: var(--md-primary-fg-color);
+}
+.md-typeset .md-button--primary:hover {
+  border-color: var(--md-primary-fg-color--dark);
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+/* ---- Bandeau « Document source » : touche accent --------- */
+.doc-source {
+  border-left-color: var(--court-accent) !important;
+}
