@@ -1,49 +1,70 @@
-# SITE-002 — Site 2
+# SITE-002 — Le Kalisté
 
 **Statut :** À relever  
-**Version :** 0.1  
+**Version :** 0.2  
 **Date :** 2026-07-10
 
 ## 1. Objectif
 
-Décrire le second site de la structure tennis et ses cinq terrains.
+Décrire Le Kalisté, ses cinq terrains, ses accès et ses équipements propres.
 
 ## 2. Identification
 
 | Champ | Valeur |
 |---|---|
 | Repère | S2 |
-| Nom officiel | À compléter |
+| Nom officiel | Le Kalisté |
 | Adresse | À compléter |
-| Distance depuis S1 | Environ 5 minutes |
+| Distance depuis La Pastorale | Environ 5 minutes |
 | Nombre de terrains | 5 |
-| Terrains durs | 3 |
-| Terrains en gazon synthétique | 2 |
+| Terrains en gazon synthétique | T7 et T8 |
+| Terrains durs | T9, T10 et T11 |
 
 ## 3. Terrains
 
-| Repère | Surface | Fiche | Statut |
+| Repère | Numéro réel | Surface | Fiche | Statut |
+|---|---:|---|---|---|
+| S2-T07 | 7 | Gazon synthétique | [FIC-S2-T07](./site-2/FIC-S2-T07.md) | À relever |
+| S2-T08 | 8 | Gazon synthétique | [FIC-S2-T08](./site-2/FIC-S2-T08.md) | À relever |
+| S2-T09 | 9 | Dur | [FIC-S2-T09](./site-2/FIC-S2-T09.md) | À relever |
+| S2-T10 | 10 | Dur | [FIC-S2-T10](./site-2/FIC-S2-T10.md) | À relever |
+| S2-T11 | 11 | Dur | [FIC-S2-T11](./site-2/FIC-S2-T11.md) | À relever |
+
+## 4. Contrôle d'accès
+
+Les accès des terrains utilisent un système différent de La Pastorale :
+
+- clavier à code alimenté par piles ;
+- gâche électrique ;
+- marque et modèle à relever ;
+- procédure exacte à ajouter après identification du constructeur.
+
+Le parking dispose également d'un accès fermé par un cadenas à code.
+
+| Repère provisoire | Accès | Système | Statut |
 |---|---|---|---|
-| S2-T01 | Dur — attribution à confirmer | [FIC-S2-T01](./site-2/FIC-S2-T01.md) | À relever |
-| S2-T02 | Dur — attribution à confirmer | [FIC-S2-T02](./site-2/FIC-S2-T02.md) | À relever |
-| S2-T03 | Dur — attribution à confirmer | [FIC-S2-T03](./site-2/FIC-S2-T03.md) | À relever |
-| S2-T04 | Gazon synthétique — attribution à confirmer | [FIC-S2-T04](./site-2/FIC-S2-T04.md) | À relever |
-| S2-T05 | Gazon synthétique — attribution à confirmer | [FIC-S2-T05](./site-2/FIC-S2-T05.md) | À relever |
+| S2-ACC-T07 | Terrain 7 | Clavier sur piles + gâche électrique | En service, modèle à relever |
+| S2-ACC-T08 | Terrain 8 | Clavier sur piles + gâche électrique | En service, modèle à relever |
+| S2-ACC-T09 | Terrain 9 | Clavier sur piles + gâche électrique | En service, modèle à relever |
+| S2-ACC-T10 | Terrain 10 | Clavier sur piles + gâche électrique | En service, modèle à relever |
+| S2-ACC-T11 | Terrain 11 | Clavier sur piles + gâche électrique | En service, modèle à relever |
+| S2-ACC-PARK | Parking | Cadenas à code | En service, modèle à relever |
 
-L'affectation des surfaces aux numéros est provisoire tant qu'elle n'a pas été vérifiée sur place.
+Aucun code utilisateur, code maître ou combinaison de cadenas ne doit être stocké dans Git. Les codes en vigueur restent conservés physiquement au bureau.
 
-## 4. Éléments à relever
+## 5. Points à relever
 
-- plan général et orientation ;
-- accès et bâtiments ;
-- surface exacte de chaque terrain ;
-- évacuation des eaux ;
-- éclairage ;
-- filets, poteaux, clôtures et portillons ;
-- équipements et zones de stockage ;
-- besoins d'entretien propres aux surfaces dures et synthétiques ;
-- historique des défauts et interventions.
+- plan général, adresse et orientation ;
+- marque et modèle des claviers ;
+- type, nombre et périodicité de remplacement des piles ;
+- comportement en cas de pile faible ;
+- marque et modèle des gâches électriques ;
+- présence et type de ferme-porte éventuel ;
+- modèle du cadenas du parking ;
+- éclairage, drainage et équipements locaux ;
+- état des surfaces, filets, poteaux et clôtures ;
+- photos et historique d'intervention.
 
-## 5. Périmètre initial
+## 6. Principe
 
-Aucune installation d'arrosage, de contrôle d'accès ou de commande n'est présumée identique au Site 1. Chaque information devra être relevée et vérifiée.
+Aucune installation du Kalisté n'est présumée identique à celle de La Pastorale. Toute information technique doit être vérifiée sur place.
