@@ -227,4 +227,4 @@ Relever :
 
 </div>
 
-<p class="no-print"><a href="https://github.com/Simokes/tennismaintenance/blob/main/projects/PRO-001-gestion-tuyaux-arrosage.md">Consulter le document source complet</a></p>
+<p class="doc-source no-print">📄 <strong>Document source :</strong> <a href="https://github.com/Simokes/tennismaintenance/blob/main/projects/PRO-001-gestion-tuyaux-arrosage.md">projects/PRO-001-gestion-tuyaux-arrosage.md</a></p>

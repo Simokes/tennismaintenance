@@ -6,7 +6,7 @@
 
 ## Accès rapide
 
-- [Fiche source complète](https://github.com/Simokes/tennismaintenance/blob/main/control/CTRL-001-programmateur-hunter-icc.md)
+<p class="doc-source">📄 <strong>Document source :</strong> <a href="https://github.com/Simokes/tennismaintenance/blob/main/control/CTRL-001-programmateur-hunter-icc.md">control/CTRL-001-programmateur-hunter-icc.md</a></p>
 - [Manuel Hunter ICC en français (PDF)](https://www.hunterirrigation.com/sites/default/files/OM_ICC_FR.PDF)
 - [Liste des pièces du coffret plastique (PDF)](https://www.hunterirrigation.com/sites/default/files/replacementpartslist_icc-plasticcabinet.pdf)
 - [Manuels officiels Hunter](https://www.hunterirrigation.com/fr/irrigation-product/discontinued-models/icc)
