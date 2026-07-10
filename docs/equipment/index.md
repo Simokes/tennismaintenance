@@ -11,12 +11,19 @@ Les fiches équipements décrivent les assemblages fonctionnels utilisés ou mai
 | EQ-003 | Sortie d'entretien GEKA type | [Ouvrir](https://github.com/Simokes/tennismaintenance/blob/main/equipment/EQ-003-sortie-entretien-geka-type.md) |
 | EQ-004 | Buse cuivre custom | [Ouvrir](https://github.com/Simokes/tennismaintenance/blob/main/equipment/EQ-004-buse-cuivre.md) |
 
+## Contrôle d'accès
+
+| Référence | Sujet | Source complète |
+|---|---|---|
+| EQ-005 | Porte avec contrôle d'accès | [Ouvrir](https://github.com/Simokes/tennismaintenance/blob/main/equipment/EQ-005-porte-controle-acces.md) |
+
 ## Lecture rapide
 
 - `EQ-001` : l'ensemble complet manipulé par l'agent.
 - `EQ-002` : la sortie terrain fixe.
 - `EQ-003` : la sortie entretien hors terrain avec GEKA.
 - `EQ-004` : la buse cuivre custom.
+- `EQ-005` : la porte avec contrôle d'accès.
 
 ## Règle
 
