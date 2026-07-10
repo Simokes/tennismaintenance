@@ -8,37 +8,57 @@
 
 ## 1. Contexte
 
-Pourquoi intervient-on ?
+Décrire brièvement pourquoi l'intervention a été réalisée.
 
 ## 2. Équipement concerné
 
 | Champ | Valeur |
 |---|---|
-| Type | ... |
+| Type | Sortie d'eau / regard / arroseur / tuyau / buse / autre |
 | Repère | ... |
-| Standard applicable | ... |
-| Fiche liée | ... |
+| Standard applicable | STD-... |
+| Fiche liée | FIC-... / EQ-... |
 
-## 3. Intervention réalisée
+## 3. Symptôme ou besoin
+
+- ...
+
+## 4. Intervention réalisée
 
 1. ...
 2. ...
 3. ...
 
-## 4. Pièces utilisées
+## 5. Pièces utilisées
 
 | Code | Désignation | Quantité | Remarques |
 |---|---|---:|---|
 | | | | |
 
-## 5. Résultat et contrôle
+## 6. Résultat
 
 - [ ] Fonctionnement correct.
 - [ ] Fuite absente.
 - [ ] Débit correct.
-- [ ] Photos ajoutées.
-- [ ] Documentation mise à jour.
+- [ ] À surveiller.
+- [ ] À transmettre à un autre service.
 
-## 6. Suites à donner
+## 7. Photos liées
+
+- ...
+
+## 8. Suites à donner
+
+- ...
+
+## 9. Impact documentaire
+
+- [ ] Fiche terrain à mettre à jour.
+- [ ] Standard à mettre à jour.
+- [ ] Stock à mettre à jour.
+- [ ] ADR nécessaire.
+- [ ] Aucune mise à jour documentaire.
+
+## 10. Notes
 
 - ...

@@ -14,7 +14,7 @@ Elle est prévue pour être remplie à la main, transmise au supérieur et, si n
 |---|---|
 | Fiche papier A4 | [INT-000-fiche-papier](https://github.com/Simokes/tennismaintenance/blob/main/interventions/INT-000-fiche-papier.md) |
 | Historique 2026 | [INT-2026](https://github.com/Simokes/tennismaintenance/blob/main/interventions/INT-2026.md) |
-| Modèle détaillé | [INT-000-template](https://github.com/Simokes/tennismaintenance/blob/main/interventions/INT-000-template.md) |
+| Modèle détaillé | [templates/INT-template](https://github.com/Simokes/tennismaintenance/blob/main/templates/INT-template.md) |
 
 ## Quand conserver une intervention dans Git ?
 
