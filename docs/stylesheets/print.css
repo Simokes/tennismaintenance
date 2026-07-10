@@ -173,6 +173,61 @@
   margin-top: 2mm;
 }
 
+/* REL-008 : plan de site + blocs-formulaire par sortie d'entretien (issue #8). */
+.releve-sheet .site-plan {
+  width: auto;
+  max-width: 100%;
+  max-height: 155mm;           /* plan portrait : borné en hauteur pour tenir sur la page */
+  height: auto;
+}
+
+.releve-sheet .outlet-block {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;                 /* deux blocs se partagent la hauteur de page */
+  border: 1px solid #000;
+  padding: 2.5mm;
+  margin-bottom: 3mm;
+}
+
+.releve-sheet .outlet-block:last-child {
+  margin-bottom: 0;
+}
+
+.releve-sheet .ob-head {
+  font-size: 11pt;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1.5mm;
+  margin-bottom: 2mm;
+}
+
+.releve-sheet .ob-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.releve-sheet .ob-grid > div {
+  min-height: 13mm;
+  padding: 1.5mm 2mm;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  font-size: 9.5pt;
+}
+
+.releve-sheet .ob-line {
+  margin: 2mm 0;
+  font-size: 9.5pt;
+}
+
+.releve-sheet .ob-write {
+  flex: 1 1 auto;
+  min-height: 20mm;
+  border: 1px solid #000;
+  padding: 2mm;
+}
+
 .project-report {
   max-width: 210mm;
   margin: 0 auto;
