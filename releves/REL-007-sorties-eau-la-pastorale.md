@@ -6,25 +6,10 @@ Ne pas ajouter de titre H1 ici : la page publiée le fournit.
 Mise en page : une page A4 par terrain (S1-T01 à S1-T06) qui remplit la
 feuille, avec un schéma de court pour marquer d'une croix chaque sortie d'eau,
 un tableau multi-sorties et une zone d'observations haute pour écrire au stylo.
-Le schéma de court (SVG) est défini une fois puis réutilisé par référence.
+Le schéma de court (SVG) est inline dans chaque page (la référence inter-SVG
+n'affichait pas tous les éléments sous Chrome).
 -->
 <div class="releve-sheet">
-
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <g id="court">
-      <rect x="1" y="1" width="238" height="121" fill="none" stroke="#000" stroke-width="2"/>
-      <line x1="1" y1="16" x2="239" y2="16" stroke="#000" stroke-width="1"/>
-      <line x1="1" y1="107" x2="239" y2="107" stroke="#000" stroke-width="1"/>
-      <line x1="60" y1="16" x2="60" y2="107" stroke="#000" stroke-width="1"/>
-      <line x1="180" y1="16" x2="180" y2="107" stroke="#000" stroke-width="1"/>
-      <line x1="60" y1="61.5" x2="180" y2="61.5" stroke="#000" stroke-width="1"/>
-      <line x1="120" y1="1" x2="120" y2="122" stroke="#000" stroke-width="2.4"/>
-      <line x1="120" y1="16" x2="120" y2="20" stroke="#000" stroke-width="1"/>
-      <line x1="120" y1="103" x2="120" y2="107" stroke="#000" stroke-width="1"/>
-    </g>
-  </defs>
-</svg>
 
 <div class="terrain-page">
   <div class="tp-head">
@@ -34,7 +19,21 @@ Le schéma de court (SVG) est défini une fois puis réutilisé par référence.
   </div>
 
   <div class="court-wrap">
-    <svg class="court" viewBox="0 0 240 123" preserveAspectRatio="xMidYMid meet"><use href="#court"/></svg>
+    <svg class="court" viewBox="0 0 240 150" preserveAspectRatio="xMidYMid meet">
+      <!-- Clôture (périmètre) : marquer les sorties d'eau dans la bande entre la clôture et le terrain -->
+      <rect x="5" y="5" width="230" height="140" fill="none" stroke="#000" stroke-width="1.4" stroke-dasharray="6 4"/>
+      <text x="120" y="14" font-size="7.5" font-family="sans-serif" text-anchor="middle" fill="#000">Clôture du terrain</text>
+      <!-- Terrain, centré avec une bande d'espace tout autour -->
+      <rect x="34" y="34" width="172" height="82" fill="none" stroke="#000" stroke-width="2"/>
+      <line x1="34" y1="44.25" x2="206" y2="44.25" stroke="#000" stroke-width="1"/>
+      <line x1="34" y1="105.75" x2="206" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="73.3" y1="44.25" x2="73.3" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="166.7" y1="44.25" x2="166.7" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="73.3" y1="75" x2="166.7" y2="75" stroke="#000" stroke-width="1"/>
+      <line x1="120" y1="32" x2="120" y2="118" stroke="#000" stroke-width="2.4"/>
+      <line x1="34" y1="75" x2="38" y2="75" stroke="#000" stroke-width="1"/>
+      <line x1="202" y1="75" x2="206" y2="75" stroke="#000" stroke-width="1"/>
+    </svg>
   </div>
   <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
 
@@ -66,7 +65,21 @@ Le schéma de court (SVG) est défini une fois puis réutilisé par référence.
   </div>
 
   <div class="court-wrap">
-    <svg class="court" viewBox="0 0 240 123" preserveAspectRatio="xMidYMid meet"><use href="#court"/></svg>
+    <svg class="court" viewBox="0 0 240 150" preserveAspectRatio="xMidYMid meet">
+      <!-- Clôture (périmètre) : marquer les sorties d'eau dans la bande entre la clôture et le terrain -->
+      <rect x="5" y="5" width="230" height="140" fill="none" stroke="#000" stroke-width="1.4" stroke-dasharray="6 4"/>
+      <text x="120" y="14" font-size="7.5" font-family="sans-serif" text-anchor="middle" fill="#000">Clôture du terrain</text>
+      <!-- Terrain, centré avec une bande d'espace tout autour -->
+      <rect x="34" y="34" width="172" height="82" fill="none" stroke="#000" stroke-width="2"/>
+      <line x1="34" y1="44.25" x2="206" y2="44.25" stroke="#000" stroke-width="1"/>
+      <line x1="34" y1="105.75" x2="206" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="73.3" y1="44.25" x2="73.3" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="166.7" y1="44.25" x2="166.7" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="73.3" y1="75" x2="166.7" y2="75" stroke="#000" stroke-width="1"/>
+      <line x1="120" y1="32" x2="120" y2="118" stroke="#000" stroke-width="2.4"/>
+      <line x1="34" y1="75" x2="38" y2="75" stroke="#000" stroke-width="1"/>
+      <line x1="202" y1="75" x2="206" y2="75" stroke="#000" stroke-width="1"/>
+    </svg>
   </div>
   <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
 
@@ -98,7 +111,21 @@ Le schéma de court (SVG) est défini une fois puis réutilisé par référence.
   </div>
 
   <div class="court-wrap">
-    <svg class="court" viewBox="0 0 240 123" preserveAspectRatio="xMidYMid meet"><use href="#court"/></svg>
+    <svg class="court" viewBox="0 0 240 150" preserveAspectRatio="xMidYMid meet">
+      <!-- Clôture (périmètre) : marquer les sorties d'eau dans la bande entre la clôture et le terrain -->
+      <rect x="5" y="5" width="230" height="140" fill="none" stroke="#000" stroke-width="1.4" stroke-dasharray="6 4"/>
+      <text x="120" y="14" font-size="7.5" font-family="sans-serif" text-anchor="middle" fill="#000">Clôture du terrain</text>
+      <!-- Terrain, centré avec une bande d'espace tout autour -->
+      <rect x="34" y="34" width="172" height="82" fill="none" stroke="#000" stroke-width="2"/>
+      <line x1="34" y1="44.25" x2="206" y2="44.25" stroke="#000" stroke-width="1"/>
+      <line x1="34" y1="105.75" x2="206" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="73.3" y1="44.25" x2="73.3" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="166.7" y1="44.25" x2="166.7" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="73.3" y1="75" x2="166.7" y2="75" stroke="#000" stroke-width="1"/>
+      <line x1="120" y1="32" x2="120" y2="118" stroke="#000" stroke-width="2.4"/>
+      <line x1="34" y1="75" x2="38" y2="75" stroke="#000" stroke-width="1"/>
+      <line x1="202" y1="75" x2="206" y2="75" stroke="#000" stroke-width="1"/>
+    </svg>
   </div>
   <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
 
@@ -130,7 +157,21 @@ Le schéma de court (SVG) est défini une fois puis réutilisé par référence.
   </div>
 
   <div class="court-wrap">
-    <svg class="court" viewBox="0 0 240 123" preserveAspectRatio="xMidYMid meet"><use href="#court"/></svg>
+    <svg class="court" viewBox="0 0 240 150" preserveAspectRatio="xMidYMid meet">
+      <!-- Clôture (périmètre) : marquer les sorties d'eau dans la bande entre la clôture et le terrain -->
+      <rect x="5" y="5" width="230" height="140" fill="none" stroke="#000" stroke-width="1.4" stroke-dasharray="6 4"/>
+      <text x="120" y="14" font-size="7.5" font-family="sans-serif" text-anchor="middle" fill="#000">Clôture du terrain</text>
+      <!-- Terrain, centré avec une bande d'espace tout autour -->
+      <rect x="34" y="34" width="172" height="82" fill="none" stroke="#000" stroke-width="2"/>
+      <line x1="34" y1="44.25" x2="206" y2="44.25" stroke="#000" stroke-width="1"/>
+      <line x1="34" y1="105.75" x2="206" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="73.3" y1="44.25" x2="73.3" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="166.7" y1="44.25" x2="166.7" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="73.3" y1="75" x2="166.7" y2="75" stroke="#000" stroke-width="1"/>
+      <line x1="120" y1="32" x2="120" y2="118" stroke="#000" stroke-width="2.4"/>
+      <line x1="34" y1="75" x2="38" y2="75" stroke="#000" stroke-width="1"/>
+      <line x1="202" y1="75" x2="206" y2="75" stroke="#000" stroke-width="1"/>
+    </svg>
   </div>
   <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
 
@@ -162,7 +203,21 @@ Le schéma de court (SVG) est défini une fois puis réutilisé par référence.
   </div>
 
   <div class="court-wrap">
-    <svg class="court" viewBox="0 0 240 123" preserveAspectRatio="xMidYMid meet"><use href="#court"/></svg>
+    <svg class="court" viewBox="0 0 240 150" preserveAspectRatio="xMidYMid meet">
+      <!-- Clôture (périmètre) : marquer les sorties d'eau dans la bande entre la clôture et le terrain -->
+      <rect x="5" y="5" width="230" height="140" fill="none" stroke="#000" stroke-width="1.4" stroke-dasharray="6 4"/>
+      <text x="120" y="14" font-size="7.5" font-family="sans-serif" text-anchor="middle" fill="#000">Clôture du terrain</text>
+      <!-- Terrain, centré avec une bande d'espace tout autour -->
+      <rect x="34" y="34" width="172" height="82" fill="none" stroke="#000" stroke-width="2"/>
+      <line x1="34" y1="44.25" x2="206" y2="44.25" stroke="#000" stroke-width="1"/>
+      <line x1="34" y1="105.75" x2="206" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="73.3" y1="44.25" x2="73.3" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="166.7" y1="44.25" x2="166.7" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="73.3" y1="75" x2="166.7" y2="75" stroke="#000" stroke-width="1"/>
+      <line x1="120" y1="32" x2="120" y2="118" stroke="#000" stroke-width="2.4"/>
+      <line x1="34" y1="75" x2="38" y2="75" stroke="#000" stroke-width="1"/>
+      <line x1="202" y1="75" x2="206" y2="75" stroke="#000" stroke-width="1"/>
+    </svg>
   </div>
   <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
 
@@ -194,7 +249,21 @@ Le schéma de court (SVG) est défini une fois puis réutilisé par référence.
   </div>
 
   <div class="court-wrap">
-    <svg class="court" viewBox="0 0 240 123" preserveAspectRatio="xMidYMid meet"><use href="#court"/></svg>
+    <svg class="court" viewBox="0 0 240 150" preserveAspectRatio="xMidYMid meet">
+      <!-- Clôture (périmètre) : marquer les sorties d'eau dans la bande entre la clôture et le terrain -->
+      <rect x="5" y="5" width="230" height="140" fill="none" stroke="#000" stroke-width="1.4" stroke-dasharray="6 4"/>
+      <text x="120" y="14" font-size="7.5" font-family="sans-serif" text-anchor="middle" fill="#000">Clôture du terrain</text>
+      <!-- Terrain, centré avec une bande d'espace tout autour -->
+      <rect x="34" y="34" width="172" height="82" fill="none" stroke="#000" stroke-width="2"/>
+      <line x1="34" y1="44.25" x2="206" y2="44.25" stroke="#000" stroke-width="1"/>
+      <line x1="34" y1="105.75" x2="206" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="73.3" y1="44.25" x2="73.3" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="166.7" y1="44.25" x2="166.7" y2="105.75" stroke="#000" stroke-width="1"/>
+      <line x1="73.3" y1="75" x2="166.7" y2="75" stroke="#000" stroke-width="1"/>
+      <line x1="120" y1="32" x2="120" y2="118" stroke="#000" stroke-width="2.4"/>
+      <line x1="34" y1="75" x2="38" y2="75" stroke="#000" stroke-width="1"/>
+      <line x1="202" y1="75" x2="206" y2="75" stroke="#000" stroke-width="1"/>
+    </svg>
   </div>
   <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
 
