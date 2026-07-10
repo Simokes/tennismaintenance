@@ -37,6 +37,9 @@ jobs:
       - name: Build site
         run: mkdocs build --strict --verbose
 
+      - name: Vérifier les liens vers les documents sources
+        run: python scripts/check_source_links.py
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

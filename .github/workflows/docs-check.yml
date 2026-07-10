@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'docs/**'
+      - 'scripts/**'
       - 'mkdocs.yml'
       - 'requirements.txt'
       - '.github/workflows/docs-check.yml'
@@ -37,3 +38,6 @@ jobs:
 
       - name: Build documentation
         run: mkdocs build --strict --verbose
+
+      - name: Vérifier les liens vers les documents sources
+        run: python scripts/check_source_links.py
