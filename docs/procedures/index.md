@@ -2,7 +2,7 @@
 
 Les procédures répondent à la question : comment intervenir correctement sur le terrain ?
 
-## Procédures disponibles
+## Arrosage et points d'eau — La Pastorale
 
 | Référence | Sujet | Source complète |
 |---|---|---|
@@ -10,6 +10,15 @@ Les procédures répondent à la question : comment intervenir correctement sur 
 | PROC-002 | Remplacer un joint GEKA | [Ouvrir](https://github.com/Simokes/tennismaintenance/blob/main/procedures/PROC-002-remplacer-joint-geka.md) |
 | PROC-003 | Diagnostiquer une sortie d'eau à faible débit | [Ouvrir](https://github.com/Simokes/tennismaintenance/blob/main/procedures/PROC-003-diagnostiquer-sortie-eau-faible-debit.md) |
 | PROC-004 | Fabriquer une buse cuivre standard | [Ouvrir](https://github.com/Simokes/tennismaintenance/blob/main/procedures/PROC-004-fabriquer-buse-cuivre.md) |
+
+## Surfaces — Le Kalisté
+
+| Référence | Surface | Terrains | Accès rapide |
+|---|---|---|---|
+| PROC-005 | Terrain dur | T9 à T11 | [Consulter](terrain-dur.md) |
+| PROC-006 | Gazon synthétique | T7 et T8 | [Consulter](gazon-synthetique.md) |
+
+Ces deux procédures sont des bases génériques d'inspection et d'entretien courant. Les prescriptions du fabricant du revêtement devront être ajoutées après identification exacte des surfaces.
 
 ## Diagnostic rapide faible débit
 
