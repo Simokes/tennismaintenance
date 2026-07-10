@@ -1,15 +1,22 @@
 # Interventions
 
-Cette page donne accès à la mémoire opérationnelle du référentiel.
+Cette page donne accès à la mémoire opérationnelle du référentiel et au support papier utilisé sur le terrain.
+
+## Fiche à imprimer
+
+[Ouvrir la fiche d'intervention A4](fiche-papier.md){ .md-button .md-button--primary }
+
+Elle est prévue pour être remplie à la main, transmise au supérieur et, si nécessaire, reportée ensuite dans l'historique annuel.
 
 ## Documents
 
 | Sujet | Source complète |
 |---|---|
+| Fiche papier A4 | [INT-000-fiche-papier](https://github.com/Simokes/tennismaintenance/blob/main/interventions/INT-000-fiche-papier.md) |
 | Historique 2026 | [INT-2026](https://github.com/Simokes/tennismaintenance/blob/main/interventions/INT-2026.md) |
-| Modèle intervention | [INT-000-template](https://github.com/Simokes/tennismaintenance/blob/main/interventions/INT-000-template.md) |
+| Modèle détaillé | [INT-000-template](https://github.com/Simokes/tennismaintenance/blob/main/interventions/INT-000-template.md) |
 
-## Quand documenter une intervention ?
+## Quand conserver une intervention dans Git ?
 
 Documenter seulement ce qui sera utile plus tard :
 

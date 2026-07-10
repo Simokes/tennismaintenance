@@ -1,0 +1,147 @@
+.print-actions {
+  margin: 1rem 0 1.5rem;
+  padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.25rem;
+}
+
+.print-actions button {
+  padding: 0.6rem 1rem;
+  border: 0;
+  border-radius: 0.2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.intervention-sheet {
+  max-width: 210mm;
+  margin: 0 auto;
+  padding: 8mm;
+  border: 1px solid #222;
+  background: #fff;
+  color: #000;
+  font-size: 11pt;
+  line-height: 1.25;
+}
+
+.sheet-title {
+  margin-bottom: 4mm;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.sheet-title strong {
+  display: block;
+  margin-top: 1mm;
+  font-size: 17pt;
+}
+
+.sheet-grid {
+  display: grid;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.sheet-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.sheet-grid-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.sheet-grid > div {
+  min-height: 12mm;
+  padding: 2.5mm;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.sheet-section {
+  padding: 2.5mm;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.write-box-medium {
+  min-height: 22mm;
+}
+
+.write-box-large {
+  min-height: 31mm;
+}
+
+.sheet-table {
+  width: 100%;
+  margin: 2mm 0 0;
+  border-collapse: collapse;
+  font-size: 10pt;
+}
+
+.sheet-table th,
+.sheet-table td {
+  height: 7mm;
+  padding: 1mm 2mm;
+  border: 1px solid #000;
+}
+
+.sheet-table th:last-child,
+.sheet-table td:last-child {
+  width: 25mm;
+  text-align: center;
+}
+
+.signatures > div {
+  min-height: 25mm;
+}
+
+.sheet-footer {
+  padding-top: 2mm;
+  font-size: 8pt;
+  text-align: center;
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 8mm;
+  }
+
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer,
+  .md-content__button,
+  .md-top,
+  .no-print {
+    display: none !important;
+  }
+
+  .md-main__inner,
+  .md-content,
+  .md-content__inner {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .md-content__inner > h1 {
+    display: none;
+  }
+
+  .intervention-sheet {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+
+  body {
+    background: #fff !important;
+  }
+}
