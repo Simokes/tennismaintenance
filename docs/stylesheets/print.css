@@ -389,6 +389,18 @@
     min-height: auto;
   }
 
+  /* Feuille paysage insérée au milieu d'un document portrait (ex. REL-017,
+     plan de site) : l'isoler sur sa propre page (saut avant et après). */
+  .releve-sheet.sheet-landscape {
+    break-before: page;
+    page-break-before: always;
+  }
+
+  .releve-sheet.sheet-landscape .terrain-page {
+    break-after: page;
+    page-break-after: always;
+  }
+
   .md-header,
   .md-tabs,
   .md-sidebar,
