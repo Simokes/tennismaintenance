@@ -2,7 +2,7 @@
 
 <div class="print-actions no-print">
   <button type="button" class="md-button md-button--primary print-button" onclick="window.print()">🖨️ Imprimer la fiche de relevé A4</button>
-  <p><strong>Le bouton ouvre la fenêtre d'impression du navigateur.</strong><br>Cette fiche s'imprime en <strong>A4 portrait</strong> (3 pages) ; garder l'échelle 100 % et les marges par défaut.</p>
+  <p><strong>Le bouton ouvre la fenêtre d'impression du navigateur.</strong><br>Cette fiche comporte <strong>4 pages A4</strong> : les pages 1, 3 et 4 en portrait, et la page 2 en paysage. Garder l'échelle 100 % et les marges par défaut.</p>
   <p class="print-fallback">Si le bouton ne fonctionne pas : <strong>Ctrl + P</strong> sous Windows ou <strong>⌘ + P</strong> sur Mac, puis lancer l'impression.</p>
 </div>
 
