@@ -2,7 +2,7 @@
 
 > Point d'entrée pour toute nouvelle conversation IA (Claude / ChatGPT).
 > Fichier **vivant** : résume l'état du projet, pas la documentation complète.
-> Dernière mise à jour : **2026-07-10**.
+> Dernière mise à jour : **2026-07-11**.
 
 ## 🚀 Conversation Starter — procédure de reprise
 
@@ -54,13 +54,15 @@ Rôles :
 ## 📊 État des chantiers
 
 - **Socle documentaire & technique : stabilisé.** CI verte (build `--strict` + liens source), architecture et nomenclature en place, site habillé.
-- **Contenu terrain : à collecter.** La plupart des fiches sont marquées `À relever` / `À confirmer` — c'est le principal travail restant.
+- **Contenu terrain : à collecter.** La plupart des fiches sont marquées `À relever` / `À confirmer` — c'est le principal travail restant. Les **fiches de relevé papier A4** (famille `REL`, cf. `docs/releves/`) pour organiser cette collecte sont désormais **toutes créées**.
 
 ## ⏭️ Prochaines priorités
 
-1. **Relevés terrain** (issues ouvertes) : renseigner les données réelles sur site.
-   - La Pastorale : sorties d'eau #7, sorties d'entretien #8, regards #9, stock arrosage #10, photos #11, fournisseurs #12.
-   - Le Kalisté : cartographie #17, revêtements & prescriptions #20.
+1. **Relevés terrain** : les fiches papier A4 à remplir sur site sont **toutes créées** (famille `REL`, cf. `docs/releves/`).
+   - La Pastorale : `REL-007` (#7), `REL-008` (#8), `REL-009` (#9), `REL-010` (#10), `REL-012` (#12).
+   - Le Kalisté : `REL-017` (cartographie, #17), `REL-020` (revêtements, #20).
+   - **Travail restant = collecte physique sur site**, puis transcription dans les documents de référence (`SITE-002`, `ACC-002`, `PROC-005/006`, `FIC-S2-*`, `STOCK-001`, `REF-001`, `FOURN-001`…). Les issues correspondantes **restent ouvertes** jusqu'à cette transcription.
+   - Sans fiche dédiée : **photos prioritaires #11** (à prendre sur les deux sites).
 2. Améliorations UX optionnelles (non tranchées) : remplacer les emojis d'interface par des icônes Material (nécessite `pymdownx.emoji`) ; clarifier certains libellés de catégories.
 
 ## 🚫 À ne jamais oublier (garde-fous)
