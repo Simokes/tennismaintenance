@@ -37,9 +37,13 @@ n'affichait pas tous les éléments sous Chrome).
   </div>
   <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
 
+  <div class="base-note">
+    <b>Base commune (voir STD-001)</b> : sortie réseau 1" femelle + robinet de puisage vissé faisant office de vanne primaire. Ne relever ci-dessous que les <b>écarts</b> : type/modèle du robinet, raccord vers le tuyau, état. Photographier <b>uniquement</b> en cas d'écart ou d'anomalie.
+  </div>
+
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type de sortie</th><th>Type de raccord</th><th>Vanne primaire — état</th><th>Photo</th></tr>
+      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type / modèle du robinet</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
       <tr><td>①</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
@@ -83,9 +87,13 @@ n'affichait pas tous les éléments sous Chrome).
   </div>
   <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
 
+  <div class="base-note">
+    <b>Base commune (voir STD-001)</b> : sortie réseau 1" femelle + robinet de puisage vissé faisant office de vanne primaire. Ne relever ci-dessous que les <b>écarts</b> : type/modèle du robinet, raccord vers le tuyau, état. Photographier <b>uniquement</b> en cas d'écart ou d'anomalie.
+  </div>
+
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type de sortie</th><th>Type de raccord</th><th>Vanne primaire — état</th><th>Photo</th></tr>
+      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type / modèle du robinet</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
       <tr><td>①</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
@@ -129,9 +137,13 @@ n'affichait pas tous les éléments sous Chrome).
   </div>
   <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
 
+  <div class="base-note">
+    <b>Base commune (voir STD-001)</b> : sortie réseau 1" femelle + robinet de puisage vissé faisant office de vanne primaire. Ne relever ci-dessous que les <b>écarts</b> : type/modèle du robinet, raccord vers le tuyau, état. Photographier <b>uniquement</b> en cas d'écart ou d'anomalie.
+  </div>
+
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type de sortie</th><th>Type de raccord</th><th>Vanne primaire — état</th><th>Photo</th></tr>
+      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type / modèle du robinet</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
       <tr><td>①</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
@@ -175,9 +187,13 @@ n'affichait pas tous les éléments sous Chrome).
   </div>
   <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
 
+  <div class="base-note">
+    <b>Base commune (voir STD-001)</b> : sortie réseau 1" femelle + robinet de puisage vissé faisant office de vanne primaire. Ne relever ci-dessous que les <b>écarts</b> : type/modèle du robinet, raccord vers le tuyau, état. Photographier <b>uniquement</b> en cas d'écart ou d'anomalie.
+  </div>
+
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type de sortie</th><th>Type de raccord</th><th>Vanne primaire — état</th><th>Photo</th></tr>
+      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type / modèle du robinet</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
       <tr><td>①</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
@@ -221,9 +237,13 @@ n'affichait pas tous les éléments sous Chrome).
   </div>
   <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
 
+  <div class="base-note">
+    <b>Base commune (voir STD-001)</b> : sortie réseau 1" femelle + robinet de puisage vissé faisant office de vanne primaire. Ne relever ci-dessous que les <b>écarts</b> : type/modèle du robinet, raccord vers le tuyau, état. Photographier <b>uniquement</b> en cas d'écart ou d'anomalie.
+  </div>
+
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type de sortie</th><th>Type de raccord</th><th>Vanne primaire — état</th><th>Photo</th></tr>
+      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type / modèle du robinet</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
       <tr><td>①</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
@@ -267,9 +287,13 @@ n'affichait pas tous les éléments sous Chrome).
   </div>
   <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
 
+  <div class="base-note">
+    <b>Base commune (voir STD-001)</b> : sortie réseau 1" femelle + robinet de puisage vissé faisant office de vanne primaire. Ne relever ci-dessous que les <b>écarts</b> : type/modèle du robinet, raccord vers le tuyau, état. Photographier <b>uniquement</b> en cas d'écart ou d'anomalie.
+  </div>
+
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type de sortie</th><th>Type de raccord</th><th>Vanne primaire — état</th><th>Photo</th></tr>
+      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type / modèle du robinet</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
       <tr><td>①</td><td></td><td></td><td></td><td></td><td>☐</td></tr>

@@ -1,8 +1,8 @@
 # STD-001 — Sortie d'eau terrain
 
 **Statut :** Brouillon  
-**Version :** 0.1  
-**Date :** 2026-07-09  
+**Version :** 0.2  
+**Date :** 2026-07-11  
 **Famille :** Point d'eau terrain
 
 ## 1. Objectif
@@ -23,7 +23,32 @@ Elle doit permettre :
 - une compatibilité avec l'ensemble d'arrosage manuel standard ;
 - une réduction des pertes de charge inutiles.
 
-## 3. Configuration cible
+## 3. Configuration existante constatée sur site
+
+> Cette section décrit l'installation **actuellement en place** sur les terrains
+> de La Pastorale, distincte de la configuration cible standardisée (§ 4).
+> Elle sert de **modèle de référence** aux relevés : la fiche REL-007 ne
+> documente que les écarts par rapport à cette base commune.
+
+Architecture commune à toutes les sorties d'eau terrain (SET) :
+
+```text
+Sortie réseau filetée femelle 1"
+        ↓
+Robinet de puisage vissé  (fait actuellement office de vanne primaire)
+        ↓
+Raccord vers tuyau souple Ø25
+```
+
+La sortie réseau filetée femelle 1" est une **caractéristique commune du site** :
+elle n'a pas à être relevée sortie par sortie. Seuls varient le modèle du robinet
+de puisage, le raccord vers le tuyau et leur état.
+
+**Photo de référence — SET existante conforme à cette base :**
+
+![Sortie d'eau terrain existante : robinet de puisage vissé sur remontée en tube galvanisé de la sortie réseau, avec sortie filetée pour le raccord tuyau](../assets/photos/equipements/S1-SET-reference-existante-2026-07-11.jpg)
+
+## 4. Configuration cible
 
 ```text
 Sortie réseau femelle 1"
@@ -43,7 +68,11 @@ Raccord 1" femelle → cannelé
 Buse cuivre custom Ø25
 ```
 
-## 4. Repères
+> **Écart principal existant → cible :** le robinet de puisage vissé tient
+> aujourd'hui lieu de vanne primaire. La cible prévoit une vanne primaire
+> 1/4 tour 1" M/M dédiée.
+
+## 5. Repères
 
 | Repère | Désignation | Fonction |
 |---|---|---|
@@ -56,7 +85,7 @@ Buse cuivre custom Ø25
 | RC3 | Raccord 1" femelle → cannelé | Liaison entre VS et buse cuivre |
 | BC | Buse cuivre custom Ø25 | Jet de type pluie pour terre battue |
 
-## 5. Rôle des deux vannes
+## 6. Rôle des deux vannes
 
 ### Vanne primaire — VP
 
@@ -81,7 +110,7 @@ Elle est utile lorsque :
 - il faut déplacer le tuyau ;
 - il faut interrompre rapidement l'arrosage.
 
-## 6. Philosophie du standard
+## 7. Philosophie du standard
 
 Ce standard privilégie :
 
@@ -92,7 +121,7 @@ Ce standard privilégie :
 - la réparation simple ;
 - l'absence de raccord rapide sur la partie terrain.
 
-## 7. Points à confirmer sur le terrain
+## 8. Points à confirmer sur le terrain
 
 - Longueur standard du tuyau Ø25 : ............ m
 - Type exact de tuyau : ........................................
@@ -100,8 +129,9 @@ Ce standard privilégie :
 - Référence du raccord 1" femelle/cannelé Ø25 : ........................................
 - Méthode exacte de fixation du tuyau sur cannelé : collier / autre : ........................................
 
-## 8. Historique
+## 9. Historique
 
 | Version | Date | Auteur | Description |
 |---|---|---|---|
 | 0.1 | 2026-07-09 | Peter / ChatGPT | Création du brouillon initial |
+| 0.2 | 2026-07-11 | Peter / Claude | Ajout de la configuration existante constatée + photo de référence (issue #69) |
