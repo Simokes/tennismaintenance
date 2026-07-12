@@ -33,8 +33,8 @@ Fiche de référence : [`FIC-T01`](https://github.com/Simokes/tennismaintenance/
 
 | Repère | Localisation | Photo fermé | Photo ouvert | Contenu visible | Fonction | État |
 |---|---|---|---|---|---|---|
-| S1-T01-REG-01 | Côté gauche *(à confirmer)* | ☐ À relever | ☑ [ouvert](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/terrains/S1-T01/S1-T01-REG-01-ouvert-2026-07-12.jpg) | Vannes + électrovannes câblées, tuyaux cannelés | À confirmer | En cours |
-| S1-T01-REG-02 | Côté droit *(à confirmer)* | ☐ À relever | ☑ [ouvert](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/terrains/S1-T01/S1-T01-REG-02-ouvert-2026-07-12.jpg) | Électrovannes / solénoïdes câblés | À confirmer | En cours |
+| S1-T01-REG-01 | Côté gauche *(à confirmer)* | ☐ À relever | ☑ [ouvert](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/terrains/S1-T01/S1-T01-REG-01-ouvert-2026-07-12.jpg) | Vannes + électrovannes câblées, tuyaux cannelés | À confirmer | À confirmer |
+| S1-T01-REG-02 | Côté droit *(à confirmer)* | ☐ À relever | ☑ [ouvert](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/terrains/S1-T01/S1-T01-REG-02-ouvert-2026-07-12.jpg) | Électrovannes / solénoïdes câblés | À confirmer | À confirmer |
 
 > L'assignation gauche → REG-01 / droite → REG-02 est **à confirmer sur site**. Les fonctions (canaux commandés) ne sont pas déduites des photos.
 

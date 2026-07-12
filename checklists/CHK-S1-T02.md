@@ -31,7 +31,7 @@ Fiche de référence : [`FIC-T02`](https://github.com/Simokes/tennismaintenance/
 
 | Repère | Localisation | Photo fermé | Photo ouvert | Contenu visible | Fonction | État |
 |---|---|---|---|---|---|---|
-| S1-T02-REG-01 | À confirmer | ☐ À relever | ☑ [ouvert](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/terrains/S1-T02/S1-T02-REG-01-ouvert-2026-07-12.jpg) | Électrovannes / solénoïdes câblés, tuyaux verticaux | À confirmer | En cours |
+| S1-T02-REG-01 | À confirmer | ☐ À relever | ☑ [ouvert](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/terrains/S1-T02/S1-T02-REG-01-ouvert-2026-07-12.jpg) | Électrovannes / solénoïdes câblés, tuyaux verticaux | À confirmer | À confirmer |
 
 ### Sorties d'eau `SET-xx` / `SEM-xx`
 
