@@ -28,9 +28,9 @@ Ce site est conçu pour être consulté rapidement sur téléphone pendant une i
 
     ---
 
-    Checklist à remplir avant et pendant un passage sur site.
+    Checklists vivantes par terrain : préparer une mission et suivre la complétude.
 
-    [Ouvrir →](releve-terrain.md)
+    [Ouvrir →](checklists/index.md)
 
 -   __Accès__
 

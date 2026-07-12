@@ -18,21 +18,22 @@ Les photos doivent aider un agent à reconnaître rapidement :
 assets/photos/
 ├── site/
 ├── terrains/
-│   ├── T01/
-│   ├── T02/
-│   ├── T03/
-│   ├── T04/
-│   ├── T05/
-│   └── T06/
+│   ├── S1-T01/   … S1-T06/   (La Pastorale)
+│   └── S2-T01/   … S2-T05/   (Le Kalisté)
 ├── equipements/
 └── defauts/
 ```
 
+Le **site est inclus** dans le nom du dossier (`S1-T01`, pas `T01`) pour éviter toute collision entre les deux sites.
+
 ## Nommage recommandé
 
+Nom complet, avec repère et date (repères locaux au terrain, cf. [checklists](../../checklists/README.md)) :
+
 ```text
-T01-sortie-eau-2026-07-09.jpg
-T03-regard-R1-2026-07-09.jpg
+S1-T01-vue-generale-2026-07-12.jpg
+S1-T01-REG-01-ouvert-2026-07-12.jpg
+S1-T01-SET-01-2026-07-12.jpg
 EQ-001-ensemble-arrosage-manuel-2026-07-09.jpg
 DEF-fuite-geka-2026-07-09.jpg
 ```
