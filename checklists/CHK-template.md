@@ -23,9 +23,11 @@
 
 ### Regards `REG-xx`
 
+Nombre et repères **à identifier sur site** ; attribuer les `REG-xx` après relevé.
+
 | Repère | Localisation | Photo fermé | Photo ouvert | Contenu visible (sans démontage) | Fonction | État |
 |---|---|---|---|---|---|---|
-| REG-01 | À relever | ☐ | ☐ | À relever | À confirmer | À relever |
+| À identifier sur site | À relever | ☐ | ☐ | À relever | À confirmer | À relever |
 
 ### Sorties d'eau `SET-xx` / `SEM-xx`
 
@@ -37,7 +39,7 @@
 
 | Repère | Zone desservie (si vérifiée) | État |
 |---|---|---|
-| AR-01 à AR-06 | À confirmer | À relever |
+| Nombre et repères à confirmer | À confirmer | À relever |
 
 ## Équipements et infrastructure
 

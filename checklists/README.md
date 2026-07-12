@@ -94,3 +94,8 @@ S1-T01-SET-01-2026-07-12.jpg
 | Checklist | Terrain | État |
 |---|---|---|
 | [CHK-S1-T01](./CHK-S1-T01.md) | S1-T01 (La Pastorale) | En cours |
+| [CHK-S1-T02](./CHK-S1-T02.md) | S1-T02 (La Pastorale) | Amorcé |
+| [CHK-S1-T03](./CHK-S1-T03.md) | S1-T03 (La Pastorale) | À démarrer |
+| [CHK-S1-T04](./CHK-S1-T04.md) | S1-T04 (La Pastorale) | À démarrer |
+| [CHK-S1-T05](./CHK-S1-T05.md) | S1-T05 (La Pastorale) | À démarrer |
+| [CHK-S1-T06](./CHK-S1-T06.md) | S1-T06 (La Pastorale) | À démarrer |
