@@ -36,7 +36,7 @@ Raccord Écrou femelle 1" → cannelé Ø25
 Tuyau souple Ø25 (Tricoflex Jaune)
 ```
 
-Les sorties partagent cette base mais **ne sont pas identiques** : les robinets ont un fonctionnement équivalent, avec des **variations de tête** (diamètre) qui impactent la maintenance (pièces non interchangeables).
+Les sorties partagent cette base mais **ne sont pas identiques** : les robinets ont un fonctionnement équivalent, avec des **variations de tête** (diamètre) à prendre en compte en maintenance (pièces potentiellement non interchangeables).
 
 ![Sortie d'eau terrain existante : robinet de puisage vissé sur remontée en tube galvanisé de la sortie réseau, avec sortie filetée pour le raccord tuyau](../assets/photos/equipements/S1-SET-reference-existante-2026-07-11.jpg)
 
@@ -96,8 +96,8 @@ Base commune confirmée pour toutes les sorties (voir § 3.1). Répartition **co
 
 ## 8. Photos à ajouter
 
-- [x] Sortie type conforme. — voir § 3.1 (`S1-SET-reference-existante-2026-07-11.jpg`)
-- [ ] Exemple de sortie non conforme.
+- [x] Configuration existante de référence — voir § 3.1 (`S1-SET-reference-existante-2026-07-11.jpg`)
+- [ ] Exemple de variation ou anomalie.
 - [ ] Détail de la vanne primaire.
 - [ ] Détail du raccord cannelé.
 
