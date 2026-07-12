@@ -1,8 +1,8 @@
 # STD-001 — Sortie d'eau terrain
 
 **Statut :** Brouillon  
-**Version :** 0.2  
-**Date :** 2026-07-11  
+**Version :** 0.3  
+**Date :** 2026-07-12  
 **Famille :** Point d'eau terrain
 
 ## 1. Objectif
@@ -37,12 +37,20 @@ Sortie réseau filetée femelle 1"
         ↓
 Robinet de puisage vissé  (fait actuellement office de vanne primaire)
         ↓
-Raccord vers tuyau souple Ø25
+Raccord Écrou femelle 1" → cannelé Ø25
+        ↓
+Tuyau souple Ø25
 ```
 
 La sortie réseau filetée femelle 1" est une **caractéristique commune du site** :
 elle n'a pas à être relevée sortie par sortie. Seuls varient le modèle du robinet
 de puisage, le raccord vers le tuyau et leur état.
+
+Le raccord type est désigné **Écrou femelle 1" → cannelé Ø25**. Il s'agit d'une
+**architecture commune**, non de sorties identiques ni conformes à un standard
+(aucun standard n'est encore déployé). Le détail du réel — variations de robinets,
+diamètre de tête, contraintes de maintenance — figure dans les fiches terrain et
+`EQ-002`, pas dans ce standard.
 
 **Photo de référence — SET existante conforme à cette base :**
 
@@ -78,7 +86,7 @@ Buse cuivre custom Ø25
 |---|---|---|
 | SR | Sortie réseau femelle 1" | Point de départ disponible sur le terrain |
 | VP | Vanne primaire 1/4 tour 1" M/M | Isolement rapide côté réseau |
-| RC1 | Raccord 1" femelle → cannelé Ø25 | Liaison entre VP et tuyau |
+| RC1 | Écrou femelle 1" → cannelé Ø25 | Liaison entre VP et tuyau |
 | T25 | Tuyau souple Ø25 | Transport de l'eau jusqu'à la poignée |
 | RC2 | Raccord 1" cannelé → femelle | Liaison entre tuyau et VS |
 | VS | Vanne secondaire 1/4 tour 1" M/M | Commande à la poignée |
@@ -135,3 +143,4 @@ Ce standard privilégie :
 |---|---|---|---|
 | 0.1 | 2026-07-09 | Peter / ChatGPT | Création du brouillon initial |
 | 0.2 | 2026-07-11 | Peter / Claude | Ajout de la configuration existante constatée + photo de référence (issue #69) |
+| 0.3 | 2026-07-12 | Peter / Claude | Vocabulaire normalisé du raccord (Écrou femelle 1" → cannelé Ø25) ; note sur les variations de robinets ; architecture commune ≠ conformité (issue #71) |

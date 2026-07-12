@@ -8,6 +8,14 @@ feuille, avec un schéma de court pour marquer d'une croix chaque sortie d'eau,
 un tableau multi-sorties et une zone d'observations haute pour écrire au stylo.
 Le schéma de court (SVG) est inline dans chaque page (la référence inter-SVG
 n'affichait pas tous les éléments sous Chrome).
+
+RETOUR TERRAIN INTÉGRÉ (issue #71, 2026-07-12) : répartition confirmée de 10
+sorties (SET-01 à SET-10) sur les 6 terrains ; repères pré-inscrits. La notion
+de « conformité » est retirée (aucun standard déployé) au profit de champs
+opérationnels (Usage actuel : SET / SEM / Non utilisée / À confirmer ; Fonctionnelle).
+SET-03 est repérée SET mais utilisée comme SEM ; SET-08 a un raccordement à vérifier
+(photo à fournir). Le raccord commun (Écrou femelle 1" → cannelé Ø25) figure en note
+de base, renseigné en observation seulement en cas d'écart.
 -->
 <div class="releve-sheet">
 
@@ -35,29 +43,27 @@ n'affichait pas tous les éléments sous Chrome).
       <line x1="202" y1="75" x2="206" y2="75" stroke="#000" stroke-width="1"/>
     </svg>
   </div>
-  <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
+  <div class="court-caption">Marquer chaque sortie d'une croix <b>✗</b> à son emplacement et la numéroter (①, ②, …) selon le tableau (repères SET pré-inscrits).</div>
 
   <div class="base-note">
-    <b>Base commune (voir STD-001)</b> : sortie réseau 1" femelle + robinet de puisage vissé faisant office de vanne primaire. Ne relever ci-dessous que les <b>écarts</b> : type/modèle du robinet, raccord vers le tuyau, état. Photographier <b>uniquement</b> en cas d'écart ou d'anomalie.
+    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; le raccord commun n'est noté en observation qu'en cas d'écart. Photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
   </div>
 
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type / modèle du robinet</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
+      <tr><th>N°</th><th>Repère</th><th>Usage actuel<br>(SET / SEM / Non utilisée / À confirmer)</th><th>Type / modèle du robinet</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>État / observation</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
-      <tr><td>①</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
-      <tr><td>②</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
-      <tr><td>③</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>①</td><td>SET-01</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
     </tbody>
   </table>
 
   <div class="check-line">
-    Conformité <b>STD-001</b> : ☐ conforme &nbsp; ☐ écart &nbsp;&nbsp;|&nbsp;&nbsp; Nombre total de sorties sur ce terrain : ______
+    Nombre de sorties sur ce terrain : <b>1</b>
   </div>
 
   <div class="write-field">
-    <div class="wf-label">État général / écarts / observations</div>
+    <div class="wf-label">État général / variations / observations</div>
   </div>
 </div>
 
@@ -85,29 +91,28 @@ n'affichait pas tous les éléments sous Chrome).
       <line x1="202" y1="75" x2="206" y2="75" stroke="#000" stroke-width="1"/>
     </svg>
   </div>
-  <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
+  <div class="court-caption">Marquer chaque sortie d'une croix <b>✗</b> à son emplacement et la numéroter (①, ②, …) selon le tableau (repères SET pré-inscrits).</div>
 
   <div class="base-note">
-    <b>Base commune (voir STD-001)</b> : sortie réseau 1" femelle + robinet de puisage vissé faisant office de vanne primaire. Ne relever ci-dessous que les <b>écarts</b> : type/modèle du robinet, raccord vers le tuyau, état. Photographier <b>uniquement</b> en cas d'écart ou d'anomalie.
+    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; le raccord commun n'est noté en observation qu'en cas d'écart. Photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
   </div>
 
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type / modèle du robinet</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
+      <tr><th>N°</th><th>Repère</th><th>Usage actuel<br>(SET / SEM / Non utilisée / À confirmer)</th><th>Type / modèle du robinet</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>État / observation</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
-      <tr><td>①</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
-      <tr><td>②</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
-      <tr><td>③</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>①</td><td>SET-02</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>②</td><td>SET-03</td><td>SEM</td><td></td><td></td><td></td><td>☐</td></tr>
     </tbody>
   </table>
 
   <div class="check-line">
-    Conformité <b>STD-001</b> : ☐ conforme &nbsp; ☐ écart &nbsp;&nbsp;|&nbsp;&nbsp; Nombre total de sorties sur ce terrain : ______
+    Nombre de sorties sur ce terrain : <b>2</b> &nbsp;&nbsp;·&nbsp;&nbsp; dont <b>SET-03</b> en usage SEM
   </div>
 
   <div class="write-field">
-    <div class="wf-label">État général / écarts / observations</div>
+    <div class="wf-label">État général / variations / observations</div>
   </div>
 </div>
 
@@ -135,29 +140,29 @@ n'affichait pas tous les éléments sous Chrome).
       <line x1="202" y1="75" x2="206" y2="75" stroke="#000" stroke-width="1"/>
     </svg>
   </div>
-  <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
+  <div class="court-caption">Marquer chaque sortie d'une croix <b>✗</b> à son emplacement et la numéroter (①, ②, …) selon le tableau (repères SET pré-inscrits).</div>
 
   <div class="base-note">
-    <b>Base commune (voir STD-001)</b> : sortie réseau 1" femelle + robinet de puisage vissé faisant office de vanne primaire. Ne relever ci-dessous que les <b>écarts</b> : type/modèle du robinet, raccord vers le tuyau, état. Photographier <b>uniquement</b> en cas d'écart ou d'anomalie.
+    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; le raccord commun n'est noté en observation qu'en cas d'écart. Photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
   </div>
 
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type / modèle du robinet</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
+      <tr><th>N°</th><th>Repère</th><th>Usage actuel<br>(SET / SEM / Non utilisée / À confirmer)</th><th>Type / modèle du robinet</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>État / observation</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
-      <tr><td>①</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
-      <tr><td>②</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
-      <tr><td>③</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>①</td><td>SET-04</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>②</td><td>SET-05</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>③</td><td>SET-06</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
     </tbody>
   </table>
 
   <div class="check-line">
-    Conformité <b>STD-001</b> : ☐ conforme &nbsp; ☐ écart &nbsp;&nbsp;|&nbsp;&nbsp; Nombre total de sorties sur ce terrain : ______
+    Nombre de sorties sur ce terrain : <b>3</b>
   </div>
 
   <div class="write-field">
-    <div class="wf-label">État général / écarts / observations</div>
+    <div class="wf-label">État général / variations / observations</div>
   </div>
 </div>
 
@@ -185,29 +190,28 @@ n'affichait pas tous les éléments sous Chrome).
       <line x1="202" y1="75" x2="206" y2="75" stroke="#000" stroke-width="1"/>
     </svg>
   </div>
-  <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
+  <div class="court-caption">Marquer chaque sortie d'une croix <b>✗</b> à son emplacement et la numéroter (①, ②, …) selon le tableau (repères SET pré-inscrits).</div>
 
   <div class="base-note">
-    <b>Base commune (voir STD-001)</b> : sortie réseau 1" femelle + robinet de puisage vissé faisant office de vanne primaire. Ne relever ci-dessous que les <b>écarts</b> : type/modèle du robinet, raccord vers le tuyau, état. Photographier <b>uniquement</b> en cas d'écart ou d'anomalie.
+    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; le raccord commun n'est noté en observation qu'en cas d'écart. Photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
   </div>
 
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type / modèle du robinet</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
+      <tr><th>N°</th><th>Repère</th><th>Usage actuel<br>(SET / SEM / Non utilisée / À confirmer)</th><th>Type / modèle du robinet</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>État / observation</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
-      <tr><td>①</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
-      <tr><td>②</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
-      <tr><td>③</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>①</td><td>SET-07</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>②</td><td>SET-08</td><td>SET</td><td></td><td>à vérifier</td><td>raccordement à vérifier</td><td>☑</td></tr>
     </tbody>
   </table>
 
   <div class="check-line">
-    Conformité <b>STD-001</b> : ☐ conforme &nbsp; ☐ écart &nbsp;&nbsp;|&nbsp;&nbsp; Nombre total de sorties sur ce terrain : ______
+    Nombre de sorties sur ce terrain : <b>2</b>
   </div>
 
   <div class="write-field">
-    <div class="wf-label">État général / écarts / observations</div>
+    <div class="wf-label">État général / variations / observations &nbsp;—&nbsp; <b>SET-08 : documenter le raccordement (photo)</b></div>
   </div>
 </div>
 
@@ -235,29 +239,27 @@ n'affichait pas tous les éléments sous Chrome).
       <line x1="202" y1="75" x2="206" y2="75" stroke="#000" stroke-width="1"/>
     </svg>
   </div>
-  <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
+  <div class="court-caption">Marquer chaque sortie d'une croix <b>✗</b> à son emplacement et la numéroter (①, ②, …) selon le tableau (repères SET pré-inscrits).</div>
 
   <div class="base-note">
-    <b>Base commune (voir STD-001)</b> : sortie réseau 1" femelle + robinet de puisage vissé faisant office de vanne primaire. Ne relever ci-dessous que les <b>écarts</b> : type/modèle du robinet, raccord vers le tuyau, état. Photographier <b>uniquement</b> en cas d'écart ou d'anomalie.
+    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; le raccord commun n'est noté en observation qu'en cas d'écart. Photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
   </div>
 
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type / modèle du robinet</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
+      <tr><th>N°</th><th>Repère</th><th>Usage actuel<br>(SET / SEM / Non utilisée / À confirmer)</th><th>Type / modèle du robinet</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>État / observation</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
-      <tr><td>①</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
-      <tr><td>②</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
-      <tr><td>③</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>①</td><td>SET-09</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
     </tbody>
   </table>
 
   <div class="check-line">
-    Conformité <b>STD-001</b> : ☐ conforme &nbsp; ☐ écart &nbsp;&nbsp;|&nbsp;&nbsp; Nombre total de sorties sur ce terrain : ______
+    Nombre de sorties sur ce terrain : <b>1</b>
   </div>
 
   <div class="write-field">
-    <div class="wf-label">État général / écarts / observations</div>
+    <div class="wf-label">État général / variations / observations</div>
   </div>
 </div>
 
@@ -285,29 +287,27 @@ n'affichait pas tous les éléments sous Chrome).
       <line x1="202" y1="75" x2="206" y2="75" stroke="#000" stroke-width="1"/>
     </svg>
   </div>
-  <div class="court-caption">Marquer chaque sortie d'eau d'une croix <b>✗</b> à son emplacement, puis la numéroter (①, ②, …) en cohérence avec le tableau ci-dessous.</div>
+  <div class="court-caption">Marquer chaque sortie d'une croix <b>✗</b> à son emplacement et la numéroter (①, ②, …) selon le tableau (repères SET pré-inscrits).</div>
 
   <div class="base-note">
-    <b>Base commune (voir STD-001)</b> : sortie réseau 1" femelle + robinet de puisage vissé faisant office de vanne primaire. Ne relever ci-dessous que les <b>écarts</b> : type/modèle du robinet, raccord vers le tuyau, état. Photographier <b>uniquement</b> en cas d'écart ou d'anomalie.
+    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; le raccord commun n'est noté en observation qu'en cas d'écart. Photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
   </div>
 
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère (SET-0x)</th><th>Type / modèle du robinet</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
+      <tr><th>N°</th><th>Repère</th><th>Usage actuel<br>(SET / SEM / Non utilisée / À confirmer)</th><th>Type / modèle du robinet</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>État / observation</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
-      <tr><td>①</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
-      <tr><td>②</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
-      <tr><td>③</td><td></td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>①</td><td>SET-10</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
     </tbody>
   </table>
 
   <div class="check-line">
-    Conformité <b>STD-001</b> : ☐ conforme &nbsp; ☐ écart &nbsp;&nbsp;|&nbsp;&nbsp; Nombre total de sorties sur ce terrain : ______
+    Nombre de sorties sur ce terrain : <b>1</b>
   </div>
 
   <div class="write-field">
-    <div class="wf-label">État général / écarts / observations</div>
+    <div class="wf-label">État général / variations / observations</div>
   </div>
 </div>
 
@@ -319,14 +319,20 @@ n'affichait pas tous les éléments sous Chrome).
   </div>
 
   <div class="check-block">
+    <b>Récapitulatif site</b><br>
+    Total confirmé : <b>10 sorties</b> (SET-01 à SET-10) — T01:1, T02:2 (dont SET-03 en usage SEM), T03:3, T04:2 (SET-08 à documenter), T05:1, T06:1.
+  </div>
+
+  <div class="check-block">
     <b>Contrôles finaux</b><br>
-    ☐ relevé complet (S1-T01 à S1-T06) &nbsp;&nbsp; ☐ photos prises &nbsp;&nbsp;
+    ☐ relevé complet (S1-T01 à S1-T06) &nbsp;&nbsp; ☐ photos d'écart prises &nbsp;&nbsp;
     ☐ reporté dans l'issue #7 &nbsp;&nbsp; ☐ documents de référence mis à jour
   </div>
 
   <div class="check-block">
     <b>Documents à mettre à jour après transcription</b><br>
-    ☐ FIC-T01 à FIC-T06 (fiches terrain) &nbsp;&nbsp; ☐ SITE-001 (La Pastorale) &nbsp;&nbsp; ☐ EQ-002 (sortie d'eau terrain type)
+    ☐ FIC-T01 à FIC-T06 (fiches terrain) &nbsp;&nbsp; ☐ SITE-001 (La Pastorale) &nbsp;&nbsp;
+    ☐ EQ-002 (sortie d'eau terrain type) &nbsp;&nbsp; ☐ STD-001 (variations de robinets)
   </div>
 
   <div class="write-field write-field-tall">

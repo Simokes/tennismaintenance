@@ -2,7 +2,7 @@
 
 **Statut :** À relever  
 **Date de création :** 2026-07-09  
-**Dernière mise à jour :** 2026-07-09
+**Dernière mise à jour :** 2026-07-12
 
 ## 1. Identification
 
@@ -30,15 +30,17 @@ A3                    A4
 Fond sud
 ```
 
-## 3. Sortie d'eau terrain
+## 3. Sorties d'eau terrain
 
-| Élément | Valeur |
-|---|---|
-| Repère | T3-SE |
-| Localisation | À relever |
-| Standard applicable | STD-001 |
-| État | À relever |
-| Particularités | À relever |
+Architecture de base commune à toutes les sorties (voir EQ-002 § 3.1 / STD-001 § 3) : sortie réseau filetée femelle 1" + robinet de puisage vissé (vanne primaire actuelle) + raccord **Écrou femelle 1" → cannelé Ø25** + tuyau **Tricoflex Jaune Ø25**. Les sorties partagent cette base mais **ne sont pas identiques** (modèle / tête de robinet, maintenance). La conformité n'est pas évaluée tant qu'aucun standard n'est déployé.
+
+**Sorties confirmées (relevé REL-007 / issue #71) : 3 — `SET-04`, `SET-05`, `SET-06`.**
+
+| Repère | Usage actuel | Type / modèle du robinet | Fonctionnelle | État / observation |
+|---|---|---|---|---|
+| SET-04 | SET | À relever | À confirmer | À relever |
+| SET-05 | SET | À relever | À confirmer | À relever |
+| SET-06 | SET | À relever | À confirmer | À relever |
 
 ## 4. Regards utiles au diagnostic
 
