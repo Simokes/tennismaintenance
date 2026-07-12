@@ -69,12 +69,12 @@ Base commune confirmée pour toutes les sorties (voir § 3.1). Répartition **co
 
 | Terrain | Sorties (SET) | Nombre | Usage actuel | État | Particularités |
 |---|---|---:|---|---|---|
-| S1-T01 | SET-01 | 1 | Arrosage | À relever | |
-| S1-T02 | SET-02, SET-03 | 2 | Arrosage / SEM | À relever | `SET-03` : repère SET, usage actuel SEM (maintenance) |
-| S1-T03 | SET-04, SET-05, SET-06 | 3 | Arrosage | À relever | |
-| S1-T04 | SET-07, SET-08 | 2 | Arrosage | À relever | `SET-08` : raccordement à vérifier (photo à fournir) |
-| S1-T05 | SET-09 | 1 | Arrosage | À relever | |
-| S1-T06 | SET-10 | 1 | Arrosage | À relever | |
+| S1-T01 | SET-01 | 1 | SET | À relever | |
+| S1-T02 | SET-02, SET-03 | 2 | SET / SEM | À relever | `SET-03` : repère SET, usage actuel SEM (maintenance) |
+| S1-T03 | SET-04, SET-05, SET-06 | 3 | SET | À relever | |
+| S1-T04 | SET-07, SET-08 | 2 | SET | À relever | `SET-08` : raccordement à vérifier (photo à fournir) |
+| S1-T05 | SET-09 | 1 | SET | À relever | |
+| S1-T06 | SET-10 | 1 | SET | À relever | |
 
 ## 6. Points de contrôle
 

@@ -12,8 +12,10 @@ n'affichait pas tous les éléments sous Chrome).
 RETOUR TERRAIN INTÉGRÉ (issue #71, 2026-07-12) : répartition confirmée de 10
 sorties (SET-01 à SET-10) sur les 6 terrains ; repères pré-inscrits. La notion
 de « conformité » est retirée (aucun standard déployé) au profit de champs
-opérationnels (Fonctionnelle / Utilisée). SET-03 est repérée SET mais utilisée
-comme SEM ; SET-08 a un raccordement à vérifier (photo à fournir).
+opérationnels (Usage actuel : SET / SEM / Non utilisée / À confirmer ; Fonctionnelle).
+SET-03 est repérée SET mais utilisée comme SEM ; SET-08 a un raccordement à vérifier
+(photo à fournir). Le raccord commun (Écrou femelle 1" → cannelé Ø25) figure en note
+de base, renseigné en observation seulement en cas d'écart.
 -->
 <div class="releve-sheet">
 
@@ -44,20 +46,20 @@ comme SEM ; SET-08 a un raccordement à vérifier (photo à fournir).
   <div class="court-caption">Marquer chaque sortie d'une croix <b>✗</b> à son emplacement et la numéroter (①, ②, …) selon le tableau (repères SET pré-inscrits).</div>
 
   <div class="base-note">
-    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
+    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; le raccord commun n'est noté en observation qu'en cas d'écart. Photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
   </div>
 
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>Utilisée<br>(O / N)</th><th>Robinet — type / modèle<br>(Ø tête si pertinent)</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
+      <tr><th>N°</th><th>Repère</th><th>Usage actuel<br>(SET / SEM / Non utilisée / À confirmer)</th><th>Type / modèle du robinet</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>État / observation</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
-      <tr><td>①</td><td>SET-01</td><td></td><td>O</td><td></td><td>Écrou femelle 1" → cannelé Ø25</td><td></td><td>☐</td></tr>
+      <tr><td>①</td><td>SET-01</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
     </tbody>
   </table>
 
   <div class="check-line">
-    Usage particulier : ☐ sortie repérée SET utilisée comme <b>SEM</b> (maintenance) — repère : ______ &nbsp;&nbsp;|&nbsp;&nbsp; Nombre de sorties sur ce terrain : <b>1</b>
+    Nombre de sorties sur ce terrain : <b>1</b>
   </div>
 
   <div class="write-field">
@@ -92,21 +94,21 @@ comme SEM ; SET-08 a un raccordement à vérifier (photo à fournir).
   <div class="court-caption">Marquer chaque sortie d'une croix <b>✗</b> à son emplacement et la numéroter (①, ②, …) selon le tableau (repères SET pré-inscrits).</div>
 
   <div class="base-note">
-    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
+    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; le raccord commun n'est noté en observation qu'en cas d'écart. Photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
   </div>
 
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>Utilisée<br>(O / N)</th><th>Robinet — type / modèle<br>(Ø tête si pertinent)</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
+      <tr><th>N°</th><th>Repère</th><th>Usage actuel<br>(SET / SEM / Non utilisée / À confirmer)</th><th>Type / modèle du robinet</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>État / observation</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
-      <tr><td>①</td><td>SET-02</td><td></td><td>O</td><td></td><td>Écrou femelle 1" → cannelé Ø25</td><td></td><td>☐</td></tr>
-      <tr><td>②</td><td>SET-03 <small>(usage SEM)</small></td><td></td><td>O</td><td></td><td>Écrou femelle 1" → cannelé Ø25</td><td></td><td>☐</td></tr>
+      <tr><td>①</td><td>SET-02</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>②</td><td>SET-03</td><td>SEM</td><td></td><td></td><td></td><td>☐</td></tr>
     </tbody>
   </table>
 
   <div class="check-line">
-    Usage particulier : ☑ sortie repérée SET utilisée comme <b>SEM</b> (maintenance) — repère : <b>SET-03</b> &nbsp;&nbsp;|&nbsp;&nbsp; Nombre de sorties sur ce terrain : <b>2</b>
+    Nombre de sorties sur ce terrain : <b>2</b> &nbsp;&nbsp;·&nbsp;&nbsp; dont <b>SET-03</b> en usage SEM
   </div>
 
   <div class="write-field">
@@ -141,22 +143,22 @@ comme SEM ; SET-08 a un raccordement à vérifier (photo à fournir).
   <div class="court-caption">Marquer chaque sortie d'une croix <b>✗</b> à son emplacement et la numéroter (①, ②, …) selon le tableau (repères SET pré-inscrits).</div>
 
   <div class="base-note">
-    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
+    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; le raccord commun n'est noté en observation qu'en cas d'écart. Photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
   </div>
 
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>Utilisée<br>(O / N)</th><th>Robinet — type / modèle<br>(Ø tête si pertinent)</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
+      <tr><th>N°</th><th>Repère</th><th>Usage actuel<br>(SET / SEM / Non utilisée / À confirmer)</th><th>Type / modèle du robinet</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>État / observation</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
-      <tr><td>①</td><td>SET-04</td><td></td><td>O</td><td></td><td>Écrou femelle 1" → cannelé Ø25</td><td></td><td>☐</td></tr>
-      <tr><td>②</td><td>SET-05</td><td></td><td>O</td><td></td><td>Écrou femelle 1" → cannelé Ø25</td><td></td><td>☐</td></tr>
-      <tr><td>③</td><td>SET-06</td><td></td><td>O</td><td></td><td>Écrou femelle 1" → cannelé Ø25</td><td></td><td>☐</td></tr>
+      <tr><td>①</td><td>SET-04</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>②</td><td>SET-05</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>③</td><td>SET-06</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
     </tbody>
   </table>
 
   <div class="check-line">
-    Usage particulier : ☐ sortie repérée SET utilisée comme <b>SEM</b> (maintenance) — repère : ______ &nbsp;&nbsp;|&nbsp;&nbsp; Nombre de sorties sur ce terrain : <b>3</b>
+    Nombre de sorties sur ce terrain : <b>3</b>
   </div>
 
   <div class="write-field">
@@ -191,21 +193,21 @@ comme SEM ; SET-08 a un raccordement à vérifier (photo à fournir).
   <div class="court-caption">Marquer chaque sortie d'une croix <b>✗</b> à son emplacement et la numéroter (①, ②, …) selon le tableau (repères SET pré-inscrits).</div>
 
   <div class="base-note">
-    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
+    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; le raccord commun n'est noté en observation qu'en cas d'écart. Photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
   </div>
 
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>Utilisée<br>(O / N)</th><th>Robinet — type / modèle<br>(Ø tête si pertinent)</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
+      <tr><th>N°</th><th>Repère</th><th>Usage actuel<br>(SET / SEM / Non utilisée / À confirmer)</th><th>Type / modèle du robinet</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>État / observation</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
-      <tr><td>①</td><td>SET-07</td><td></td><td>O</td><td></td><td>Écrou femelle 1" → cannelé Ø25</td><td></td><td>☐</td></tr>
-      <tr><td>②</td><td>SET-08 <small>(raccordement à vérifier)</small></td><td>à vérifier</td><td>O</td><td></td><td>Écrou femelle 1" → cannelé Ø25</td><td></td><td>☑</td></tr>
+      <tr><td>①</td><td>SET-07</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
+      <tr><td>②</td><td>SET-08</td><td>SET</td><td></td><td>à vérifier</td><td>raccordement à vérifier</td><td>☑</td></tr>
     </tbody>
   </table>
 
   <div class="check-line">
-    Usage particulier : ☐ sortie repérée SET utilisée comme <b>SEM</b> (maintenance) — repère : ______ &nbsp;&nbsp;|&nbsp;&nbsp; Nombre de sorties sur ce terrain : <b>2</b>
+    Nombre de sorties sur ce terrain : <b>2</b>
   </div>
 
   <div class="write-field">
@@ -240,20 +242,20 @@ comme SEM ; SET-08 a un raccordement à vérifier (photo à fournir).
   <div class="court-caption">Marquer chaque sortie d'une croix <b>✗</b> à son emplacement et la numéroter (①, ②, …) selon le tableau (repères SET pré-inscrits).</div>
 
   <div class="base-note">
-    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
+    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; le raccord commun n'est noté en observation qu'en cas d'écart. Photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
   </div>
 
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>Utilisée<br>(O / N)</th><th>Robinet — type / modèle<br>(Ø tête si pertinent)</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
+      <tr><th>N°</th><th>Repère</th><th>Usage actuel<br>(SET / SEM / Non utilisée / À confirmer)</th><th>Type / modèle du robinet</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>État / observation</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
-      <tr><td>①</td><td>SET-09</td><td></td><td>O</td><td></td><td>Écrou femelle 1" → cannelé Ø25</td><td></td><td>☐</td></tr>
+      <tr><td>①</td><td>SET-09</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
     </tbody>
   </table>
 
   <div class="check-line">
-    Usage particulier : ☐ sortie repérée SET utilisée comme <b>SEM</b> (maintenance) — repère : ______ &nbsp;&nbsp;|&nbsp;&nbsp; Nombre de sorties sur ce terrain : <b>1</b>
+    Nombre de sorties sur ce terrain : <b>1</b>
   </div>
 
   <div class="write-field">
@@ -288,20 +290,20 @@ comme SEM ; SET-08 a un raccordement à vérifier (photo à fournir).
   <div class="court-caption">Marquer chaque sortie d'une croix <b>✗</b> à son emplacement et la numéroter (①, ②, …) selon le tableau (repères SET pré-inscrits).</div>
 
   <div class="base-note">
-    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
+    <b>Architecture de base commune (voir STD-001 § 3)</b> : sortie réseau filetée femelle 1" + robinet de puisage vissé (fait actuellement office de vanne primaire) + raccord <b>Écrou femelle 1" → cannelé Ø25</b> + tuyau <b>Tricoflex Jaune Ø25</b>. Les sorties <b>partagent cette base mais ne sont pas identiques</b> : modèle / tête de robinet et maintenance varient. <b>La conformité n'est pas évaluée ici</b> (aucun standard déployé) : ce relevé prépare la future standardisation, suivie séparément. Ne relever que les variations et l'état ; le raccord commun n'est noté en observation qu'en cas d'écart. Photographier <b>uniquement</b> en cas d'écart, défaut ou anomalie.
   </div>
 
   <table class="releve-table">
     <thead>
-      <tr><th>N°</th><th>Repère</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>Utilisée<br>(O / N)</th><th>Robinet — type / modèle<br>(Ø tête si pertinent)</th><th>Raccord vers tuyau</th><th>État</th><th>Photo si écart</th></tr>
+      <tr><th>N°</th><th>Repère</th><th>Usage actuel<br>(SET / SEM / Non utilisée / À confirmer)</th><th>Type / modèle du robinet</th><th>Fonctionnelle<br>(O / N / à vérif.)</th><th>État / observation</th><th>Photo si écart</th></tr>
     </thead>
     <tbody>
-      <tr><td>①</td><td>SET-10</td><td></td><td>O</td><td></td><td>Écrou femelle 1" → cannelé Ø25</td><td></td><td>☐</td></tr>
+      <tr><td>①</td><td>SET-10</td><td>SET</td><td></td><td></td><td></td><td>☐</td></tr>
     </tbody>
   </table>
 
   <div class="check-line">
-    Usage particulier : ☐ sortie repérée SET utilisée comme <b>SEM</b> (maintenance) — repère : ______ &nbsp;&nbsp;|&nbsp;&nbsp; Nombre de sorties sur ce terrain : <b>1</b>
+    Nombre de sorties sur ce terrain : <b>1</b>
   </div>
 
   <div class="write-field">

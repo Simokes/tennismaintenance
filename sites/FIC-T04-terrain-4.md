@@ -36,10 +36,10 @@ Architecture de base commune à toutes les sorties (voir EQ-002 § 3.1 / STD-001
 
 **Sorties confirmées (relevé REL-007 / issue #71) : 2 — `SET-07`, `SET-08`.**
 
-| Repère | Fonctionnelle | Utilisée | Usage actuel | Robinet (Ø tête) | Raccord | État |
-|---|---|---|---|---|---|---|
-| SET-07 | À confirmer | Oui | Arrosage | À relever | Écrou femelle 1" → cannelé Ø25 | À relever |
-| SET-08 | **À vérifier** | Oui | Arrosage | À relever | Écrou femelle 1" → cannelé Ø25 | À relever |
+| Repère | Usage actuel | Type / modèle du robinet | Fonctionnelle | État / observation |
+|---|---|---|---|---|
+| SET-07 | SET | À relever | À confirmer | À relever |
+| SET-08 | SET | À relever | **À vérifier** | Raccordement à vérifier |
 
 > `SET-08` : **raccordement à vérifier** — à documenter par une photo lorsqu'elle sera fournie.
 

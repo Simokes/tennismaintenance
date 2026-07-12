@@ -39,18 +39,18 @@ Robinet de puisage vissé  (fait actuellement office de vanne primaire)
         ↓
 Raccord Écrou femelle 1" → cannelé Ø25
         ↓
-Tuyau souple Ø25 (Tricoflex Jaune)
+Tuyau souple Ø25
 ```
 
 La sortie réseau filetée femelle 1" est une **caractéristique commune du site** :
 elle n'a pas à être relevée sortie par sortie. Seuls varient le modèle du robinet
 de puisage, le raccord vers le tuyau et leur état.
 
-Les robinets de puisage ont un **fonctionnement équivalent** mais **ne sont pas
-identiques** : le diamètre de tête varie, ce qui impacte la maintenance (pièces
-non interchangeables). Le raccord type est désigné **Écrou femelle 1" → cannelé
-Ø25**. La base est décrite comme une **architecture commune**, pas comme des
-sorties identiques ni conformes à un standard (aucun standard n'est encore déployé).
+Le raccord type est désigné **Écrou femelle 1" → cannelé Ø25**. Il s'agit d'une
+**architecture commune**, non de sorties identiques ni conformes à un standard
+(aucun standard n'est encore déployé). Le détail du réel — variations de robinets,
+diamètre de tête, contraintes de maintenance — figure dans les fiches terrain et
+`EQ-002`, pas dans ce standard.
 
 **Photo de référence — SET existante conforme à cette base :**
 
