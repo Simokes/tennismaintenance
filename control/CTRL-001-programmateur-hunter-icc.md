@@ -115,7 +115,6 @@ Cette liste sert à identifier les composants remplaçables et leurs référence
 
 - [Portail officiel Hunter — manuels utilisateur](https://www.hunterirrigation.com/support/owner-manuals)
 - [Support officiel Hunter](https://www.hunterirrigation.com/support)
-- [Page officielle Hunter ICC2](https://www.hunterirrigation.com/irrigation-product/controllers/icc2) — uniquement si la génération ICC2 est confirmée
 
 ## 10. Photos
 
