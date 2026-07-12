@@ -44,12 +44,10 @@ La correspondance exacte doit être vérifiée terrain par terrain.
 
 ## Identification à faire
 
-- modèle exact et génération ICC/ICC2 ;
-- type de coffret : plastique ou métallique ;
+Modèle (**ICC-800PL**), génération (ICC d'origine) et coffret (plastique) sont confirmés. Restent à relever :
+
 - nombre de stations ;
 - programmes utilisés ;
 - durées par canal ;
 - capteurs éventuels ;
 - correspondance complète canal → paire d'arroseurs.
-
-La page officielle ICC2 ne doit être utilisée comme notice précise que si cette génération est confirmée sur la plaque signalétique.
