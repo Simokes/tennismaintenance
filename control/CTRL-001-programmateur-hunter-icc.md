@@ -1,9 +1,9 @@
 # CTRL-001 — Programmateur Hunter ICC
 
-**Statut :** À relever  
-**Version :** 0.1  
+**Statut :** Partiel — modèle et coffret confirmés sur plaque ; programmes, cycles et correspondance des canaux à relever  
+**Version :** 0.2  
 **Date de création :** 2026-07-10  
-**Dernière mise à jour :** 2026-07-10
+**Dernière mise à jour :** 2026-07-12
 
 ## 1. Objectif
 
@@ -17,17 +17,17 @@ Cette fiche ne remplace ni la notice constructeur ni les plans électriques offi
 |---|---|
 | Fabricant | Hunter Industries |
 | Gamme indiquée sur site | ICC |
-| Modèle exact | À relever sur la plaque signalétique |
-| Génération | ICC d'origine / ICC2 — à confirmer |
-| Type de coffret | Plastique — à confirmer sur site |
+| Modèle exact | **ICC-800PL** (confirmé sur plaque signalétique) |
+| Génération | **ICC d'origine** (pas ICC2) — confirmé |
+| Type de coffret | **Plastique**, pour extérieur (suffixe « PL ») — confirmé |
 | Emplacement | À relever |
-| Nombre de stations disponibles | À relever |
+| Nombre de stations disponibles | Base 8 stations (ICC-800) + modules d'extension visibles — total à confirmer en comptant les borniers |
 | Nombre de stations utilisées | À relever |
-| Alimentation | À relever par le service compétent |
+| Alimentation | Entrée 230 VAC → sortie 24 VAC (transformateur interne, d'après la plaque) — raccordement par le service compétent |
 | Capteur pluie raccordé | À confirmer |
 
-!!! warning "Identifier précisément le modèle"
-    La gamme ICC a connu plusieurs générations. Photographier la façade et la plaque signalétique avant de retenir définitivement une notice ou une liste de pièces.
+!!! note "Modèle confirmé sur plaque (2026-07-11)"
+    Programmateur **Hunter ICC-800PL**, coffret plastique extérieur, génération ICC d'origine. Le manuel ICC (§ 9) et la liste de pièces du coffret plastique sont donc les bonnes références. Photos § 10.
 
 ## 3. Principe de commande du site
 
@@ -117,14 +117,16 @@ Cette liste sert à identifier les composants remplaçables et leurs référence
 - [Support officiel Hunter](https://www.hunterirrigation.com/support)
 - [Page officielle Hunter ICC2](https://www.hunterirrigation.com/irrigation-product/controllers/icc2) — uniquement si la génération ICC2 est confirmée
 
-## 10. Photos à ajouter
+## 10. Photos
 
+Relevé du 2026-07-11 :
+
+- [x] Façade et commandes — [CTRL-001-hunter-icc-facade-2026-07-11.jpg](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/equipements/CTRL-001-hunter-icc-facade-2026-07-11.jpg)
+- [x] Plaque signalétique (ICC-800PL) — [CTRL-001-hunter-icc-plaque-2026-07-11.jpg](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/equipements/CTRL-001-hunter-icc-plaque-2026-07-11.jpg)
+- [x] Coffret plastique et modules de stations — [CTRL-001-hunter-icc-interieur-2026-07-11.jpg](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/equipements/CTRL-001-hunter-icc-interieur-2026-07-11.jpg)
+- [x] Notice de programmation affichée sur site — [CTRL-001-hunter-icc-notice-programmation-2026-07-11.jpg](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/equipements/CTRL-001-hunter-icc-notice-programmation-2026-07-11.jpg)
 - [ ] Vue générale du programmateur fermé.
-- [ ] Façade et commandes.
-- [ ] Plaque signalétique.
-- [ ] Coffret plastique ou métallique.
-- [ ] Modules de stations visibles sans intervention dangereuse.
-- [ ] Écran affichant les programmes et durées utiles.
+- [ ] Écran affichant les programmes et durées utiles en fonctionnement.
 
 ## 11. Historique des réglages
 
@@ -134,8 +136,8 @@ Cette liste sert à identifier les composants remplaçables et leurs référence
 
 ## 12. Points à confirmer
 
-- [ ] Modèle et génération exacts.
-- [ ] Type de coffret : plastique ou métallique.
+- [x] Modèle et génération exacts — **ICC-800PL**, génération ICC (confirmé plaque, 2026-07-11).
+- [x] Type de coffret : **plastique** extérieur (confirmé).
 - [ ] Nombre total de stations.
 - [ ] Correspondance complète canal → paire d'arroseurs.
 - [ ] Programmes réellement utilisés.
