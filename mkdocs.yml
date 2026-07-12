@@ -102,6 +102,10 @@ nav:
       - Relevé terrain:
           - releve-terrain.md
           - Checklist détaillée: RELEVE_TERRAIN.md
+      - Checklists de relevé:
+          - checklists/index.md
+          - CHK-S1-T01 — Terrain 1: checklists/CHK-S1-T01.md
+          - CHK-S1-T02 — Terrain 2: checklists/CHK-S1-T02.md
       - Fiches de relevé A4:
           - releves/index.md
           - REL-007 — Sorties d'eau La Pastorale: releves/REL-007-sorties-eau-la-pastorale.md
