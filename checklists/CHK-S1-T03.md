@@ -31,12 +31,11 @@ Fiche de référence : [`FIC-T03`](https://github.com/Simokes/tennismaintenance/
 
 ### Regards `REG-xx`
 
-Nombre de regards à confirmer sur site (cf. `REL-009`).
+Nombre et repères de regards **à identifier sur site** (cf. `REL-009`) ; les identifiants `REG-xx` seront attribués après relevé.
 
 | Repère | Localisation | Photo fermé | Photo ouvert | Contenu visible | Fonction | État |
 |---|---|---|---|---|---|---|
-| S1-T03-REG-01 | À relever | ☐ | ☐ | À relever | À confirmer | À relever |
-| S1-T03-REG-02 | À relever | ☐ | ☐ | À relever | À confirmer | À relever |
+| À identifier sur site | À relever | ☐ | ☐ | À relever | À confirmer | À relever |
 
 ### Sorties d'eau `SET-xx`
 
@@ -52,7 +51,7 @@ Nombre de regards à confirmer sur site (cf. `REL-009`).
 
 | Repère | Zone desservie (si vérifiée) | État |
 |---|---|---|
-| AR-01 à AR-06 | À confirmer | À relever |
+| Nombre et repères à confirmer | À confirmer | À relever |
 
 ## Équipements et infrastructure
 
@@ -74,12 +73,13 @@ Nombre de regards à confirmer sur site (cf. `REL-009`).
 - Vue générale, vues de fond et latérales.
 - Sorties `SET-04`, `SET-05`, `SET-06` (raccord, Ø, état, photo).
 - Regards (localisation, photos fermé/ouvert), nombre à confirmer.
-- Arroseurs AR-01 à AR-06 et leurs zones.
+- Arroseurs (nombre et repères à confirmer) et leurs zones.
 - État des équipements.
 
 ### Informations à confirmer
 
-- Nombre exact de regards et leur fonction.
+- Nombre exact de regards, leurs repères et leur fonction.
+- Nombre et repères des arroseurs.
 
 ### Prochaine mission recommandée
 
