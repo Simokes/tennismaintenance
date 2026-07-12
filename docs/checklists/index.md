@@ -28,8 +28,12 @@ Règle : **ne pas deviner.** Une information non vérifiée est marquée `À con
 
 - [CHK-S1-T01 — La Pastorale, terrain 1](CHK-S1-T01.md)
 - [CHK-S1-T02 — La Pastorale, terrain 2](CHK-S1-T02.md)
+- [CHK-S1-T03 — La Pastorale, terrain 3](CHK-S1-T03.md)
+- [CHK-S1-T04 — La Pastorale, terrain 4](CHK-S1-T04.md)
+- [CHK-S1-T05 — La Pastorale, terrain 5](CHK-S1-T05.md)
+- [CHK-S1-T06 — La Pastorale, terrain 6](CHK-S1-T06.md)
 
-Les autres terrains sont créés à partir du gabarit une fois le modèle S1-T01 validé.
+Les terrains du Kalisté (`S2-T01` à `S2-T05`) seront créés à partir du gabarit lors de leur première mission.
 
 ## Issues de relevé liées
 

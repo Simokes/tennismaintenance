@@ -103,6 +103,10 @@ nav:
           - checklists/index.md
           - CHK-S1-T01 — Terrain 1: checklists/CHK-S1-T01.md
           - CHK-S1-T02 — Terrain 2: checklists/CHK-S1-T02.md
+          - CHK-S1-T03 — Terrain 3: checklists/CHK-S1-T03.md
+          - CHK-S1-T04 — Terrain 4: checklists/CHK-S1-T04.md
+          - CHK-S1-T05 — Terrain 5: checklists/CHK-S1-T05.md
+          - CHK-S1-T06 — Terrain 6: checklists/CHK-S1-T06.md
       - Fiches de relevé A4:
           - releves/index.md
           - REL-007 — Sorties d'eau La Pastorale: releves/REL-007-sorties-eau-la-pastorale.md
