@@ -2,7 +2,7 @@
 
 > Point d'entrée pour toute nouvelle conversation IA (Claude / ChatGPT).
 > Fichier **vivant** : résume l'état du projet, pas la documentation complète.
-> Dernière mise à jour : **2026-07-11**.
+> Dernière mise à jour : **2026-07-12**.
 
 ## 🚀 Conversation Starter — procédure de reprise
 
@@ -50,11 +50,12 @@ Rôles :
 | Slugs sites | #43 | `SITE-001-la-pastorale`, `SITE-002-le-kaliste` |
 | Modèle d'intervention | #43 / #49 | `INT-000` = fiche papier ; gabarit unique = `templates/INT-template.md` |
 | UX du site | #28 | Nav 4 onglets + thème « Terre battue » clair/sombre |
+| Checklists de relevé | #73 / #74 | Famille **`CHK`** : pilotage vivant de la collecte, par terrain, 3 états (`Obtenu` / `À confirmer` / `À relever`), sans pourcentage. Pilote validé sur `S1-T01`. |
 
 ## 📊 État des chantiers
 
 - **Socle documentaire & technique : stabilisé.** CI verte (build `--strict` + liens source), architecture et nomenclature en place, site habillé.
-- **Contenu terrain : à collecter.** La plupart des fiches sont marquées `À relever` / `À confirmer` — c'est le principal travail restant. Les **fiches de relevé papier A4** (famille `REL`, cf. `docs/releves/`) pour organiser cette collecte sont désormais **toutes créées**.
+- **Contenu terrain : à collecter.** La plupart des fiches sont marquées `À relever` / `À confirmer` — c'est le principal travail restant. Trois familles outillent la collecte, avec des rôles distincts : **`REL`** (saisie papier A4, cf. `docs/releves/`, toutes créées), **`CHK`** (pilotage vivant par terrain, cf. `docs/checklists/`, pilote `S1-T01` livré) et **`FIC`** (donnée de référence validée).
 
 ## ⏭️ Prochaines priorités
 
@@ -63,6 +64,7 @@ Rôles :
    - Le Kalisté : `REL-017` (cartographie, #17), `REL-020` (revêtements, #20).
    - **Travail restant = collecte physique sur site**, puis transcription dans les documents de référence (`SITE-002`, `ACC-002`, `PROC-005/006`, `FIC-S2-*`, `STOCK-001`, `REF-001`, `FOURN-001`…). Les issues correspondantes **restent ouvertes** jusqu'à cette transcription.
    - Sans fiche dédiée : **photos prioritaires #11** (à prendre sur les deux sites).
+   - **Généraliser les checklists `CHK`** (#73) aux terrains restants (`S1-T03` à `S1-T06`, `S2-T01` à `S2-T05`) à partir du gabarit `checklists/CHK-template.md`, au fil des missions. Le [tableau de bord](https://simokes.github.io/tennismaintenance/checklists/) suit la complétude.
 2. Améliorations UX optionnelles (non tranchées) : remplacer les emojis d'interface par des icônes Material (nécessite `pymdownx.emoji`) ; clarifier certains libellés de catégories.
 
 ## 🚫 À ne jamais oublier (garde-fous)
