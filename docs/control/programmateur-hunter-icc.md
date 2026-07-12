@@ -2,7 +2,7 @@
 
 ## Statut
 
-À relever et à vérifier sur site.
+Modèle confirmé sur plaque : **Hunter ICC-800PL** (coffret plastique extérieur, génération ICC). Programmes, cycles et correspondance des canaux restent à relever sur site.
 
 ## Accès rapide
 
