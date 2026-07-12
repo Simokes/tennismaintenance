@@ -1,8 +1,8 @@
 # REF-001 — Raccords, vannes et accessoires d'arrosage
 
 **Statut :** À compléter  
-**Version :** 0.1  
-**Date :** 2026-07-09
+**Version :** 0.2  
+**Date :** 2026-07-12
 
 ## 1. Objectif
 
@@ -21,6 +21,7 @@ Cette fiche sert à éviter les désignations ambiguës lors des commandes, rép
 | BUSE | Buse / lance | BUSE-001 |
 | JOINT | Joint | JOINT-001 |
 | COL | Collier | COL-001 |
+| ARR | Arroseur fixe | ARR-001 |
 
 ## 3. Vannes et robinets
 
@@ -51,17 +52,25 @@ Cette fiche sert à éviter les désignations ambiguës lors des commandes, rép
 
 | Code | Désignation | Diamètre | Usage | Standard lié | Référence fournisseur |
 |---|---|---:|---|---|---|
-| TUY-001 | Tuyau souple terrain | Ø25 | Arrosage manuel terre battue | STD-003 | À compléter |
+| TUY-001 | Tuyau souple terrain (Tricoflex Jaune) | Ø25 | Arrosage manuel terre battue | STD-003 | **Tricoflex Jaune Ø25 — art. 048273**, couronne 25 m, Made in France ([photo](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/equipements/TUY-001-tricoflex-jaune-25-art-048273.jpg)) |
 | TUY-002 | Tuyau entretien | Ø19 | Kärcher / entretien | STD-002 | À compléter |
 | TUY-003 | Tuyau entretien gros débit | Ø25 | Entretien hors terrain | STD-002 | À compléter |
 
-## 7. Buses
+## 7. Arroseurs
+
+Arroseurs fixes escamotables des terrains (repères `AR-xx` des fiches terrain, commandés par les canaux `CAN-xx` du programmateur `CTRL-001`).
+
+| Code | Désignation | Marque | Usage | Référence / observation |
+|---|---|---|---|---|
+| ARR-001 | Arroseur fixe escamotable | **Rain Bird** (marque confirmée sur la pièce) | Arrosage automatique terre battue | Modèle **Falcon 6504** selon relevé terrain — à confirmer sur l'arroseur ([photo](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/equipements/ARR-001-rainbird-falcon-6504.jpg)) |
+
+## 8. Buses
 
 | Code | Désignation | Matière | Usage | Standard lié | Référence fournisseur |
 |---|---|---|---|---|---|
 | BUSE-001 | Buse cuivre custom Ø25 | Cuivre | Jet pluie terre battue | STD-004 | Fabrication interne |
 
-## 8. Colliers et consommables
+## 9. Colliers et consommables
 
 | Code | Désignation | Diamètre | Usage | Référence fournisseur |
 |---|---|---:|---|---|
@@ -69,7 +78,7 @@ Cette fiche sert à éviter les désignations ambiguës lors des commandes, rép
 | CONS-001 | Ruban PTFE | Standard | Étanchéité filetages | À compléter |
 | CONS-002 | Filasse / pâte | Standard | Étanchéité filetages selon usage | À compléter |
 
-## 9. Points à confirmer
+## 10. Points à confirmer
 
 - [ ] Références exactes des vannes 1" M/M.
 - [ ] Références exactes des raccords cannelés Ø25.
@@ -77,9 +86,11 @@ Cette fiche sert à éviter les désignations ambiguës lors des commandes, rép
 - [ ] Type exact de raccord GEKA fixe.
 - [ ] Matière retenue pour les joints GEKA.
 - [ ] Diamètre intérieur / extérieur réel des tuyaux.
+- [ ] Modèle exact de l'arroseur `ARR-001` (marque Rain Bird confirmée ; « Falcon 6504 » à vérifier sur l'arroseur).
 
-## 10. Historique
+## 11. Historique
 
 | Version | Date | Auteur | Description |
 |---|---|---|---|
 | 0.1 | 2026-07-09 | Peter / ChatGPT | Création de la nomenclature initiale |
+| 0.2 | 2026-07-12 | Peter / Claude | Référence tuyau TUY-001 (Tricoflex art. 048273) et arroseur ARR-001 (Rain Bird) d'après photos |
