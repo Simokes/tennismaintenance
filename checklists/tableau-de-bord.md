@@ -11,7 +11,7 @@ Agrégation par états, sans pourcentage calculé (issue #73).
 |---|---|---|---|---|---|---|
 | S1-T01 | [CHK-S1-T01](https://github.com/Simokes/tennismaintenance/blob/main/checklists/CHK-S1-T01.md) | ✅ | 🟡 | 🟡 | ⬜ | ⬜ |
 | S1-T02 | [CHK-S1-T02](https://github.com/Simokes/tennismaintenance/blob/main/checklists/CHK-S1-T02.md) | ✅ | ⬜ | 🟡 | ⬜ | ⬜ |
-| S1-T03 | [CHK-S1-T03](https://github.com/Simokes/tennismaintenance/blob/main/checklists/CHK-S1-T03.md) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| S1-T03 | [CHK-S1-T03](https://github.com/Simokes/tennismaintenance/blob/main/checklists/CHK-S1-T03.md) | ⬜ | 🟡 | ⬜ | ⬜ | ⬜ |
 | S1-T04 | [CHK-S1-T04](https://github.com/Simokes/tennismaintenance/blob/main/checklists/CHK-S1-T04.md) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | S1-T05 | [CHK-S1-T05](https://github.com/Simokes/tennismaintenance/blob/main/checklists/CHK-S1-T05.md) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | S1-T06 | [CHK-S1-T06](https://github.com/Simokes/tennismaintenance/blob/main/checklists/CHK-S1-T06.md) | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
