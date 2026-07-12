@@ -100,9 +100,6 @@ nav:
           - Terrain dur: procedures/terrain-dur.md
           - Gazon synthétique: procedures/gazon-synthetique.md
       - Relevé terrain:
-          - releve-terrain.md
-          - Checklist détaillée: RELEVE_TERRAIN.md
-      - Checklists de relevé:
           - checklists/index.md
           - CHK-S1-T01 — Terrain 1: checklists/CHK-S1-T01.md
           - CHK-S1-T02 — Terrain 2: checklists/CHK-S1-T02.md
