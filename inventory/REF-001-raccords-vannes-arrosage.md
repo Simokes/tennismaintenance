@@ -1,7 +1,7 @@
 # REF-001 — Raccords, vannes et accessoires d'arrosage
 
 **Statut :** À compléter  
-**Version :** 0.2  
+**Version :** 0.3  
 **Date :** 2026-07-12
 
 ## 1. Objectif
@@ -62,7 +62,7 @@ Arroseurs fixes escamotables des terrains (repères `AR-xx` des fiches terrain, 
 
 | Code | Désignation | Marque | Usage | Référence / observation |
 |---|---|---|---|---|
-| ARR-001 | Arroseur fixe escamotable | **Rain Bird** (marque confirmée sur la pièce) | Arrosage automatique terre battue | Modèle **Falcon 6504** selon relevé terrain — à confirmer sur l'arroseur ([photo](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/equipements/ARR-001-rainbird-falcon-6504.jpg)) |
+| ARR-001 | Arroseur fixe escamotable | **Rain Bird** (confirmée sur la pièce) | Arrosage automatique terre battue | Modèle **Rain Bird Falcon 6504** — confirmé sur site (2026-07-12) ([photo](https://github.com/Simokes/tennismaintenance/blob/main/assets/photos/equipements/ARR-001-rainbird-falcon-6504.jpg)) |
 
 ## 8. Buses
 
@@ -86,7 +86,7 @@ Arroseurs fixes escamotables des terrains (repères `AR-xx` des fiches terrain, 
 - [ ] Type exact de raccord GEKA fixe.
 - [ ] Matière retenue pour les joints GEKA.
 - [ ] Diamètre intérieur / extérieur réel des tuyaux.
-- [ ] Modèle exact de l'arroseur `ARR-001` (marque Rain Bird confirmée ; « Falcon 6504 » à vérifier sur l'arroseur).
+- [x] Modèle exact de l'arroseur `ARR-001` — **Rain Bird Falcon 6504**, confirmé sur site (2026-07-12).
 
 ## 11. Historique
 
@@ -94,3 +94,4 @@ Arroseurs fixes escamotables des terrains (repères `AR-xx` des fiches terrain, 
 |---|---|---|---|
 | 0.1 | 2026-07-09 | Peter / ChatGPT | Création de la nomenclature initiale |
 | 0.2 | 2026-07-12 | Peter / Claude | Référence tuyau TUY-001 (Tricoflex art. 048273) et arroseur ARR-001 (Rain Bird) d'après photos |
+| 0.3 | 2026-07-12 | Peter / Claude | Modèle arroseur ARR-001 confirmé sur site : Rain Bird Falcon 6504 |
