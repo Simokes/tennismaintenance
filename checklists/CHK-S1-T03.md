@@ -5,7 +5,8 @@ Ne pas ajouter de titre H1 ici : la page publiée le fournit.
 
 Checklist ciblée créée pour préparer une mission (issue #76), à partir du
 gabarit CHK-template et du modèle validé S1-T01. Repères SET pré-inscrits selon
-REL-007 / issue #71. Tout est « À relever » tant que la mission n'a pas eu lieu.
+REL-007 / issue #71. Tout reste « À relever » hors éléments déjà documentés ;
+le repère exact de la sortie déjà photographiée reste à confirmer sur site.
 -->
 
 ## Identification
