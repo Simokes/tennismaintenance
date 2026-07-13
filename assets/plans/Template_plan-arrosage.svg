@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1540"
+   height="1030"
+   viewBox="0 0 1540 1030"
+   font-family="Arial, Helvetica, sans-serif"
+   version="1.1"
+   id="svg61"
+   sodipodi:docname="Template_plan-arrosage.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview61"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.80115884"
+     inkscape:cx="809.45247"
+     inkscape:cy="659.66943"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="plan" />
+  <!-- ============================================================
+       Plan général – Arrosage · Terrain S1-T01 · La Pastorale
+       Fichier vectoriel éditable (recréation du plan d'origine).
+       Palette :
+         bleu  = #1a4b9e (arroseurs AR / sorties SET)
+         vert  = #1a7a3a (regards REG)
+         gris  = #9a9a9a (lignes de court)
+       ============================================================ -->
+  <defs
+     id="defs1">
+    <!-- Style commun des étiquettes -->
+    <style
+       id="style1">
+      .label-box   { fill:#ffffff; stroke-width:1.5; rx:4; }
+      .label-txt   { font-size:20px; font-weight:bold; }
+      .ar   { fill:#1a4b9e; }
+      .arS  { stroke:#1a4b9e; }
+      .reg  { fill:#1a7a3a; }
+      .regS { stroke:#1a7a3a; }
+      .court{ stroke:#9a9a9a; stroke-width:2.5; fill:none; }
+      .panel-title { font-size:20px; font-weight:bold; text-anchor:middle; }
+    </style>
+    <!-- Symbole réutilisable : portillon d'accès -->
+    <g
+       id="portillon">
+      <path
+         d="M0,0 L0,-34 C13,-34 20,-24 20,-17 C20,-24 27,-34 40,-34 L40,0 Z"
+         fill="none"
+         stroke="#111111"
+         stroke-width="2.2"
+         id="path1" />
+    </g>
+  </defs>
+  <!-- Fond -->
+  <rect
+     x="-4.805147e-07"
+     y="-0.8826052"
+     width="1540"
+     height="1030"
+     fill="#ffffff"
+     id="rect1" />
+  <!-- ===================== ZONE PLAN ===================== -->
+  <g
+     id="plan">
+    <!-- Contour du terrain (rectangle à coins coupés) -->
+    <polygon
+       id="contour-terrain"
+       points="1200,700 1150,760 660,760 660,835 830,835 830,760 175,760 130,715 130,90 175,45 1150,45 1200,95 "
+       fill="none"
+       stroke="#111111"
+       stroke-width="2.5"
+       style="display:inline" />
+    <!-- Périmètre d'arrosage (pointillés reliant les arroseurs) -->
+    <!-- Lignes du court de tennis -->
+    <g
+       id="court"
+       transform="translate(67.077978,-3.5304199)">
+      <rect
+         class="court"
+         x="245"
+         y="175"
+         width="710"
+         height="415"
+         id="rect2" />
+      <!-- cadre extérieur -->
+      <line
+         class="court"
+         x1="245"
+         y1="225"
+         x2="955"
+         y2="225"
+         id="line2" />
+      <!-- fond haut -->
+      <line
+         class="court"
+         x1="245"
+         y1="540"
+         x2="955"
+         y2="540"
+         id="line3" />
+      <!-- fond bas -->
+      <line
+         class="court"
+         x1="415"
+         y1="225"
+         x2="415"
+         y2="540"
+         id="line4" />
+      <!-- couloir gauche -->
+      <line
+         class="court"
+         x1="785"
+         y1="225"
+         x2="785"
+         y2="540"
+         id="line5" />
+      <!-- couloir droit -->
+      <line
+         class="court"
+         x1="415"
+         y1="382"
+         x2="785"
+         y2="382"
+         id="line6" />
+      <!-- ligne médiane service -->
+      <line
+         class="court"
+         x1="600"
+         y1="225"
+         x2="600"
+         y2="382"
+         id="line7" />
+      <!-- T haut -->
+      <line
+         class="court"
+         x1="600"
+         y1="382"
+         x2="600"
+         y2="540"
+         id="line8" />
+      <!-- T bas -->
+      <!-- Filet (axe central pointillé) -->
+      <line
+         x1="600"
+         y1="185"
+         x2="600"
+         y2="580"
+         stroke="#9a9a9a"
+         stroke-width="2"
+         stroke-dasharray="4, 5"
+         id="line9" />
+      <path
+         d="m 600,185 -6,10 h 12 z"
+         fill="#9a9a9a"
+         id="path9" />
+      <path
+         d="m 600,580 -6,-10 h 12 z"
+         fill="#9a9a9a"
+         id="path10" />
+    </g>
+    <!-- Arroseurs AR (cercles bleus) -->
+    <!-- id d'étiquette et coordonnées faciles à déplacer -->
+    <g
+       id="AR-07-4"
+       transform="translate(623.92588,12.217352)"
+       inkscape:label="AR-08">
+      <circle
+         cx="525"
+         cy="718"
+         r="15"
+         class="ar"
+         id="circle15-8"
+         style="fill:#1a4b9e" />
+      <rect
+         class="label-box arS"
+         x="440.05786"
+         y="670.75183"
+         width="90"
+         height="30"
+         rx="4"
+         id="rect15-8"
+         style="fill:#ffffff;stroke:#1a4b9e;stroke-width:1.5" />
+      <text
+         class="label-txt ar"
+         x="485.05786"
+         y="691.75183"
+         text-anchor="middle"
+         id="text15-2"
+         style="font-weight:bold;font-size:20px;fill:#1a4b9e"><tspan
+           sodipodi:role="line"
+           id="tspan63"
+           x="485.05786"
+           y="691.75183">AR-</tspan></text>
+    </g>
+    <g
+       id="AR-07"
+       transform="translate(619.13439,-650.66804)">
+      <circle
+         cx="525"
+         cy="718"
+         r="15"
+         class="ar"
+         id="circle15" />
+      <rect
+         class="label-box arS"
+         x="448.7952"
+         y="738.15417"
+         width="90"
+         height="30"
+         rx="4"
+         id="rect15" />
+      <text
+         class="label-txt ar"
+         x="493.7952"
+         y="759.15417"
+         text-anchor="middle"
+         id="text15">AR-</text>
+    </g>
+    <g
+       id="AR-06"
+       transform="translate(683.13625,20.299914)">
+      <circle
+         cx="152"
+         cy="715"
+         r="15"
+         class="ar"
+         id="circle14" />
+      <rect
+         class="label-box arS"
+         x="107.56148"
+         y="669.5036"
+         width="90"
+         height="30"
+         rx="4"
+         id="rect14" />
+      <text
+         class="label-txt ar"
+         x="152.56148"
+         y="690.5036"
+         text-anchor="middle"
+         id="text14">AR-</text>
+    </g>
+    <g
+       id="AR-05"
+       transform="translate(705.20138,-317.73778)">
+      <circle
+         cx="152"
+         cy="384"
+         r="15"
+         class="ar"
+         id="circle12" />
+      <rect
+         class="label-box arS"
+         x="111.16538"
+         y="401.65637"
+         width="90"
+         height="30"
+         rx="4"
+         id="rect12" />
+      <text
+         class="label-txt ar"
+         x="156.16537"
+         y="422.65637"
+         text-anchor="middle"
+         id="text12">AR-</text>
+    </g>
+    <g
+       id="AR-05-4"
+       transform="translate(334.04749,-316.41648)"
+       inkscape:label="AR-03">
+      <circle
+         cx="152"
+         cy="384"
+         r="15"
+         class="ar"
+         id="circle12-8"
+         style="fill:#1a4b9e" />
+      <rect
+         class="label-box arS"
+         x="111.16538"
+         y="401.65637"
+         width="90"
+         height="30"
+         rx="4"
+         id="rect12-8"
+         style="fill:#ffffff;stroke:#1a4b9e;stroke-width:1.5" />
+      <text
+         class="label-txt ar"
+         x="156.16537"
+         y="422.65637"
+         text-anchor="middle"
+         id="text12-2"
+         style="font-weight:bold;font-size:20px;fill:#1a4b9e"><tspan
+           sodipodi:role="line"
+           id="tspan8"
+           x="156.16537"
+           y="422.65637">AR-</tspan></text>
+    </g>
+    <g
+       id="AR-04"
+       transform="translate(332.74206,657.54069)">
+      <circle
+         cx="152"
+         cy="80"
+         r="15"
+         class="ar"
+         id="circle10" />
+      <rect
+         class="label-box arS"
+         x="110.28278"
+         y="31.804626"
+         width="90"
+         height="30"
+         rx="4"
+         id="rect10" />
+      <text
+         class="label-txt ar"
+         x="153.51756"
+         y="56.335049"
+         text-anchor="middle"
+         id="text10">AR-</text>
+    </g>
+    <g
+       id="AR-02"
+       transform="translate(-969.21494,349.72573)">
+      <circle
+         cx="1168"
+         cy="384"
+         r="15"
+         class="ar"
+         id="circle13" />
+      <rect
+         class="label-box arS"
+         x="1153.3636"
+         y="330.78632"
+         width="90"
+         height="30"
+         rx="4"
+         id="rect13" />
+      <text
+         class="label-txt ar"
+         x="1198.3636"
+         y="351.78632"
+         text-anchor="middle"
+         id="text13"
+         inkscape:transform-center-x="140.33419">AR-</text>
+    </g>
+    <g
+       id="AR-01"
+       transform="translate(-982.33934,-641.65381)">
+      <circle
+         cx="1168"
+         cy="715"
+         r="15"
+         class="ar"
+         id="circle16" />
+      <rect
+         class="label-box arS"
+         x="1172.9691"
+         y="678.17822"
+         width="90"
+         height="30"
+         rx="4"
+         id="rect16" />
+      <text
+         class="label-txt ar"
+         x="1216.204"
+         y="700.06085"
+         text-anchor="middle"
+         id="text16">AR-</text>
+    </g>
+    <!-- Regards REG (carrés verts) -->
+    <!-- Sortie d'eau SET (losange bleu) -->
+    <!-- Accès (portillon) -->
+  </g>
+  <!-- ===================== PANNEAU DROIT ===================== -->
+  <!-- LÉGENDE -->
+  <g
+     id="legende">
+    <rect
+       x="1285"
+       y="45"
+       width="230"
+       height="360"
+       fill="#ffffff"
+       stroke="#111111"
+       stroke-width="2"
+       id="rect22" />
+    <line
+       x1="1285"
+       y1="90"
+       x2="1515"
+       y2="90"
+       stroke="#111111"
+       stroke-width="1.5"
+       id="line22" />
+    <text
+       class="panel-title"
+       x="1400"
+       y="76"
+       id="text23">LÉGENDE</text>
+    <circle
+       cx="1320"
+       cy="130"
+       r="14"
+       class="ar"
+       id="circle23" />
+    <text
+       x="1355"
+       y="126"
+       font-size="19"
+       font-weight="bold"
+       fill="#1a4b9e"
+       id="text24">AR-xx</text>
+    <text
+       x="1355"
+       y="147"
+       font-size="17"
+       fill="#111111"
+       id="text25">Arroseur</text>
+    <rect
+       x="1307"
+       y="200"
+       width="28"
+       height="28"
+       fill="#1a7a3a"
+       stroke="#0f4d24"
+       stroke-width="2.5"
+       id="rect25" />
+    <text
+       x="1355"
+       y="212"
+       font-size="19"
+       font-weight="bold"
+       fill="#1a7a3a"
+       id="text26">REG-xx</text>
+    <text
+       x="1355"
+       y="233"
+       font-size="17"
+       fill="#111111"
+       id="text27">Regard</text>
+    <path
+       d="M1320,268 l16,16 l-16,16 l-16,-16 z"
+       fill="#ffffff"
+       stroke="#1a4b9e"
+       stroke-width="2.5"
+       id="path27" />
+    <text
+       x="1355"
+       y="278"
+       font-size="19"
+       font-weight="bold"
+       fill="#1a4b9e"
+       id="text28">SET-xx</text>
+    <text
+       x="1355"
+       y="299"
+       font-size="17"
+       fill="#111111"
+       id="text29">Sortie d'eau</text>
+    <text
+       x="1355"
+       y="352"
+       font-size="19"
+       font-weight="bold"
+       fill="#111111"
+       id="text30">Accès</text>
+    <text
+       x="1355"
+       y="373"
+       font-size="17"
+       fill="#111111"
+       id="text31">Portillon</text>
+    <use
+       href="#portillon"
+       x="675"
+       y="835"
+       id="use21-5"
+       transform="rotate(90,1239.3895,898.92173)" />
+  </g>
+  <!-- ORIENTATION -->
+  <g
+     id="orientation">
+    <rect
+       x="1285"
+       y="440"
+       width="230"
+       height="185"
+       fill="#ffffff"
+       stroke="#111111"
+       stroke-width="2"
+       id="rect31" />
+    <text
+       class="panel-title"
+       x="1400"
+       y="472"
+       id="text32">ORIENTATION</text>
+    <text
+       x="1396.543"
+       y="519.73297"
+       text-anchor="middle"
+       font-size="24px"
+       font-weight="bold"
+       fill="#111111"
+       id="text33">N</text>
+    <g
+       transform="rotate(-87.357176,993.22257,-453.05642)"
+       id="g33">
+      <circle
+         r="30"
+         fill="#ffffff"
+         stroke="#111111"
+         stroke-width="2"
+         id="circle33"
+         cx="0"
+         cy="0" />
+    </g>
+  </g>
+  <!-- CONVENTION DE NUMÉROTATION -->
+  <g
+     id="convention"
+     transform="translate(-0.88260536)">
+    <rect
+       x="1285"
+       y="660"
+       width="230"
+       height="185"
+       fill="#ffffff"
+       stroke="#111111"
+       stroke-width="2"
+       id="rect33" />
+    <text
+       class="panel-title"
+       x="1400"
+       y="692"
+       id="text34">CONVENTION DE</text>
+    <text
+       class="panel-title"
+       x="1400"
+       y="716"
+       id="text35">NUMÉROTATION</text>
+    <line
+       x1="1285"
+       y1="735"
+       x2="1515"
+       y2="735"
+       stroke="#111111"
+       stroke-width="1.5"
+       id="line35" />
+    <text
+       font-size="14.598px"
+       fill="#111111"
+       id="text37"
+       x="1466.3673"
+       y="660.15442"
+       transform="matrix(0.87658891,0,0,1.1407856,4.4130249,15.004285)"
+       style="font-size:16px;white-space:pre;inline-size:255.073;display:inline;stroke-width:1.00675"
+       xml:space="preserve"><tspan
+         x="1466.3673"
+         y="660.15442"
+         id="tspan1">Les arroseurs sont numérotés par </tspan><tspan
+         x="1466.3673"
+         y="680.15444"
+         id="tspan6">paires transversales, depuis le côté </tspan><tspan
+         x="1466.3673"
+         y="700.15444"
+         id="tspan7">de l’accès vers le fond du terrain.</tspan></text>
+  </g>
+  <!-- ===================== CARTOUCHE ===================== -->
+  <g
+     id="cartouche">
+    <rect
+       x="25"
+       y="875"
+       width="1490"
+       height="130"
+       fill="#ffffff"
+       stroke="#111111"
+       stroke-width="2"
+       id="rect37" />
+    <line
+       x1="25"
+       y1="965"
+       x2="1515"
+       y2="965"
+       stroke="#111111"
+       stroke-width="1.5"
+       id="line37" />
+    <!-- séparateurs verticaux de la rangée haute -->
+    <line
+       x1="270"
+       y1="875"
+       x2="270"
+       y2="965"
+       stroke="#111111"
+       stroke-width="1.5"
+       id="line38" />
+    <line
+       x1="435"
+       y1="875"
+       x2="435"
+       y2="965"
+       stroke="#111111"
+       stroke-width="1.5"
+       id="line39" />
+    <line
+       x1="585"
+       y1="875"
+       x2="585"
+       y2="965"
+       stroke="#111111"
+       stroke-width="1.5"
+       id="line40" />
+    <line
+       x1="760"
+       y1="875"
+       x2="760"
+       y2="965"
+       stroke="#111111"
+       stroke-width="1.5"
+       id="line41" />
+    <line
+       x1="1085"
+       y1="875"
+       x2="1085"
+       y2="965"
+       stroke="#111111"
+       stroke-width="1.5"
+       id="line42" />
+    <line
+       x1="1225"
+       y1="875"
+       x2="1225"
+       y2="965"
+       stroke="#111111"
+       stroke-width="1.5"
+       id="line43" />
+    <line
+       x1="1385"
+       y1="875"
+       x2="1385"
+       y2="965"
+       stroke="#111111"
+       stroke-width="1.5"
+       id="line44" />
+    <!-- Logo / club -->
+    <!-- Champs -->
+    <g
+       font-size="13"
+       fill="#666666"
+       font-weight="bold"
+       id="g53">
+      <text
+         x="285"
+         y="898"
+         id="text47">SITE</text>
+      <text
+         x="450"
+         y="898"
+         id="text48">TERRAIN</text>
+      <text
+         x="600"
+         y="898"
+         id="text49">SURFACE</text>
+      <text
+         x="775"
+         y="898"
+         id="text50">PLAN</text>
+      <text
+         x="1098"
+         y="898"
+         id="text51">VERSION</text>
+      <text
+         x="1238"
+         y="898"
+         id="text52">DATE</text>
+      <text
+         x="1398"
+         y="898"
+         id="text53">ÉCHELLE</text>
+    </g>
+    <g
+       font-size="18"
+       font-weight="bold"
+       id="g60">
+      <text
+         x="285"
+         y="935"
+         fill="#1a7a3a"
+         id="text54"
+         inkscape:label="Nom Site">La Pastorale</text>
+      <text
+         x="600"
+         y="935"
+         fill="#d97a1a"
+         id="text56"
+         inkscape:label="Surface T">Terre battue</text>
+      <text
+         x="775"
+         y="935"
+         fill="#111111"
+         id="text57"
+         inkscape:label="Nom Plan">Template Plan général – Arrosage</text>
+      <text
+         x="1105"
+         y="935"
+         fill="#111111"
+         id="text58"
+         inkscape:label="Version num">1.0</text>
+      <text
+         x="1260.9478"
+         y="934.11737"
+         fill="#111111"
+         id="text59"
+         inkscape:label="Date"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           x="1260.9478"
+           y="934.11737">07/2025</tspan></text>
+      <text
+         x="1398"
+         y="935"
+         fill="#111111"
+         id="text60"
+         inkscape:label="Echelle"
+         style="font-size:13.3333px;white-space:pre;inline-size:123.727;display:inline"
+         transform="translate(-5.2956299,-16.769494)"
+         xml:space="preserve"><tspan
+           x="1398"
+           y="935"
+           id="tspan9">
+</tspan><tspan
+           x="1398"
+           y="951.66664"
+           id="tspan10">A4 paysage 100%</tspan></text>
+      <text
+         xml:space="preserve"
+         style="writing-mode:lr-tb;direction:ltr;fill:#000000"
+         x="1553.3848"
+         y="929.38306"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           x="1553.3848"
+           y="929.38306"></tspan><tspan
+           sodipodi:role="line"
+           id="tspan4"
+           x="1553.3848"
+           y="951.88306" /></text>
+    </g>
+    <!-- Notes -->
+    <text
+       x="42"
+       y="992"
+       font-size="16"
+       fill="#111111"
+       id="text61"><tspan
+         font-weight="bold"
+         id="tspan60">NOTES :</tspan><tspan
+         id="tspan61"> Ce plan est destiné aux interventions et à la maintenance du système d'arrosage.</tspan></text>
+  </g>
+</svg>
