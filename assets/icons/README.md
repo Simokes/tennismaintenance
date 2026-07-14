@@ -26,6 +26,14 @@ Pour placer un symbole sur un plan **sans le redessiner** :
 Ainsi tous les plans partagent la même source graphique : corriger un symbole
 dans la bibliothèque met tout le monde à jour, pas de copier-coller divergent.
 
+### Sous Inkscape
+
+- Chaque `<symbol>` est **nommé** (`inkscape:label` + `<title>`) : il apparaît
+  dans **Objet ▸ Symboles**, prêt à être glissé-déposé sur un plan.
+- Sur la planche, chaque pictogramme est enveloppé dans un **groupe nommé**
+  (visible dans le panneau *Objets*) : un clic sélectionne le symbole entier,
+  facile à déplacer, dupliquer ou copier vers un autre fichier.
+
 ## Symboles (23)
 
 | Domaine | Codes |
