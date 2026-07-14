@@ -12,27 +12,48 @@ Un même symbole = un même dessin sur tous les plans.
 
 ## Réutilisation dans les plans
 
-Chaque pictogramme est exposé comme `<symbol id="tm-…">` dans le bloc `<defs>`
-du fichier (`tm-ar`, `tm-reg`, `tm-ev`, … ; états : `tm-etat-confirme`, etc.).
+Chaque pictogramme est exposé dans le bloc `<defs>` sous **deux variantes** :
+
+- `tm-{code}` — **dessin seul** (48 × 48). À utiliser quand tu poses ta propre
+  étiquette numérotée sur le plan.
+- `tm-{code}-lbl` — **dessin + texte** (48 × 78), étiquette embarquée : `CODE-XX`
+  pour les équipements numérotés, nom en clair pour le reste. Un seul `<use>`
+  amène le picto et son texte.
+
+(États : `tm-etat-confirme`, `tm-etat-hs`, …)
+
 Pour placer un symbole sur un plan **sans le redessiner** :
 
 1. copier le bloc `<defs>…</defs>` de la bibliothèque dans le plan (une fois) ;
 2. instancier autant de fois que voulu :
 
 ```xml
-<use href="#tm-ar" x="520" y="300" width="48" height="48"/>
+<use href="#tm-ar"     x="520" y="300" width="48" height="48"/>   <!-- dessin seul -->
+<use href="#tm-ar-lbl" x="520" y="300" width="48" height="78"/>   <!-- dessin + AR-XX -->
 ```
 
 Ainsi tous les plans partagent la même source graphique : corriger un symbole
 dans la bibliothèque met tout le monde à jour, pas de copier-coller divergent.
+
+### Sous Inkscape
+
+- Chaque `<symbol>` est **nommé** (`inkscape:label` + `<title>`) : il apparaît
+  dans **Objet ▸ Symboles**, prêt à être glissé-déposé sur un plan.
+- Sur la planche, chaque pictogramme est enveloppé dans un **groupe nommé**
+  (visible dans le panneau *Objets*) : un clic sélectionne le symbole entier,
+  facile à déplacer, dupliquer ou copier vers un autre fichier.
+- Le groupe **embarque son étiquette texte** : équipements numérotés au format
+  `CODE-XX` (ex. `AR-XX`, `REG-XX` — remplacer `XX` par le numéro sur le plan),
+  mobilier et repères en nom clair (`Banc`, `Poubelle`, `Portillon`…). En
+  copiant le symbole, l'étiquette suit ; le plan reste lisible.
 
 ## Symboles (23)
 
 | Domaine | Codes |
 |---------|-------|
 | Hydraulique | AR arroseur · REG regard · SET sortie d'eau · GK raccord Geka · EV électrovanne · VM vanne de réglage · VI vanne d'isolement · FIL filtre · CAR clapet anti-retour · PRG purge/vidange · CPT compteur · canalisation (simple trait) |
-| Électricité & éclairage | PROG programmateur · CE coffret électrique · LED mât LED · HAL projecteur halogène |
-| Mobilier | BAN banc · CHA chaise d'arbitre · POU poubelle · MON monnayeur |
+| Électricité & éclairage | PROG programmateur · CE coffret électrique · LED mât LED · HAL projecteur halogène · MON monnayeur |
+| Mobilier | BAN banc · CHA chaise d'arbitre · POU poubelle |
 | Accès & repères | ACC portillon · N nord · échelle |
 
 Domaines à compléter au fil des relevés : **Clôtures · Sols · Signalisation**.
