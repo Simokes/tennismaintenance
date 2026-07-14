@@ -163,6 +163,29 @@
   <text x="9" y="19" text-anchor="middle" font-size="8" fill="#2b2b2b" stroke="none" font-family="Arial">0</text>
   <text x="39" y="19" text-anchor="middle" font-size="8" fill="#2b2b2b" stroke="none" font-family="Arial">m</text>
 </g></symbol>
+<symbol id="tm-ar-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="AR-XX — Arroseur"><title>AR-XX — Arroseur</title><use href="#tm-ar" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">AR-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Arroseur</text></symbol>
+<symbol id="tm-reg-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="REG-XX — Regard"><title>REG-XX — Regard</title><use href="#tm-reg" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a7a3a">REG-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Regard</text></symbol>
+<symbol id="tm-set-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="SET-XX — Sortie d'eau"><title>SET-XX — Sortie d'eau</title><use href="#tm-set" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">SET-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Sortie d'eau</text></symbol>
+<symbol id="tm-gk-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="GK-XX — Raccord Geka"><title>GK-XX — Raccord Geka</title><use href="#tm-gk" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">GK-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Raccord Geka</text></symbol>
+<symbol id="tm-ev-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="EV-XX — Électrovanne"><title>EV-XX — Électrovanne</title><use href="#tm-ev" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">EV-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Électrovanne</text></symbol>
+<symbol id="tm-vm-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="VM-XX — Vanne de réglage"><title>VM-XX — Vanne de réglage</title><use href="#tm-vm" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">VM-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Vanne de réglage</text></symbol>
+<symbol id="tm-vi-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="VI-XX — Vanne d'isolement"><title>VI-XX — Vanne d'isolement</title><use href="#tm-vi" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">VI-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Vanne d'isolement</text></symbol>
+<symbol id="tm-fil-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="FIL-XX — Filtre"><title>FIL-XX — Filtre</title><use href="#tm-fil" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">FIL-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Filtre</text></symbol>
+<symbol id="tm-car-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="CAR-XX — Clapet anti-retour"><title>CAR-XX — Clapet anti-retour</title><use href="#tm-car" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">CAR-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Clapet anti-retour</text></symbol>
+<symbol id="tm-prg-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="PRG-XX — Purge / vidange"><title>PRG-XX — Purge / vidange</title><use href="#tm-prg" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">PRG-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Purge / vidange</text></symbol>
+<symbol id="tm-cpt-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="CPT-XX — Compteur d'eau"><title>CPT-XX — Compteur d'eau</title><use href="#tm-cpt" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">CPT-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Compteur d'eau</text></symbol>
+<symbol id="tm-can-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="Canalisation — Canalisation"><title>Canalisation — Canalisation</title><use href="#tm-can" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">Canalisation</text></symbol>
+<symbol id="tm-prog-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="PROG-XX — Programmateur"><title>PROG-XX — Programmateur</title><use href="#tm-prog" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">PROG-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Programmateur</text></symbol>
+<symbol id="tm-ce-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="CE-XX — Coffret électrique"><title>CE-XX — Coffret électrique</title><use href="#tm-ce" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">CE-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Coffret électrique</text></symbol>
+<symbol id="tm-led-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="LED-XX — Mât LED"><title>LED-XX — Mât LED</title><use href="#tm-led" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">LED-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Mât LED</text></symbol>
+<symbol id="tm-hal-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="HAL-XX — Projecteur halogène"><title>HAL-XX — Projecteur halogène</title><use href="#tm-hal" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">HAL-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Projecteur halogène</text></symbol>
+<symbol id="tm-ban-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="Banc — Banc"><title>Banc — Banc</title><use href="#tm-ban" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b2b2b">Banc</text></symbol>
+<symbol id="tm-cha-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="Chaise d'arbitre — Chaise d'arbitre"><title>Chaise d'arbitre — Chaise d'arbitre</title><use href="#tm-cha" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b2b2b">Chaise d'arbitre</text></symbol>
+<symbol id="tm-pou-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="Poubelle — Poubelle"><title>Poubelle — Poubelle</title><use href="#tm-pou" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b2b2b">Poubelle</text></symbol>
+<symbol id="tm-mon-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="MON-XX — Monnayeur"><title>MON-XX — Monnayeur</title><use href="#tm-mon" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">MON-XX</text><text x="24" y="74" text-anchor="middle" font-size="11" fill="#555555">Monnayeur</text></symbol>
+<symbol id="tm-acc-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="Portillon — Portillon"><title>Portillon — Portillon</title><use href="#tm-acc" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b2b2b">Portillon</text></symbol>
+<symbol id="tm-nord-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="Nord — Nord"><title>Nord — Nord</title><use href="#tm-nord" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b2b2b">Nord</text></symbol>
+<symbol id="tm-ech-lbl" viewBox="0 0 48 78" overflow="visible" inkscape:label="Échelle — Échelle"><title>Échelle — Échelle</title><use href="#tm-ech" x="0" y="0" width="48" height="48"/><text x="24" y="63" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b2b2b">Échelle</text></symbol>
 <symbol id="tm-etat-confirme" viewBox="-12 -12 24 24" overflow="visible" inkscape:label="État — Confirmé"><title>État — Confirmé</title><path d="M-5,0 L-1,4 L6,-5" fill="none" stroke="#1a7a3a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
 <symbol id="tm-etat-verifier" viewBox="-12 -12 24 24" overflow="visible" inkscape:label="État — À vérifier"><title>État — À vérifier</title><circle r="8" fill="none" stroke="#d97a1a" stroke-width="2"/><path d="M0,-8 A8,8 0 0 0 0,8 Z" fill="#d97a1a" stroke="none"/></symbol>
 <symbol id="tm-etat-hs" viewBox="-12 -12 24 24" overflow="visible" inkscape:label="État — Hors service"><title>État — Hors service</title><path d="M-5,-5 L5,5 M5,-5 L-5,5" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/></symbol>
@@ -177,145 +200,60 @@
 <rect x="40" y="100" width="6" height="24" rx="2" fill="#1a4b9e"/>
 <text x="58" y="117" font-size="13.5" font-weight="bold" fill="#1a4b9e" letter-spacing="0.5">HYDRAULIQUE</text>
 <rect x="48.0" y="128.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="AR — Arroseur">
-<use href="#tm-ar" x="120.3" y="136.0" width="48" height="48"/>
-<text x="144.3" y="202.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">AR-XX</text>
-<text x="144.3" y="219.0" text-anchor="middle" font-size="12" fill="#555555">Arroseur</text>
-</g>
+<g inkscape:label="AR — Arroseur"><use href="#tm-ar-lbl" x="120.3" y="136.0" width="48" height="78.0"/></g>
 <rect x="256.6" y="128.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="REG — Regard">
-<use href="#tm-reg" x="328.9" y="136.0" width="48" height="48"/>
-<text x="352.9" y="202.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a7a3a">REG-XX</text>
-<text x="352.9" y="219.0" text-anchor="middle" font-size="12" fill="#555555">Regard</text>
-</g>
+<g inkscape:label="REG — Regard"><use href="#tm-reg-lbl" x="328.9" y="136.0" width="48" height="78.0"/></g>
 <rect x="465.1" y="128.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="SET — Sortie d'eau">
-<use href="#tm-set" x="537.4" y="136.0" width="48" height="48"/>
-<text x="561.4" y="202.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">SET-XX</text>
-<text x="561.4" y="219.0" text-anchor="middle" font-size="12" fill="#555555">Sortie d'eau</text>
-</g>
+<g inkscape:label="SET — Sortie d'eau"><use href="#tm-set-lbl" x="537.4" y="136.0" width="48" height="78.0"/></g>
 <rect x="673.7" y="128.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="GK — Raccord Geka">
-<use href="#tm-gk" x="746.0" y="136.0" width="48" height="48"/>
-<text x="770.0" y="202.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">GK-XX</text>
-<text x="770.0" y="219.0" text-anchor="middle" font-size="12" fill="#555555">Raccord Geka</text>
-</g>
+<g inkscape:label="GK — Raccord Geka"><use href="#tm-gk-lbl" x="746.0" y="136.0" width="48" height="78.0"/></g>
 <rect x="882.3" y="128.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="EV — Électrovanne">
-<use href="#tm-ev" x="954.6" y="136.0" width="48" height="48"/>
-<text x="978.6" y="202.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">EV-XX</text>
-<text x="978.6" y="219.0" text-anchor="middle" font-size="12" fill="#555555">Électrovanne</text>
-</g>
+<g inkscape:label="EV — Électrovanne"><use href="#tm-ev-lbl" x="954.6" y="136.0" width="48" height="78.0"/></g>
 <rect x="1090.9" y="128.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="VM — Vanne de réglage">
-<use href="#tm-vm" x="1163.1" y="136.0" width="48" height="48"/>
-<text x="1187.1" y="202.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">VM-XX</text>
-<text x="1187.1" y="219.0" text-anchor="middle" font-size="12" fill="#555555">Vanne de réglage</text>
-</g>
+<g inkscape:label="VM — Vanne de réglage"><use href="#tm-vm-lbl" x="1163.1" y="136.0" width="48" height="78.0"/></g>
 <rect x="1299.4" y="128.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="VI — Vanne d'isolement">
-<use href="#tm-vi" x="1371.7" y="136.0" width="48" height="48"/>
-<text x="1395.7" y="202.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">VI-XX</text>
-<text x="1395.7" y="219.0" text-anchor="middle" font-size="12" fill="#555555">Vanne d'isolement</text>
-</g>
+<g inkscape:label="VI — Vanne d'isolement"><use href="#tm-vi-lbl" x="1371.7" y="136.0" width="48" height="78.0"/></g>
 <rect x="48.0" y="228.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="FIL — Filtre">
-<use href="#tm-fil" x="120.3" y="236.0" width="48" height="48"/>
-<text x="144.3" y="302.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">FIL-XX</text>
-<text x="144.3" y="319.0" text-anchor="middle" font-size="12" fill="#555555">Filtre</text>
-</g>
+<g inkscape:label="FIL — Filtre"><use href="#tm-fil-lbl" x="120.3" y="236.0" width="48" height="78.0"/></g>
 <rect x="256.6" y="228.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="CAR — Clapet anti-retour">
-<use href="#tm-car" x="328.9" y="236.0" width="48" height="48"/>
-<text x="352.9" y="302.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">CAR-XX</text>
-<text x="352.9" y="319.0" text-anchor="middle" font-size="12" fill="#555555">Clapet anti-retour</text>
-</g>
+<g inkscape:label="CAR — Clapet anti-retour"><use href="#tm-car-lbl" x="328.9" y="236.0" width="48" height="78.0"/></g>
 <rect x="465.1" y="228.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="PRG — Purge / vidange">
-<use href="#tm-prg" x="537.4" y="236.0" width="48" height="48"/>
-<text x="561.4" y="302.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">PRG-XX</text>
-<text x="561.4" y="319.0" text-anchor="middle" font-size="12" fill="#555555">Purge / vidange</text>
-</g>
+<g inkscape:label="PRG — Purge / vidange"><use href="#tm-prg-lbl" x="537.4" y="236.0" width="48" height="78.0"/></g>
 <rect x="673.7" y="228.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="CPT — Compteur d'eau">
-<use href="#tm-cpt" x="746.0" y="236.0" width="48" height="48"/>
-<text x="770.0" y="302.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">CPT-XX</text>
-<text x="770.0" y="319.0" text-anchor="middle" font-size="12" fill="#555555">Compteur d'eau</text>
-</g>
+<g inkscape:label="CPT — Compteur d'eau"><use href="#tm-cpt-lbl" x="746.0" y="236.0" width="48" height="78.0"/></g>
 <rect x="882.3" y="228.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="— — Canalisation">
-<use href="#tm-can" x="954.6" y="236.0" width="48" height="48"/>
-<text x="978.6" y="302.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a4b9e">Canalisation</text>
-</g>
+<g inkscape:label="— — Canalisation"><use href="#tm-can-lbl" x="954.6" y="236.0" width="48" height="78.0"/></g>
 <rect x="40" y="340" width="1460" height="24" rx="4" fill="#c0392b" fill-opacity="0.10"/>
 <rect x="40" y="340" width="6" height="24" rx="2" fill="#c0392b"/>
 <text x="58" y="357" font-size="13.5" font-weight="bold" fill="#c0392b" letter-spacing="0.5">ÉLECTRICITÉ &amp; ÉCLAIRAGE</text>
 <rect x="48.0" y="368.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="PROG — Programmateur">
-<use href="#tm-prog" x="120.3" y="376.0" width="48" height="48"/>
-<text x="144.3" y="442.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">PROG-XX</text>
-<text x="144.3" y="459.0" text-anchor="middle" font-size="12" fill="#555555">Programmateur</text>
-</g>
+<g inkscape:label="PROG — Programmateur"><use href="#tm-prog-lbl" x="120.3" y="376.0" width="48" height="78.0"/></g>
 <rect x="256.6" y="368.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="CE — Coffret électrique">
-<use href="#tm-ce" x="328.9" y="376.0" width="48" height="48"/>
-<text x="352.9" y="442.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">CE-XX</text>
-<text x="352.9" y="459.0" text-anchor="middle" font-size="12" fill="#555555">Coffret électrique</text>
-</g>
+<g inkscape:label="CE — Coffret électrique"><use href="#tm-ce-lbl" x="328.9" y="376.0" width="48" height="78.0"/></g>
 <rect x="465.1" y="368.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="LED — Mât LED">
-<use href="#tm-led" x="537.4" y="376.0" width="48" height="48"/>
-<text x="561.4" y="442.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">LED-XX</text>
-<text x="561.4" y="459.0" text-anchor="middle" font-size="12" fill="#555555">Mât LED</text>
-</g>
+<g inkscape:label="LED — Mât LED"><use href="#tm-led-lbl" x="537.4" y="376.0" width="48" height="78.0"/></g>
 <rect x="673.7" y="368.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="HAL — Projecteur halogène">
-<use href="#tm-hal" x="746.0" y="376.0" width="48" height="48"/>
-<text x="770.0" y="442.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">HAL-XX</text>
-<text x="770.0" y="459.0" text-anchor="middle" font-size="12" fill="#555555">Projecteur halogène</text>
-</g>
+<g inkscape:label="HAL — Projecteur halogène"><use href="#tm-hal-lbl" x="746.0" y="376.0" width="48" height="78.0"/></g>
 <rect x="882.3" y="368.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="MON — Monnayeur">
-<use href="#tm-mon" x="954.6" y="376.0" width="48" height="48"/>
-<text x="978.6" y="442.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">MON-XX</text>
-<text x="978.6" y="459.0" text-anchor="middle" font-size="12" fill="#555555">Monnayeur</text>
-</g>
+<g inkscape:label="MON — Monnayeur"><use href="#tm-mon-lbl" x="954.6" y="376.0" width="48" height="78.0"/></g>
 <rect x="40" y="480" width="1460" height="24" rx="4" fill="#2b2b2b" fill-opacity="0.10"/>
 <rect x="40" y="480" width="6" height="24" rx="2" fill="#2b2b2b"/>
 <text x="58" y="497" font-size="13.5" font-weight="bold" fill="#2b2b2b" letter-spacing="0.5">MOBILIER</text>
 <rect x="48.0" y="508.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="BAN — Banc">
-<use href="#tm-ban" x="120.3" y="516.0" width="48" height="48"/>
-<text x="144.3" y="582.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b2b2b">Banc</text>
-</g>
+<g inkscape:label="BAN — Banc"><use href="#tm-ban-lbl" x="120.3" y="516.0" width="48" height="78.0"/></g>
 <rect x="256.6" y="508.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="CHA — Chaise d'arbitre">
-<use href="#tm-cha" x="328.9" y="516.0" width="48" height="48"/>
-<text x="352.9" y="582.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b2b2b">Chaise d'arbitre</text>
-</g>
+<g inkscape:label="CHA — Chaise d'arbitre"><use href="#tm-cha-lbl" x="328.9" y="516.0" width="48" height="78.0"/></g>
 <rect x="465.1" y="508.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="POU — Poubelle">
-<use href="#tm-pou" x="537.4" y="516.0" width="48" height="48"/>
-<text x="561.4" y="582.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b2b2b">Poubelle</text>
-</g>
+<g inkscape:label="POU — Poubelle"><use href="#tm-pou-lbl" x="537.4" y="516.0" width="48" height="78.0"/></g>
 <rect x="40" y="620" width="1460" height="24" rx="4" fill="#2b2b2b" fill-opacity="0.10"/>
 <rect x="40" y="620" width="6" height="24" rx="2" fill="#2b2b2b"/>
 <text x="58" y="637" font-size="13.5" font-weight="bold" fill="#2b2b2b" letter-spacing="0.5">ACCÈS &amp; REPÈRES</text>
 <rect x="48.0" y="648.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="ACC — Portillon">
-<use href="#tm-acc" x="120.3" y="656.0" width="48" height="48"/>
-<text x="144.3" y="722.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b2b2b">Portillon</text>
-</g>
+<g inkscape:label="ACC — Portillon"><use href="#tm-acc-lbl" x="120.3" y="656.0" width="48" height="78.0"/></g>
 <rect x="256.6" y="648.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="N — Nord">
-<use href="#tm-nord" x="328.9" y="656.0" width="48" height="48"/>
-<text x="352.9" y="722.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b2b2b">Nord</text>
-</g>
+<g inkscape:label="N — Nord"><use href="#tm-nord-lbl" x="328.9" y="656.0" width="48" height="78.0"/></g>
 <rect x="465.1" y="648.0" width="192.6" height="104" rx="6" fill="#fcfcfd" stroke="#e6e9ee"/>
-<g inkscape:label="— — Échelle">
-<use href="#tm-ech" x="537.4" y="656.0" width="48" height="48"/>
-<text x="561.4" y="722.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b2b2b">Échelle</text>
-</g>
+<g inkscape:label="— — Échelle"><use href="#tm-ech-lbl" x="537.4" y="656.0" width="48" height="78.0"/></g>
 <rect x="40" y="760" width="1460" height="24" rx="4" fill="#111111" fill-opacity="0.06"/>
 <rect x="40" y="760" width="6" height="24" rx="2" fill="#111111"/>
 <text x="58" y="777" font-size="13.5" font-weight="bold" fill="#111111" letter-spacing="0.5">CONVENTIONS</text>
