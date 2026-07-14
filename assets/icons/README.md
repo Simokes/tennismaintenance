@@ -33,6 +33,10 @@ dans la bibliothèque met tout le monde à jour, pas de copier-coller divergent.
 - Sur la planche, chaque pictogramme est enveloppé dans un **groupe nommé**
   (visible dans le panneau *Objets*) : un clic sélectionne le symbole entier,
   facile à déplacer, dupliquer ou copier vers un autre fichier.
+- Le groupe **embarque son étiquette texte** : équipements numérotés au format
+  `CODE-XX` (ex. `AR-XX`, `REG-XX` — remplacer `XX` par le numéro sur le plan),
+  mobilier et repères en nom clair (`Banc`, `Poubelle`, `Portillon`…). En
+  copiant le symbole, l'étiquette suit ; le plan reste lisible.
 
 ## Symboles (23)
 
