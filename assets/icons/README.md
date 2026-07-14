@@ -43,8 +43,8 @@ dans la bibliothèque met tout le monde à jour, pas de copier-coller divergent.
 | Domaine | Codes |
 |---------|-------|
 | Hydraulique | AR arroseur · REG regard · SET sortie d'eau · GK raccord Geka · EV électrovanne · VM vanne de réglage · VI vanne d'isolement · FIL filtre · CAR clapet anti-retour · PRG purge/vidange · CPT compteur · canalisation (simple trait) |
-| Électricité & éclairage | PROG programmateur · CE coffret électrique · LED mât LED · HAL projecteur halogène |
-| Mobilier | BAN banc · CHA chaise d'arbitre · POU poubelle · MON monnayeur |
+| Électricité & éclairage | PROG programmateur · CE coffret électrique · LED mât LED · HAL projecteur halogène · MON monnayeur |
+| Mobilier | BAN banc · CHA chaise d'arbitre · POU poubelle |
 | Accès & repères | ACC portillon · N nord · échelle |
 
 Domaines à compléter au fil des relevés : **Clôtures · Sols · Signalisation**.
