@@ -25,3 +25,6 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# Sauvegardes automatiques Inkscape (ex. plan.svg.2026_07_14_09_41_10.0.svg)
+*.svg.*.svg
